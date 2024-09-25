@@ -1,0 +1,2 @@
+# PublicSectorAccountingSystem-BP
+公営企業会計システムの画像変換後ソース保存先
