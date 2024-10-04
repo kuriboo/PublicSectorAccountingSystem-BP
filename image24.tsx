@@ -1,107 +1,86 @@
 ```tsx
 import React from 'react';
 
-interface Props {
-  title: string;
-  year: string;
-  documentNumber: string;
-  management: string;
-  approval: string;
-  meeting: string;
-  budgetItems: Array<{
-    debit: string;
-    credit: string;
-    amount: string;
-  }>;
-  accounting1: string;
-  accounting2: string;
-  revenueDivision: string;
-  expenseDivision: string;
+interface VoucherProps {
+  fiscalYear: string;
+  authority: string;
+  voucherNo: string;
+  manager: string;
+  date1: string;
+  person1: string;
+  date2: string;
+  person2: string;
+  proposer: string;
+  debitDetails: string[];
+  creditDetails: { detail: string; amount: number }[];
+  borderColor: string;
+  bgColor: string;
 }
 
-const TransferSlip: React.FC<Props> = ({
-  title,
-  year,
-  documentNumber,
-  management,
-  approval,
-  meeting,
-  budgetItems,
-  accounting1,
-  accounting2,
-  revenueDivision,
-  expenseDivision,
+const Voucher: React.FC<VoucherProps> = ({
+  fiscalYear,
+  authority,
+  voucherNo,
+  manager,
+  date1,
+  person1,
+  date2,
+  person2,
+  proposer,
+  debitDetails,
+  creditDetails,
+  borderColor,
+  bgColor,
 }) => {
   return (
-    <div className="border rounded p-4 space-y-4">
-      {/* Header */}
-      <header className="text-center">
-        <h1 className="text-xl font-bold">{title}</h1>
-        <div className="flex justify-between">
-          <span>{year}行政</span>
-          <span>伝票No. {documentNumber}</span>
-          <span>決定</span>
-        </div>
-      </header>
-
-      {/* Management and decision section */}
-      <section>
-        <table className="w-full">
-          <thead>
-            <tr>
-              <th className="border p-2 w-1/3">所 属</th>
-              <th className="border p-2">自由日の1名</th>
-              <th className="border p-2">自由日の2名</th>
+    <div className={`p-4 border ${borderColor} ${bgColor}`}>
+      <h1 className="text-xl text-center">振替伝票（単票）</h1>
+      <div className="flex justify-between">
+        <span>年度: {fiscalYear}</span>
+        <span>行政事業会計: {authority}</span>
+        <span>伝票No: {voucherNo}</span>
+        <span>決定: {proposer}</span>
+      </div>
+      <table className="w-full mt-4 border-collapse">
+        <thead>
+          <tr>
+            <th className="border">管理者</th>
+            <th className="border">自由日1名</th>
+            <th className="border">自由日2名</th>
+            <th className="border">起案者</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="border">{manager}</td>
+            <td className="border">{date1} {person1}</td>
+            <td className="border">{date2} {person2}</td>
+            <td className="border">{proposer}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div className="mt-4">
+        <h2 className="text-lg">予算</h2>
+        <ul className="list-disc pl-5">
+          {debitDetails.map((detail, index) => (
+            <li key={index}>{detail}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="mt-4">
+        <h2 className="text-lg">仕訳</h2>
+        <table className="w-full border-collapse">
+          {creditDetails.map((credit, index) => (
+            <tr key={index}>
+              <td className="border">{credit.detail}</td>
+              <td className="border">{credit.amount.toLocaleString()}円</td>
             </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="border p-2">{management}</td>
-              <td className="border p-2">{approval}</td>
-              <td className="border p-2">{meeting}</td>
-            </tr>
-          </tbody>
+          ))}
         </table>
-      </section>
-
-      {/* Budget and accounting section */}
-      <section>
-        <table className="w-full">
-          <thead>
-            <tr>
-              <th className="border p-2">借方科目</th>
-              <th className="border p-2">貸方科目</th>
-              <th className="border p-2">金額</th>
-            </tr>
-          </thead>
-          <tbody>
-            {budgetItems.map((item, index) => (
-              <tr key={index}>
-                <td className="border p-2">{item.debit}</td>
-                <td className="border p-2">{item.credit}</td>
-                <td className="border p-2">{item.amount}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </section>
-
-      {/* Accounting details */}
-      <section>
-        <div>
-          <p>仕訳1: {accounting1}</p>
-          <p>仕訳2: {accounting2}</p>
-        </div>
-      </section>
-
-      {/* Revenue and expense division */}
-      <section className="flex justify-between">
-        <span>収入区分: {revenueDivision}</span>
-        <span>税区分: {expenseDivision}</span>
-      </section>
+      </div>
     </div>
   );
 };
 
-export default TransferSlip;
+export default Voucher;
 ```
