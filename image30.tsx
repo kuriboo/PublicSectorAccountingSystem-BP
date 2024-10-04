@@ -2,76 +2,35 @@
 import React from 'react';
 
 // TypeScriptの型定義
-interface MenuItem {
-  name: string;
-  onClick: () => void;
-}
-
-interface SideMenuProps {
-  items: MenuItem[];
-}
-
-interface ContentProps {
+interface AlertProps {
   title: string;
-  children: React.ReactNode;
+  message: string;
+  onClose: () => void;
 }
 
-// サイドメニューコンポーネント
-const SideMenu: React.FC<SideMenuProps> = ({ items }) => {
+const Alert: React.FC<AlertProps> = ({ title, message, onClose }) => {
   return (
-    <div className="bg-white border-r-2 border-gray-200 w-48">
-      <ul>
-        {items.map((item, index) => (
-          <li key={index}>
-            <button
-              className="w-full text-left py-2 px-4 hover:bg-blue-100"
-              onClick={item.onClick}
-            >
-              {item.name}
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
-// コンテンツ表示コンポーネント
-const Content: React.FC<ContentProps> = ({ title, children }) => {
-  return (
-    <div className="flex-grow p-8">
-      <h2 className="text-xl mb-4">{title}</h2>
-      <div>{children}</div>
-    </div>
-  );
-};
-
-// メインコンポーネント
-const MainPage: React.FC = () => {
-  const menuItems = [
-    { name: '総括処理', onClick: () => alert('総括処理') },
-    { name: '予算修正処理', onClick: () => alert('予算修正処理') },
-    { name: '消費税関連', onClick: () => alert('消費税関連') },
-    // 他のアイテムを追加可能
-  ];
-
-  return (
-    <div className="flex">
-      <SideMenu items={menuItems} />
-      <Content title="消費税関連業務作成処理">
-        <div className="flex space-x-4">
-          <div className="bg-blue-200 p-4">法定税計算税額</div>
-          <div className="bg-purple-200 p-4">月次・年次消費税計算書</div>
+    <div className="fixed inset-0 flex items-center justify-center z-50">
+      <div className="bg-white rounded shadow-lg p-4 max-w-sm w-full border border-gray-300">
+        <div className="flex items-start justify-between">
+          {/* タイトル */}
+          <h3 className="text-lg font-semibold">{title}</h3>
+          {/* 閉じるボタン */}
+          <button
+            onClick={onClose}
+            className="ml-4 text-white bg-gray-500 hover:bg-gray-700 font-bold py-1 px-3 rounded"
+          >
+            OK
+          </button>
         </div>
-        <div className="flex flex-col mt-4 space-y-4">
-          <div className="bg-pink-200 p-4">法定税控除データ入力</div>
-          <div className="bg-pink-200 p-4">賃料整理税額実績入力</div>
-          <div className="bg-pink-200 p-4">将監事業入力伝票入力</div>
+        {/* メッセージ */}
+        <div className="mt-2">
+          <p className="text-sm text-gray-700">{message}</p>
         </div>
-      </Content>
+      </div>
     </div>
   );
 };
 
-export default MainPage;
+export default Alert;
 ```
