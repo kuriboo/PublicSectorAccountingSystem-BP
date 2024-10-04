@@ -1,57 +1,67 @@
+```tsx
 import React from 'react';
 
-type Props = {
+type FixedAssetImportProps = {
   fiscalYear: string;
-  migrationDate: string;
+  exceptionMonth: string;
   filePath: string;
   onFileUpload: (event: React.ChangeEvent<HTMLInputElement>) => void;
   onOk: () => void;
   onClear: () => void;
-  onExit: () => void;
+  onClose: () => void;
 };
 
-const AssetImportComponent: React.FC<Props> = ({
+const FixedAssetImport: React.FC<FixedAssetImportProps> = ({
   fiscalYear,
-  migrationDate,
+  exceptionMonth,
   filePath,
   onFileUpload,
   onOk,
   onClear,
-  onExit,
+  onClose,
 }) => {
   return (
-    <div className="container mx-auto p-4">
-      <header className="text-xl font-bold mb-4">固定資産コンパート</header>
+    <div className="p-4 shadow-lg bg-white rounded-md max-w-lg mx-auto">
+      <h2 className="text-xl font-bold mb-4">固定資産コンパート</h2>
+
       <div className="mb-2">
-        <label className="mr-2 font-semibold">当期会計年度:</label>
+        <label className="font-semibold">当期会計年度: </label>
         <span>{fiscalYear}</span>
       </div>
-      <div className="mb-4">
-        <label className="mr-2 font-semibold">異動年月日:</label>
-        <span>{migrationDate}</span>
+
+      <div className="mb-2">
+        <label className="font-semibold">異動年月日: </label>
+        <span>{exceptionMonth}</span>
       </div>
+
       <div className="flex items-center mb-4">
-        <label className="mr-2 font-semibold">ファイル:</label>
+        <label className="mr-2 font-semibold">ファイル: </label>
         <input
           type="file"
-          className="border rounded p-1"
           onChange={onFileUpload}
+          className="border p-1 mr-2"
         />
-        <span className="ml-2">{filePath}</span>
+        <span className="truncate">{filePath}</span>
       </div>
-      <div className="border rounded p-4 bg-gray-100 text-sm mb-4">
-        <p>固定資産情報をファイルから取込、登録を行います。</p>
-        <p>ZIP圧縮されたファイルのみ取込めます。取込むファイルについては専用のEXCELファイル（原票）から作成してください。</p>
-        {/* More instructions can be added here */}
+
+      <div className="bg-gray-100 p-4 border rounded-md text-sm">
+        <ul className="list-disc list-inside">
+          <li>固定資産情報をファイルから取込、登録を行います。</li>
+          <li>ZIP圧縮されたファイルのみ取込めます。取込むファイルについては専用のEXCELファイル（原票）から作成してください。</li>
+          <li>原票以外で作成、編集されたファイルを取込むとエラーとなります。</li>
+          <li>異動年月日には当期会計年度の年月日を入力してください。</li>
+          <li>コンバートするデータの異動年月日とは無関係で入力した異動年月日の日付で登録されます。</li>
+        </ul>
       </div>
-      <div className="flex justify-end space-x-4">
-        <button className="px-4 py-2 rounded bg-blue-500 text-white" onClick={onOk}>
+
+      <div className="flex justify-end mt-4 space-x-2">
+        <button onClick={onOk} className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
           OK
         </button>
-        <button className="px-4 py-2 rounded bg-yellow-500 text-white" onClick={onClear}>
+        <button onClick={onClear} className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">
           クリア
         </button>
-        <button className="px-4 py-2 rounded bg-red-500 text-white" onClick={onExit}>
+        <button onClick={onClose} className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
           終了
         </button>
       </div>
@@ -59,4 +69,5 @@ const AssetImportComponent: React.FC<Props> = ({
   );
 };
 
-export default AssetImportComponent;
+export default FixedAssetImport;
+```
