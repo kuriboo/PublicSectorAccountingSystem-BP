@@ -1,24 +1,20 @@
 ```tsx
-// 工事中.tsx
 import React from 'react';
 
-// Props 型定義
-type KazariProps = {
-  text: string; // カスタマイズ可能なテキスト
-  className?: string; // Tailwind CSS用のクラス名
-};
+// 型定義
+interface TitleProps {
+  text: string;
+  className?: string;
+}
 
-// コンポーネントの定義
-const Kazari: React.FC<KazariProps> = ({ text, className = '' }) => {
+// コンポーネント定義
+const Title: React.FC<TitleProps> = ({ text, className }) => {
   return (
-    <div className={`bg-blue-200 text-blue-800 p-4 rounded ${className}`}>
+    <h1 className={`text-lg font-bold ${className}`}>
       {text}
-    </div>
+    </h1>
   );
 };
 
-export default Kazari;
-
-// Sample usage
-// <Kazari text="仕訳科目" className="my-custom-class" />
+export default Title;
 ```
