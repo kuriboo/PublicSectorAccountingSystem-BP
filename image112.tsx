@@ -1,44 +1,52 @@
 ```tsx
-// Required imports
 import React from 'react';
 
-// TypeScript type definitions for props
-type TableProps = {
-  data: {
-    code: string;
-    name: string;
-    notes: string;
-  }[];
-  highlightedCodes?: string[];
-};
+// TypeScript interface for component props
+interface DataTableProps {
+  data: Array<{ date: string; type: string; description: string }>;
+  title?: string;
+}
 
-const CustomTable: React.FC<TableProps> = ({ data, highlightedCodes = [] }) => {
+// Reusable DataTable component
+const DataTable: React.FC<DataTableProps> = ({ data, title }) => {
   return (
-    <table className="table-auto w-full border border-collapse">
-      <thead>
-        <tr>
-          <th className="border px-4 py-2">コード</th>
-          <th className="border px-4 py-2">名称</th>
-          <th className="border px-4 py-2">備考</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map(({ code, name, notes }) => (
-          <tr
-            key={code}
-            className={
-              highlightedCodes.includes(code) ? 'bg-red-100' : 'bg-white'
-            }
-          >
-            <td className="border px-4 py-2">{code}</td>
-            <td className="border px-4 py-2">{name}</td>
-            <td className="border px-4 py-2">{notes}</td>
+    <div className="p-4 bg-white shadow rounded-md">
+      {title && <h2 className="text-lg font-bold mb-4">{title}</h2>}
+      <table className="min-w-full divide-y divide-gray-200">
+        <thead className="bg-gray-100">
+          <tr>
+            <th className="p-2 text-left text-xs font-medium text-gray-500 uppercase">Date</th>
+            <th className="p-2 text-left text-xs font-medium text-gray-500 uppercase">Type</th>
+            <th className="p-2 text-left text-xs font-medium text-gray-500 uppercase">Description</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody className="bg-white divide-y divide-gray-200">
+          {data.map((item, index) => (
+            <tr key={index}>
+              <td className="p-2 whitespace-nowrap text-sm text-gray-900">{item.date}</td>
+              <td className="p-2 whitespace-nowrap text-sm text-gray-900">{item.type}</td>
+              <td className="p-2 whitespace-nowrap text-sm text-gray-900">{item.description}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 };
 
-export default CustomTable;
+// Example usage of the DataTable component
+const data = [
+  { date: '2001年3月', type: '線滞フラグ=1 "線滞データ"', description: '2000年までの入出庫数量の取りまとめ（次年度繰越）' },
+  { date: '2001年4月', type: '線滞フラグ=0 "通常データ"', description: '2001年4月の通常入出庫数' },
+  { date: '2001年5月', type: '線滞フラグ=0 "通常データ"', description: '2001年5月の通常入出庫数' },
+  { date: '2001年6月', type: '線滞フラグ=0 "通常データ"', description: '2001年6月の通常入出庫数' },
+  { date: '2001年7月', type: '線滞フラグ=0 "通常データ"', description: '2001年7月の通常入出庫数' },
+  { date: '2001年9月', type: '線滞フラグ=0 "通常データ"', description: '2001年9月の通常入出庫数' },
+  { date: '2001年10月', type: '線滞フラグ=0 "通常データ"', description: '2001年10月の通常入出庫数' },
+];
+
+// Export the component
+export default function App() {
+  return <DataTable data={data} title="Data Table" />;
+}
 ```
