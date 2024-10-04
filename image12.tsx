@@ -1,70 +1,86 @@
 ```tsx
-import React from "react";
+// BudgetMaster.tsx
+import React, { FC } from 'react';
 
-// TypeScript interfaces for props
-interface BudgetFormProps {
-  onSubmit: () => void;
-  onClear: () => void;
-  onEnd: () => void;
-}
+type BudgetMasterProps = {
+  year: string;
+  budgetType: string;
+  onDisplayClick: () => void;
+  onUpdateClick: () => void;
+  onNextClick: () => void;
+  onPreviousClick: () => void;
+};
 
-const BudgetForm: React.FC<BudgetFormProps> = ({ onSubmit, onClear, onEnd }) => {
+const BudgetMaster: FC<BudgetMasterProps> = ({
+  year,
+  budgetType,
+  onDisplayClick,
+  onUpdateClick,
+  onNextClick,
+  onPreviousClick,
+}) => {
   return (
-    <div className="p-4 bg-gray-100">
-      <h2 className="text-xl font-bold mb-4">予算科目マスタ</h2>
-      <div className="grid grid-cols-4 gap-4 mb-4">
-        {/* Various input fields */}
-        <div>
-          <label className="block text-sm">年度</label>
-          <input type="text" className="block w-full border-gray-300 rounded" />
-        </div>
-        <div>
-          <label className="block text-sm">次年度予算項目</label>
-          <input type="text" className="block w-full border-gray-300 rounded" />
-        </div>
-        <div>
-          <label className="block text-sm">改訂区分</label>
-          <input type="text" className="block w-full border-gray-300 rounded" />
-        </div>
-        <div>
-          <label className="block text-sm">金額印字区分</label>
-          <select className="block w-full border-gray-300 rounded">
-            <option>名称・金額印字せず</option>
-          </select>
-        </div>
+    <div className="container mx-auto p-4">
+      <div className="mb-4">
+        <h1 className="text-xl font-bold">予算科目マスタ</h1>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 mb-6">
-        {/* More input fields */}
+      <div className="grid grid-cols-4 gap-4 mb-4">
         <div>
-          <label className="block text-sm">予算区分</label>
-          <input type="text" className="block w-full border-gray-300 rounded" />
+          <label className="block text-sm font-medium">年度</label>
+          <input
+            value={year}
+            className="border rounded w-full p-2"
+            readOnly
+          />
         </div>
+
         <div>
-          <label className="block text-sm">作表編番号</label>
-          <input type="text" className="block w-full border-gray-300 rounded" />
+          <label className="block text-sm font-medium">予算種別</label>
+          <input
+            value={budgetType}
+            className="border rounded w-full p-2"
+            readOnly
+          />
         </div>
-        <div>
-          <label className="block text-sm">費用区分</label>
-          <input type="text" className="block w-full border-gray-300 rounded" />
+
+        <div className="col-span-2 flex items-center justify-around">
+          <button
+            onClick={onDisplayClick}
+            className="bg-blue-500 text-white font-semibold p-2 rounded"
+          >
+            表示
+          </button>
+          <button
+            onClick={onUpdateClick}
+            className="bg-green-500 text-white font-semibold p-2 rounded"
+          >
+            更新
+          </button>
         </div>
       </div>
 
       <div className="flex justify-between">
-        {/* Buttons */}
-        <button className="px-4 py-2 bg-blue-500 text-white rounded" onClick={onSubmit}>
-          OK
+        <button
+          onClick={onPreviousClick}
+          className="bg-gray-300 text-black p-2 rounded"
+        >
+          前データ
         </button>
-        <button className="px-4 py-2 bg-gray-500 text-white rounded" onClick={onClear}>
-          クリア
-        </button>
-        <button className="px-4 py-2 bg-red-500 text-white rounded" onClick={onEnd}>
-          終了
+        <button
+          onClick={onNextClick}
+          className="bg-gray-300 text-black p-2 rounded"
+        >
+          次データ
         </button>
       </div>
     </div>
   );
 };
 
-export default BudgetForm;
+export default BudgetMaster;
+```
+
+```css
+/* Tailwind CSS can be imported in a global CSS file or set up with PostCSS */
 ```
