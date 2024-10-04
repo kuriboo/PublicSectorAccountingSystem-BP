@@ -1,51 +1,49 @@
 ```tsx
+// components/DataExtraction.tsx
+
 import React from 'react';
 
-type MasterDataExportProps = {
+// Define the properties for the DataExtraction component.
+interface DataExtractionProps {
   fiscalYear: string;
-  date: string;
-  title: string;
-  description: string;
-};
+  departments: string[];
+}
 
-const MasterDataExport: React.FC<MasterDataExportProps> = ({
-  fiscalYear,
-  date,
-  title,
-  description,
-}) => {
+const DataExtraction: React.FC<DataExtractionProps> = ({ fiscalYear, departments }) => {
   return (
-    <div className="bg-gray-100 p-4 rounded-md shadow-md">
-      {/* Header */}
-      <div className="bg-blue-200 p-2 rounded-t-md">
-        <h1 className="text-lg font-semibold">{title}</h1>
-      </div>
-
-      {/* Content */}
-      <div className="bg-white p-4 border rounded-b-md">
-        <div className="mb-4">
-          <span className="font-semibold">当期会計年度: </span>
-          <span>{fiscalYear}</span>
+    <div className="border rounded shadow-lg p-6 bg-gray-100">
+      <header className="bg-blue-200 p-4 rounded-t text-lg font-bold">
+        固定資産マスタデータ抽出
+      </header>
+      <div className="mt-4">
+        <p>当期会計年度: <span className="font-semibold">{fiscalYear}</span></p>
+        <ul className="my-4">
+          <li className="font-bold">- 以下のマスタの内容をファイル出力します。</li>
+          <li>【共通マスタ入力用票で取込まれるマスタ】</li>
+          <li>仕訳マスタ (年度情報、= わり)</li>
+          <li>仕訳項目マスタ (年度情報、= わり)</li>
+          <li>仕訳締切マスタ (年度情報、= びあり)</li>
+          <li>【固定資産入力用票で取込まれるマスタ】</li>
+          <li>単価名称マスタ</li>
+          <li>単価属性マスタ</li>
+          <li>...</li> {/* Add more list items as necessary */}
+        </ul>
+        <div>
+          <p>部門リスト:</p>
+          <ul className="list-disc list-inside">
+            {departments.map((dept, index) => (
+              <li key={index}>{dept}</li>
+            ))}
+          </ul>
         </div>
-        <div className="mb-4">
-          <span className="font-semibold">日付: </span>
-          <span>{date}</span>
-        </div>
-        <p>{description}</p>
       </div>
-
-      {/* Buttons */}
-      <div className="flex justify-end mt-4">
-        <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">
-          OK
-        </button>
-        <button className="bg-gray-300 text-black px-4 py-2 rounded">
-          終了
-        </button>
+      <div className="flex justify-end mt-6">
+        <button className="bg-gray-200 px-4 py-2 rounded mr-2">OK</button>
+        <button className="bg-gray-200 px-4 py-2 rounded">終了</button>
       </div>
     </div>
   );
 };
 
-export default MasterDataExport;
+export default DataExtraction;
 ```
