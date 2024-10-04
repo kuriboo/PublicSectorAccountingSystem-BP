@@ -1,32 +1,25 @@
-```tsx
 import React from 'react';
 
-// プロパティの型定義
-interface GridLayoutProps {
-  leftContent: React.ReactNode;
-  centerContent: React.ReactNode;
-  rightContent: React.ReactNode;
-}
+// Propsの型定義
+type LogoProps = {
+  src: string; // ロゴの画像URL
+  alt: string; // 代替テキスト
+  width?: number; // 幅（任意）
+  height?: number; // 高さ（任意）
+  className?: string; // 追加のCSSクラス（任意）
+};
 
-// GridLayoutコンポーネントの定義
-const GridLayout: React.FC<GridLayoutProps> = ({ leftContent, centerContent, rightContent }) => {
+// 再利用可能なロゴコンポーネント
+const Logo: React.FC<LogoProps> = ({ src, alt, width = 100, height = 50, className = '' }) => {
   return (
-    <div className="grid grid-cols-3 gap-4 p-4">
-      {/* 左コンテンツ */}
-      <div className="bg-green-100 p-4">
-        {leftContent}
-      </div>
-      {/* 中央コンテンツ */}
-      <div className="bg-green-200 p-4">
-        {centerContent}
-      </div>
-      {/* 右コンテンツ */}
-      <div className="bg-green-300 p-4">
-        {rightContent}
-      </div>
+    <div className={`flex items-center ${className}`}>
+      {/* 画像要素 */}
+      <img src={src} alt={alt} width={width} height={height} className="object-contain" />
     </div>
   );
 };
 
-export default GridLayout;
-```
+export default Logo;
+
+// 使用例:
+// <Logo src="/path/to/logo.png" alt="ロゴの代替テキスト" width={150} height={50} className="custom-class" />
