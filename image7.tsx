@@ -1,102 +1,81 @@
 ```tsx
+// components/BusinessDivisionTable.tsx
+
 import React from 'react';
 
-type BudgetMasterProps = {
-  fiscalYear: string;
-  budgetNumber: string;
-  budgetCategory: string;
+// Type definition for the component props
+type BusinessDivision = {
+  code: string;
   name: string;
-  abbreviation: string;
-  onSubmit: (formData: FormData) => void;
 };
 
-type FormData = {
-  budgetNumber: string;
-  name: string;
-  abbreviation: string;
-  category: string;
+type BusinessDivisionTableProps = {
+  data: BusinessDivision[];
+  onEdit: (code: string) => void;
+  onAdd: () => void;
+  onDelete: (code: string) => void;
 };
 
-const BudgetMaster: React.FC<BudgetMasterProps> = ({
-  fiscalYear,
-  budgetNumber,
-  budgetCategory,
-  name,
-  abbreviation,
-  onSubmit,
+const BusinessDivisionTable: React.FC<BusinessDivisionTableProps> = ({
+  data,
+  onEdit,
+  onAdd,
+  onDelete
 }) => {
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    const formData: FormData = {
-      budgetNumber,
-      name,
-      abbreviation,
-      category: budgetCategory,
-    };
-    onSubmit(formData);
-  };
-
   return (
-    <div className="p-4 bg-gray-100 rounded-lg">
-      <h2 className="text-xl font-bold mb-4">予算科目マスタ</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-2 gap-4 mb-4">
-          <label>
-            年度:
-            <input
-              type="text"
-              value={fiscalYear}
-              className="border p-2 rounded w-full"
-              readOnly
-            />
-          </label>
-          <label>
-            予算番号:
-            <input
-              type="text"
-              value={budgetNumber}
-              className="border p-2 rounded w-full"
-              readOnly
-            />
-          </label>
-          <label>
-            名称:
-            <input
-              type="text"
-              value={name}
-              className="border p-2 rounded w-full"
-              readOnly
-            />
-          </label>
-          <label>
-            略称:
-            <input
-              type="text"
-              value={abbreviation}
-              className="border p-2 rounded w-full"
-              readOnly
-            />
-          </label>
-          <label>
-            項目区分:
-            <input
-              type="text"
-              value={budgetCategory}
-              className="border p-2 rounded w-full"
-              readOnly
-            />
-          </label>
-        </div>
+    <div className="w-full max-w-md mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+      <header className="bg-blue-500 text-white text-lg px-4 py-2">
+        事業区分マスタ
+      </header>
+      <table className="min-w-full leading-normal">
+        <thead>
+          <tr>
+            <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+              事業区分CD
+            </th>
+            <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+              事業区分名称
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((division) => (
+            <tr key={division.code}>
+              <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                {division.code}
+              </td>
+              <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                {division.name}
+              </td>
+              <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                <button
+                  onClick={() => onEdit(division.code)}
+                  className="text-blue-700 hover:text-blue-900"
+                >
+                  編集
+                </button>
+                <button
+                  onClick={() => onDelete(division.code)}
+                  className="text-red-700 hover:text-red-900 ml-4"
+                >
+                  削除
+                </button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <div className="flex justify-end p-4">
         <button
-          type="submit"
-          className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+          onClick={onAdd}
+          className="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded"
         >
-          保存
+          追加
         </button>
-      </form>
+      </div>
     </div>
   );
 };
 
-export default BudgetMaster;
+export default BusinessDivisionTable;
 ```
