@@ -1,32 +1,38 @@
 ```tsx
 import React from 'react';
 
-// プロパティの型定義
-interface LogoProps {
-  imgSrc: string;
-  altText: string;
-  width?: string;
-  height?: string;
-  textColor?: string;
+// Type definition for the component props
+interface CardProps {
+  title: string;
+  description: string;
+  imageUrl: string;
+  link: string;
 }
 
-// ロゴコンポーネント
-const Logo: React.FC<LogoProps> = ({ imgSrc, altText, width = '100%', height = 'auto', textColor = 'black' }) => {
+// Card component using Tailwind CSS for styling
+const Card: React.FC<CardProps> = ({ title, description, imageUrl, link }) => {
   return (
-    <div className="flex items-center space-x-4">
-      {/* 画像を表示 */}
-      <img src={imgSrc} alt={altText} style={{ width, height }} className="object-contain" />
-      {/* テキスト部分 */}
-      <div className={`text-sm ${textColor} leading-tight`}>
-        <p>株式会社ぎょうせい</p>
-        <p>データ・システム事業部</p>
+    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      {/* Image section */}
+      <img className="w-full" src={imageUrl} alt={title} />
+      
+      {/* Text content section */}
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2">{title}</div>
+        <p className="text-gray-700 text-base">
+          {description}
+        </p>
+      </div>
+      
+      {/* Link section */}
+      <div className="px-6 pt-4 pb-2">
+        <a href={link} className="text-blue-500 hover:text-blue-700">
+          Learn more
+        </a>
       </div>
     </div>
   );
 };
 
-export default Logo;
-
-// 使用例
-// <Logo imgSrc="/path/to/image.jpg" altText="Logo Image" width="150px" height="auto" textColor="text-gray-800" />
+export default Card;
 ```
