@@ -1,82 +1,79 @@
-```tsx
-import React, { useState } from 'react';
+// BudgetMasterForm.tsx
 
-type BudgetMasterProps = {
-  initialYear: string;
-  budgetItem: string;
-  abbreviation: string;
-  name: string;
-  category: string;
-  subCategory: string;
-  onSubmit: (data: any) => void;
+import React from 'react';
+import classNames from 'classnames';
+
+type BudgetMasterFormProps = {
+  fiscalYear: string;
+  onFiscalYearChange: (value: string) => void;
+  onDisplayClick: () => void;
+  currencyFormat: string;
+  onCurrencyFormatChange: (value: string) => void;
+  onEditClick: () => void;
+  onClearClick: () => void;
+  onEndClick: () => void;
 };
 
-const BudgetMaster: React.FC<BudgetMasterProps> = ({
-  initialYear,
-  budgetItem,
-  abbreviation,
-  name,
-  category,
-  subCategory,
-  onSubmit
+const BudgetMasterForm: React.FC<BudgetMasterFormProps> = ({
+  fiscalYear,
+  onFiscalYearChange,
+  onDisplayClick,
+  currencyFormat,
+  onCurrencyFormatChange,
+  onEditClick,
+  onClearClick,
+  onEndClick
 }) => {
-  const [year, setYear] = useState(initialYear);
-  const [itemAbbrev, setItemAbbrev] = useState(abbreviation);
-  const [itemBudgetName, setItemBudgetName] = useState(budgetItem);
-
-  // Handles form submission
-  const handleSubmit = () => {
-    onSubmit({
-      year,
-      itemAbbrev,
-      itemBudgetName,
-      name,
-      category,
-      subCategory,
-    });
-  };
-
   return (
-    <form className="p-4 max-w-md mx-auto bg-white shadow-md rounded-md">
-      <div className="mb-2">
-        <label className="block text-sm font-medium text-gray-700">年度</label>
+    <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+      <div className="flex items-center mb-4">
+        <span className="mr-2">年度</span>
         <input
           type="text"
-          value={year}
-          onChange={(e) => setYear(e.target.value)}
-          className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
+          value={fiscalYear}
+          onChange={(e) => onFiscalYearChange(e.target.value)}
+          className="border rounded px-2 py-1"
         />
       </div>
-      <div className="mb-2">
-        <label className="block text-sm font-medium text-gray-700">予算科目</label>
-        <input
-          type="text"
-          value={itemBudgetName}
-          onChange={(e) => setItemBudgetName(e.target.value)}
-          className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
-        />
-      </div>
-      <div className="mb-2">
-        <label className="block text-sm font-medium text-gray-700">略名</label>
-        <input
-          type="text"
-          value={itemAbbrev}
-          onChange={(e) => setItemAbbrev(e.target.value)}
-          className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
-        />
-      </div>
-      <div className="mb-2">
+      
+      <button
+        onClick={onDisplayClick}
+        className="mr-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      >
+        表示
+      </button>
+      
+      <select
+        value={currencyFormat}
+        onChange={(e) => onCurrencyFormatChange(e.target.value)}
+        className="border rounded px-2 py-1"
+      >
+        <option value="名称:金額円で示す">名称:金額円で示す</option>
+        {/* 他のオプションをここに追加 */}
+      </select>
+
+      <div className="mt-4">
         <button
-          type="button"
-          onClick={handleSubmit}
-          className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
+          onClick={onEditClick}
+          className="mr-2 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
         >
-          表示
+          編集
+        </button>
+        <button
+          onClick={onClearClick}
+          className="mr-2 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
+        >
+          クリア
+        </button>
+        <button
+          onClick={onEndClick}
+          className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+        >
+          終了
         </button>
       </div>
-    </form>
+    </div>
   );
 };
 
-export default BudgetMaster;
-```
+export default BudgetMasterForm;
