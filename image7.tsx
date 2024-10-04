@@ -3,83 +3,97 @@ import React from 'react';
 
 type BudgetMasterProps = {
   fiscalYear: string;
-  itemCode: string;
-  itemName: string;
-  handleDisplay: () => void;
-  handleSave: () => void;
-  handleEdit: () => void;
-  handleDelete: () => void;
+  budgetNumber: string;
+  budgetCategory: string;
+  name: string;
+  abbreviation: string;
+  onSubmit: (formData: FormData) => void;
+};
+
+type FormData = {
+  budgetNumber: string;
+  name: string;
+  abbreviation: string;
+  category: string;
 };
 
 const BudgetMaster: React.FC<BudgetMasterProps> = ({
   fiscalYear,
-  itemCode,
-  itemName,
-  handleDisplay,
-  handleSave,
-  handleEdit,
-  handleDelete
+  budgetNumber,
+  budgetCategory,
+  name,
+  abbreviation,
+  onSubmit,
 }) => {
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+    const formData: FormData = {
+      budgetNumber,
+      name,
+      abbreviation,
+      category: budgetCategory,
+    };
+    onSubmit(formData);
+  };
+
   return (
-    <div className="p-4 bg-gray-100">
-      <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700">年度</label>
-        <input
-          type="text"
-          value={fiscalYear}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700">予算科目番号</label>
-        <input
-          type="text"
-          value={itemCode}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700">名称</label>
-        <input
-          type="text"
-          value={itemName}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
-        />
-      </div>
-      <div className="mb-4">
+    <div className="p-4 bg-gray-100 rounded-lg">
+      <h2 className="text-xl font-bold mb-4">予算科目マスタ</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="grid grid-cols-2 gap-4 mb-4">
+          <label>
+            年度:
+            <input
+              type="text"
+              value={fiscalYear}
+              className="border p-2 rounded w-full"
+              readOnly
+            />
+          </label>
+          <label>
+            予算番号:
+            <input
+              type="text"
+              value={budgetNumber}
+              className="border p-2 rounded w-full"
+              readOnly
+            />
+          </label>
+          <label>
+            名称:
+            <input
+              type="text"
+              value={name}
+              className="border p-2 rounded w-full"
+              readOnly
+            />
+          </label>
+          <label>
+            略称:
+            <input
+              type="text"
+              value={abbreviation}
+              className="border p-2 rounded w-full"
+              readOnly
+            />
+          </label>
+          <label>
+            項目区分:
+            <input
+              type="text"
+              value={budgetCategory}
+              className="border p-2 rounded w-full"
+              readOnly
+            />
+          </label>
+        </div>
         <button
-          onClick={handleDisplay}
-          className="mr-2 px-4 py-2 bg-blue-500 text-white rounded-md"
+          type="submit"
+          className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
         >
-          表示
+          保存
         </button>
-        <button
-          onClick={handleSave}
-          className="mr-2 px-4 py-2 bg-green-500 text-white rounded-md"
-        >
-          登録
-        </button>
-        <button
-          onClick={handleEdit}
-          className="mr-2 px-4 py-2 bg-yellow-500 text-white rounded-md"
-        >
-          訂正
-        </button>
-        <button
-          onClick={handleDelete}
-          className="px-4 py-2 bg-red-500 text-white rounded-md"
-        >
-          削除
-        </button>
-      </div>
-      <div>
-        <button className="mr-2 px-4 py-2 bg-gray-300 text-black rounded-md">
-          前データ
-        </button>
-        <button className="px-4 py-2 bg-gray-300 text-black rounded-md">
-          次データ
-        </button>
-      </div>
+      </form>
     </div>
   );
 };
