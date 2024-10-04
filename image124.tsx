@@ -1,73 +1,80 @@
 ```tsx
 import React from 'react';
 
-type FixedAssetImportProps = {
-  fiscalYear: string;
-  exceptionMonth: string;
-  filePath: string;
-  onFileUpload: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  onOk: () => void;
+type RegistrationFormProps = {
+  code: string;
+  name: string;
+  specification: string;
+  startDate: string;
+  price: number;
+  onRegister: () => void;
+  onCorrect: () => void;
   onClear: () => void;
-  onClose: () => void;
+  onCancel: () => void;
 };
 
-const FixedAssetImport: React.FC<FixedAssetImportProps> = ({
-  fiscalYear,
-  exceptionMonth,
-  filePath,
-  onFileUpload,
-  onOk,
+const RegistrationForm: React.FC<RegistrationFormProps> = ({
+  code,
+  name,
+  specification,
+  startDate,
+  price,
+  onRegister,
+  onCorrect,
   onClear,
-  onClose,
+  onCancel,
 }) => {
   return (
-    <div className="p-4 shadow-lg bg-white rounded-md max-w-lg mx-auto">
-      <h2 className="text-xl font-bold mb-4">固定資産コンパート</h2>
-
-      <div className="mb-2">
-        <label className="font-semibold">当期会計年度: </label>
-        <span>{fiscalYear}</span>
-      </div>
-
-      <div className="mb-2">
-        <label className="font-semibold">異動年月日: </label>
-        <span>{exceptionMonth}</span>
-      </div>
-
+    <div className="p-4 bg-white shadow-md rounded">
+      {/* 登録・訂正選択 */}
       <div className="flex items-center mb-4">
-        <label className="mr-2 font-semibold">ファイル: </label>
-        <input
-          type="file"
-          onChange={onFileUpload}
-          className="border p-1 mr-2"
-        />
-        <span className="truncate">{filePath}</span>
+        <label className="mr-2">
+          <input type="radio" name="action" onClick={onRegister} />
+          登録
+        </label>
+        <label>
+          <input type="radio" name="action" onClick={onCorrect} defaultChecked />
+          訂正
+        </label>
       </div>
-
-      <div className="bg-gray-100 p-4 border rounded-md text-sm">
-        <ul className="list-disc list-inside">
-          <li>固定資産情報をファイルから取込、登録を行います。</li>
-          <li>ZIP圧縮されたファイルのみ取込めます。取込むファイルについては専用のEXCELファイル（原票）から作成してください。</li>
-          <li>原票以外で作成、編集されたファイルを取込むとエラーとなります。</li>
-          <li>異動年月日には当期会計年度の年月日を入力してください。</li>
-          <li>コンバートするデータの異動年月日とは無関係で入力した異動年月日の日付で登録されます。</li>
-        </ul>
+      {/* 単価情報 */}
+      <div className="mb-4">
+        <div>
+          <span className="font-bold">単価コード: </span>{code}
+        </div>
+        <div>
+          <span className="font-bold">単価名称: </span>{name}
+        </div>
+        <div>
+          <span className="font-bold">単価規格: </span>{specification}
+        </div>
       </div>
-
-      <div className="flex justify-end mt-4 space-x-2">
-        <button onClick={onOk} className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-          OK
-        </button>
-        <button onClick={onClear} className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">
-          クリア
-        </button>
-        <button onClick={onClose} className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
-          終了
-        </button>
+      {/* 適用開始年月日・単価 */}
+      <div className="border p-4 mb-4">
+        <div className="mb-2">
+          <span className="font-bold">適用開始年月日: </span>{startDate}
+        </div>
+        <div>
+          <span className="font-bold">単価: </span>
+          <input 
+            type="text" 
+            value={price.toFixed(2)} 
+            readOnly 
+            className="border px-2 py-1"
+          />
+        </div>
+      </div>
+      {/* ボタン */}
+      <div className="flex justify-around">
+        <button className="bg-gray-300 px-4 py-2 rounded" onClick={onRegister}>前データ</button>
+        <button className="bg-gray-300 px-4 py-2 rounded" onClick={onCorrect}>次データ</button>
+        <button className="bg-gray-500 text-white px-4 py-2 rounded" onClick={onRegister}>OK</button>
+        <button className="bg-gray-300 px-4 py-2 rounded" onClick={onClear}>クリア</button>
+        <button className="bg-gray-300 px-4 py-2 rounded" onClick={onCancel}>キャンセル</button>
       </div>
     </div>
   );
 };
 
-export default FixedAssetImport;
+export default RegistrationForm;
 ```
