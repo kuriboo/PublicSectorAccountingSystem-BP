@@ -1,77 +1,27 @@
 ```tsx
-// Import necessary modules and types
-import { FC } from "react";
-import { useState } from "react";
+import React from 'react';
 
-// Define prop types for the component
-interface VoucherEntryComponentProps {
-  initialDateFrom?: string;
-  initialDateTo?: string;
-  onSubmit: (data: { dateFrom: string, dateTo: string, voucherNumber: string }) => void;
-}
+type InputFieldProps = {
+  label: string; // ラベルのテキスト
+  value: string; // 入力フィールドの初期値
+  onChange: (value: string) => void; // 値の変更時に呼び出される関数
+};
 
-// Define the VoucherEntryComponent
-const VoucherEntryComponent: FC<VoucherEntryComponentProps> = ({
-  initialDateFrom = "",
-  initialDateTo = "",
-  onSubmit,
-}) => {
-  // Component state
-  const [dateFrom, setDateFrom] = useState(initialDateFrom);
-  const [dateTo, setDateTo] = useState(initialDateTo);
-  const [voucherNumber, setVoucherNumber] = useState("0");
-
-  // Handle form submission
-  const handleSubmit = () => {
-    onSubmit({ dateFrom, dateTo, voucherNumber });
-  };
-
-  // Component UI
+const InputField: React.FC<InputFieldProps> = ({ label, value, onChange }) => {
   return (
-    <div className="p-4 border rounded-md shadow-md max-w-lg mx-auto">
-      <h1 className="text-xl font-bold mb-4">伝票管理入力</h1>
-      
-      {/* Date Range Input */}
-      <div className="mb-4">
-        <label className="block text-sm font-medium mb-1">伝票日付</label>
-        <div className="flex space-x-2">
-          <input
-            type="date"
-            value={dateFrom}
-            onChange={(e) => setDateFrom(e.target.value)}
-            className="p-2 border rounded-md flex-1"
-          />
-          <span>～</span>
-          <input
-            type="date"
-            value={dateTo}
-            onChange={(e) => setDateTo(e.target.value)}
-            className="p-2 border rounded-md flex-1"
-          />
-        </div>
-      </div>
-
-      {/* Voucher Number Input */}
-      <div className="mb-4">
-        <label className="block text-sm font-medium mb-1">伝票番号</label>
-        <input
-          type="number"
-          value={voucherNumber}
-          onChange={(e) => setVoucherNumber(e.target.value)}
-          className="p-2 border rounded-md w-full"
-        />
-      </div>
-
-      {/* Submit Button */}
-      <button
-        onClick={handleSubmit}
-        className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
-      >
-        表示
-      </button>
+    <div className="flex items-center space-x-2">
+      {/* ラベルのテキスト */}
+      <label className="text-lg font-medium text-gray-700">{label}</label>
+      {/* 入力フィールド */}
+      <input
+        type="text"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="border border-gray-300 rounded px-2 py-1 focus:outline-none focus:border-blue-500"
+      />
     </div>
   );
 };
 
-export default VoucherEntryComponent;
+export default InputField;
 ```
