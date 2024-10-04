@@ -1,48 +1,95 @@
 ```tsx
-// components/OrderForm.tsx
 import React from 'react';
 
-// TypeScriptの型定義
-interface OrderFormProps {
-  decisionNo: string;
-  burdenNo: string;
-  decisionDate: string;
-  paymentDate: string;
-  chargeAmount: number;
-  details: string;
+// 型定義
+interface PrintDialogProps {
+  selectedOption: string;
+  setSelectedOption: (option: string) => void;
+  copies: number;
+  setCopies: (copies: number) => void;
+  onConfirm: () => void;
+  onCancel: () => void;
 }
 
-// Next.js + Tailwind CSSで再利用可能なコンポーネントを作成
-const OrderForm: React.FC<OrderFormProps> = ({
-  decisionNo,
-  burdenNo,
-  decisionDate,
-  paymentDate,
-  chargeAmount,
-  details,
+// コンポーネント定義
+const PrintDialog: React.FC<PrintDialogProps> = ({
+  selectedOption,
+  setSelectedOption,
+  copies,
+  setCopies,
+  onConfirm,
+  onCancel,
 }) => {
   return (
-    <div className="border p-4 max-w-md mx-auto">
-      <h1 className="text-xl font-bold text-center mb-4">負担行為伺兼命令書</h1>
-      <div className="grid grid-cols-2 gap-2">
-        <div>決定No.: {decisionNo}</div>
-        <div>負担No.: {burdenNo}</div>
-        <div>決定処理日: {decisionDate}</div>
-        <div>支払予定日: {paymentDate}</div>
+    <div className="bg-white border rounded-md p-6 shadow-lg w-96">
+      <h2 className="text-lg mb-4">印刷機能選択</h2>
+
+      {/* ラジオボタンのグループ */}
+      <div className="mb-4">
+        <label className="block">
+          <input
+            type="radio"
+            value="印刷"
+            checked={selectedOption === '印刷'}
+            onChange={() => setSelectedOption('印刷')}
+            className="mr-2"
+          />
+          印刷
+        </label>
+
+        <label className="block">
+          <input
+            type="radio"
+            value="プレビュー"
+            checked={selectedOption === 'プレビュー'}
+            onChange={() => setSelectedOption('プレビュー')}
+            className="mr-2"
+          />
+          プレビュー
+        </label>
+
+        <label className="block">
+          <input
+            type="radio"
+            value="PDF"
+            checked={selectedOption === 'PDF'}
+            onChange={() => setSelectedOption('PDF')}
+            className="mr-2"
+          />
+          PDF
+        </label>
       </div>
 
-      <hr className="my-4" />
+      {/* 部数の入力 */}
+      <div className="mb-4">
+        <label className="block">部数</label>
+        <input
+          type="number"
+          value={copies}
+          onChange={(e) => setCopies(Number(e.target.value))}
+          min="1"
+          className="border rounded p-1 w-16"
+        />
+      </div>
 
-      <div>以下のとおり支出してよろしいか。</div>
-      <div className="mt-2">決裁金額: ¥{chargeAmount.toLocaleString()}円</div>
-
-      <hr className="my-4" />
-
-      <div className="font-bold mb-1">詳細:</div>
-      <div className="text-gray-700">{details}</div>
+      {/* ボタン */}
+      <div className="flex justify-end space-x-2">
+        <button
+          onClick={onConfirm}
+          className="bg-gray-200 hover:bg-gray-300 rounded px-4 py-2"
+        >
+          OK
+        </button>
+        <button
+          onClick={onCancel}
+          className="bg-gray-200 hover:bg-gray-300 rounded px-4 py-2"
+        >
+          キャンセル
+        </button>
+      </div>
     </div>
   );
 };
 
-export default OrderForm;
+export default PrintDialog;
 ```
