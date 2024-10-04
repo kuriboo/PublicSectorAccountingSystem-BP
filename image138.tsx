@@ -1,91 +1,108 @@
 ```tsx
 import React from 'react';
 
-// Prop types for the component
-interface FormProps {
-  fiscalYear: string;
-  issueDate: string;
-  assetJoiningDate: string;
-  assetIncreaseAmount: number;
-  onSubmit: () => void;
-  onClear: () => void;
-  onClose: () => void;
+interface FieldProps {
+  label: string;
+  type: string;
+  value: string;
+  onChange: (value: string) => void;
 }
 
-// Reusable component
-const ManagementForm: React.FC<FormProps> = ({
-  fiscalYear,
-  issueDate,
-  assetJoiningDate,
-  assetIncreaseAmount,
-  onSubmit,
-  onClear,
-  onClose,
-}) => {
+interface RadioGroupProps {
+  options: string[];
+  selected: string;
+  onChange: (value: string) => void;
+}
+
+interface ButtonProps {
+  label: string;
+  onClick: () => void;
+}
+
+const Field: React.FC<FieldProps> = ({ label, type, value, onChange }) => {
   return (
-    <div className="p-4 bg-gray-100 rounded-md">
-      <h2 className="text-xl font-semibold mb-4">債却／予測管理マスタ</h2>
-      <div className="grid grid-cols-2 gap-4">
-        <div>
-          <label className="block mb-1">当期会計年度</label>
-          <input
-            type="text"
-            value={fiscalYear}
-            readOnly
-            className="w-full p-2 border rounded"
-          />
-        </div>
-        <div>
-          <label className="block mb-1">前回出処理年月</label>
-          <input
-            type="text"
-            value={issueDate}
-            readOnly
-            className="w-full p-2 border rounded"
-          />
-        </div>
-        <div>
-          <label className="block mb-1">資産転有加入年月</label>
-          <input
-            type="text"
-            value={assetJoiningDate}
-            readOnly
-            className="w-full p-2 border rounded"
-          />
-        </div>
-        <div>
-          <label className="block mb-1">資産増加額</label>
-          <input
-            type="number"
-            value={assetIncreaseAmount}
-            readOnly
-            className="w-full p-2 border rounded"
-          />
-        </div>
-      </div>
-      <div className="flex justify-end space-x-4 mt-4">
-        <button
-          className="px-4 py-2 bg-blue-500 text-white rounded"
-          onClick={onSubmit}
-        >
-          OK
-        </button>
-        <button
-          className="px-4 py-2 bg-gray-300 rounded"
-          onClick={onClear}
-        >
-          クリア
-        </button>
-        <button
-          className="px-4 py-2 bg-red-500 text-white rounded"
-          onClick={onClose}
-        >
-          終了
-        </button>
-      </div>
+    <div className="flex flex-col mb-2">
+      <label className="text-sm font-bold">{label}</label>
+      <input
+        type={type}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="border rounded p-1"
+      />
     </div>
   );
 };
 
-export default ManagementForm;
+const RadioGroup: React.FC<RadioGroupProps> = ({ options, selected, onChange }) => {
+  return (
+    <div className="flex flex-col mb-2">
+      {options.map((option, index) => (
+        <label key={index} className="text-sm">
+          <input
+            type="radio"
+            value={option}
+            checked={selected === option}
+            onChange={() => onChange(option)}
+            className="mr-1"
+          />
+          {option}
+        </label>
+      ))}
+    </div>
+  );
+};
+
+const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
+  return (
+    <button
+      onClick={onClick}
+      className="bg-blue-500 text-white py-1 px-4 rounded hover:bg-blue-600"
+    >
+      {label}
+    </button>
+  );
+};
+
+const MasterForm: React.FC = () => {
+  const [formState, setFormState] = React.useState({
+    excludeEndPoint: '',
+    modifyEndPoint: '',
+    currentYear: '',
+    carryOverAmount: '',
+    deptCode: '',
+    facilityCode: '',
+    reserveAmountCode: '',
+    assetAdditionRate: '',
+    accountingYear: '',
+    issuePriceAdjustment: '',
+  });
+
+  const handleFieldChange = (field: string, value: string) => {
+    setFormState((prevState) => ({ ...prevState, [field]: value }));
+  };
+
+  return (
+    <div className="p-4 max-w-lg mx-auto">
+      <Field
+        label="除去時端数設定"
+        type="text"
+        value={formState.excludeEndPoint}
+        onChange={(value) => handleFieldChange('excludeEndPoint', value)}
+      />
+      {/* Other fields and radio groups go here */}
+
+      <RadioButton
+        options={['切捨て', '切上げ', '四捨五入']}
+        selected={formState.modifyEndPoint}
+        onChange={(value) => handleFieldChange('modifyEndPoint', value)}
+      />
+
+      <Button label="検索" onClick={() => console.log(formState)} />
+      
+      {/* Additional buttons like OK, Clear, etc. can be added here */}
+    </div>
+  );
+};
+
+export default MasterForm;
 ```
