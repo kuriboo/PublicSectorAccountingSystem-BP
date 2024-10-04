@@ -1,28 +1,32 @@
 ```tsx
 import React from 'react';
 
-interface LogoComponentProps {
-  width?: number;
-  height?: number;
-  altText?: string;
+// プロパティの型定義
+interface GridLayoutProps {
+  leftContent: React.ReactNode;
+  centerContent: React.ReactNode;
+  rightContent: React.ReactNode;
 }
 
-// 再利用可能なロゴコンポーネント
-const LogoComponent: React.FC<LogoComponentProps> = ({ 
-  width = 200, 
-  height = 50, 
-  altText = 'Company Logo' 
-}) => {
+// GridLayoutコンポーネントの定義
+const GridLayout: React.FC<GridLayoutProps> = ({ leftContent, centerContent, rightContent }) => {
   return (
-    <img
-      src="/path/to/logo.jpg" // 画像のパスを正確に設定してください
-      width={width}
-      height={height}
-      alt={altText}
-      className="object-contain" // 画像を適切に縮小するためのTailwind CSS
-    />
+    <div className="grid grid-cols-3 gap-4 p-4">
+      {/* 左コンテンツ */}
+      <div className="bg-green-100 p-4">
+        {leftContent}
+      </div>
+      {/* 中央コンテンツ */}
+      <div className="bg-green-200 p-4">
+        {centerContent}
+      </div>
+      {/* 右コンテンツ */}
+      <div className="bg-green-300 p-4">
+        {rightContent}
+      </div>
+    </div>
   );
 };
 
-export default LogoComponent;
+export default GridLayout;
 ```
