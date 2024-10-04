@@ -1,35 +1,22 @@
 ```tsx
 import React from 'react';
 
+// TypeScript interface for component props
 interface LogoProps {
-  // Image source URL
-  src: string;
-  // Alternative text for the image
-  alt: string;
-  // Custom width of the image
   width?: string;
-  // Custom height of the image
   height?: string;
-  // Additional CSS classes for styling
-  className?: string;
+  altText?: string;
 }
 
-// Logo component
-const Logo: React.FC<LogoProps> = ({
-  src,
-  alt,
-  width = '100px', // Default width
-  height = 'auto',  // Default height
-  className = '',   // Additional classes
-}) => {
+const Logo: React.FC<LogoProps> = ({ width = '200px', height = '50px', altText = '企業ロゴ' }) => {
   return (
-    <div className={`flex items-center ${className}`}>
+    <div className={`flex items-center justify-center`}>
       <img
-        src={src}
-        alt={alt}
+        src="/path/to/logo/image.jpg" // 画像パスを変更してください
+        alt={altText}
         width={width}
         height={height}
-        className="object-contain"
+        className={`object-contain`} // Tailwind CSSでスタイリング
       />
     </div>
   );
