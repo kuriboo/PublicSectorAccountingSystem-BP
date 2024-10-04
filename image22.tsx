@@ -1,87 +1,116 @@
 ```tsx
-// DocumentComponent.tsx
 import React from 'react';
 
-interface DocumentProps {
-  title?: string;
-  decisionNo?: string;
-  chargeNo?: string;
-  decisionDate?: string;
-  paymentDate?: string;
-  amount?: string;
-  subDetails?: string[];
-}
+// 型定義
+type FormData = {
+  year: string;
+  receptionNumber: string;
+  status: string;
+  applicantInfo: {
+    constructionSite: string;
+    address: string;
+    name: string;
+    phoneNumber: string;
+  };
+  agentInfo: {
+    company: string;
+    address: string;
+    phoneNumber: string;
+  };
+  adjustmentDate: string;
+  paymentDeadline: string;
+  acceptanceDate: string;
+  summary: string[];
+};
 
-const DocumentComponent: React.FC<DocumentProps> = ({
-  title = "負担行為伺兼命令書",
-  decisionNo = "27-000451-07",
-  chargeNo = "27-000413",
-  decisionDate = "平成２８年３月２７日",
-  paymentDate = "平成２８年３月２７日",
-  amount = "1,000,000円",
-  subDetails = ["電子書籍購入費"]
+// プロパティ型定義
+type NotificationFormProps = {
+  formData: FormData;
+  onSubmit: () => void;
+  onClear: () => void;
+  onClose: () => void;
+};
+
+const NotificationForm: React.FC<NotificationFormProps> = ({
+  formData,
+  onSubmit,
+  onClear,
+  onClose
 }) => {
   return (
-    <div className="p-4 border border-gray-300 bg-white">
-      <h1 className="text-center text-xl font-bold mb-4">{title}</h1>
-      <div className="flex justify-between mb-2">
+    <div className="p-4 max-w-screen-lg mx-auto bg-white shadow-md rounded">
+      {/* タイトルと基本情報 */}
+      <h2 className="text-xl font-bold mb-4">納入通知書登録</h2>
+      <div className="flex mb-4 space-x-4">
         <div>
-          <p>決定No. <span>{decisionNo}</span></p>
-          <p>負担No. <span>{chargeNo}</span></p>
+          <label className="block font-medium">年度:</label>
+          <span>{formData.year}</span>
+        </div>
+        <div>
+          <label className="block font-medium">受付番号:</label>
+          <span>{formData.receptionNumber}</span>
+        </div>
+        <div>
+          <label className="block font-medium">ステータス:</label>
+          <span>{formData.status}</span>
         </div>
       </div>
-      <table className="w-full text-left mb-4">
-        <thead>
-          <tr>
-            <th className="border px-2">属性</th>
-            <th className="border px-2">起案者</th>
-            <th className="border px-2">決定処理日</th>
-            <th className="border px-2">支払予定日</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border px-2">検証用</td>
-            <td className="border px-2"></td>
-            <td className="border px-2">{decisionDate}</td>
-            <td className="border px-2">{paymentDate}</td>
-          </tr>
-        </tbody>
-      </table>
-      <p className="mb-2">以下のとおり支出してよろしいか。</p>
-      <table className="w-full text-left mb-4">
-        <thead>
-          <tr>
-            <th className="border px-2">款</th>
-            <th className="border px-2">項</th>
-            <th className="border px-2">目</th>
-            <th className="border px-2">節</th>
-            <th className="border px-2">細節</th>
-            <th className="border px-2">明細</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border px-2">002 事業費用</td>
-            <td className="border px-2">01 営業費用</td>
-            <td className="border px-2">01 〇〇事業</td>
-            <td className="border px-2">13 印刷製本費</td>
-            <td className="border px-2">0001 印刷製本費</td>
-            <td className="border px-2">0001 {subDetails.join(', ')}</td>
-          </tr>
-        </tbody>
-      </table>
-      <div className="flex justify-between items-center">
+
+      {/* 申請者情報 */}
+      <div className="mb-4">
+        <h3 className="text-lg font-semibold mb-2">申請者情報</h3>
+        <div className="border p-2">
+          <div>施工場所: {formData.applicantInfo.constructionSite}</div>
+          <div>住所: {formData.applicantInfo.address}</div>
+          <div>氏名: {formData.applicantInfo.name}</div>
+          <div>電話番号: {formData.applicantInfo.phoneNumber}</div>
+        </div>
+      </div>
+
+      {/* 工事代理人情報 */}
+      <div className="mb-4">
+        <h3 className="text-lg font-semibold mb-2">工事代理人情報</h3>
+        <div className="border p-2">
+          <div>工事店: {formData.agentInfo.company}</div>
+          <div>住所: {formData.agentInfo.address}</div>
+          <div>電話番号: {formData.agentInfo.phoneNumber}</div>
+        </div>
+      </div>
+
+      {/* 調定日、納付期限、摘要 */}
+      <div className="flex mb-2 space-x-4">
         <div>
-          <p>決裁金額</p>
+          <label className="block font-medium">調定日:</label>
+          <span>{formData.adjustmentDate}</span>
         </div>
-        <div className="border border-gray-300 p-2">
-          <p className="text-right font-bold">{amount}</p>
+        <div>
+          <label className="block font-medium">納付期限:</label>
+          <span>{formData.paymentDeadline}</span>
         </div>
+        <div>
+          <label className="block font-medium">取消日:</label>
+          <span>{formData.acceptanceDate}</span>
+        </div>
+      </div>
+
+      <div className="mb-4">
+        <h3 className="font-medium">摘要:</h3>
+        <div className="border p-2">
+          {formData.summary.map((item, index) => (
+            <div key={index}>{item}</div>
+          ))}
+        </div>
+      </div>
+
+      {/* ボタン */}
+      <div className="flex justify-end space-x-2">
+        <button onClick={onSubmit} className="px-4 py-2 bg-blue-500 text-white rounded">OK</button>
+        <button onClick={onClear} className="px-4 py-2 bg-gray-500 text-white rounded">クリア</button>
+        <button onClick={onClose} className="px-4 py-2 bg-red-500 text-white rounded">終了</button>
       </div>
     </div>
   );
 };
 
-export default DocumentComponent;
+export default NotificationForm;
 ```
