@@ -1,53 +1,32 @@
 ```tsx
-// LogoComponent.tsx
-import Image from 'next/image';
 import React from 'react';
 
-// Props type definition for the LogoComponent
-type LogoComponentProps = {
-  src: string; // URL of the logo image
-  alt: string; // Alt text for the image
-  width?: number; // Optional width of the logo
-  height?: number; // Optional height of the logo
-  className?: string; // Optional additional classes for custom styling
-};
+// プロパティの型定義
+interface LogoProps {
+  imgSrc: string;
+  altText: string;
+  width?: string;
+  height?: string;
+  textColor?: string;
+}
 
-// Reusable LogoComponent
-const LogoComponent: React.FC<LogoComponentProps> = ({
-  src,
-  alt,
-  width = 100, // Default width
-  height = 50, // Default height
-  className,
-}) => {
+// ロゴコンポーネント
+const Logo: React.FC<LogoProps> = ({ imgSrc, altText, width = '100%', height = 'auto', textColor = 'black' }) => {
   return (
-    <div className={`flex items-center ${className}`}>
-      <Image src={src} alt={alt} width={width} height={height} />
+    <div className="flex items-center space-x-4">
+      {/* 画像を表示 */}
+      <img src={imgSrc} alt={altText} style={{ width, height }} className="object-contain" />
+      {/* テキスト部分 */}
+      <div className={`text-sm ${textColor} leading-tight`}>
+        <p>株式会社ぎょうせい</p>
+        <p>データ・システム事業部</p>
+      </div>
     </div>
   );
 };
 
-export default LogoComponent;
-```
+export default Logo;
 
-```tsx
-// Usage in a Next.js page
-import LogoComponent from '../components/LogoComponent';
-
-const HomePage = () => {
-  return (
-    <div>
-      <h1 className="text-xl mb-4">Company Home Page</h1>
-      <LogoComponent
-        src="/path/to/logo.png"
-        alt="企業ロゴ"
-        width={200}
-        height={50}
-        className="my-custom-class" // Optional custom class
-      />
-    </div>
-  );
-};
-
-export default HomePage;
+// 使用例
+// <Logo imgSrc="/path/to/image.jpg" altText="Logo Image" width="150px" height="auto" textColor="text-gray-800" />
 ```
