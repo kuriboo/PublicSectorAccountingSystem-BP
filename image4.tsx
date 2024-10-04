@@ -1,79 +1,104 @@
-// BudgetMasterForm.tsx
-
 import React from 'react';
-import classNames from 'classnames';
 
-type BudgetMasterFormProps = {
-  fiscalYear: string;
-  onFiscalYearChange: (value: string) => void;
-  onDisplayClick: () => void;
-  currencyFormat: string;
-  onCurrencyFormatChange: (value: string) => void;
-  onEditClick: () => void;
-  onClearClick: () => void;
-  onEndClick: () => void;
+interface ButtonProps {
+  label: string;
+  onClick: () => void;
+}
+
+const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
+  return (
+    <button 
+      onClick={onClick} 
+      className="px-4 py-1 border rounded bg-blue-500 text-white hover:bg-blue-700"
+    >
+      {label}
+    </button>
+  );
 };
 
-const BudgetMasterForm: React.FC<BudgetMasterFormProps> = ({
-  fiscalYear,
-  onFiscalYearChange,
-  onDisplayClick,
-  currencyFormat,
-  onCurrencyFormatChange,
-  onEditClick,
-  onClearClick,
-  onEndClick
-}) => {
+interface CheckboxProps {
+  label: string;
+  checked: boolean;
+  onChange: (checked: boolean) => void;
+}
+
+const Checkbox: React.FC<CheckboxProps> = ({ label, checked, onChange }) => {
   return (
-    <div className="p-4 bg-gray-100 rounded-lg shadow-md">
-      <div className="flex items-center mb-4">
-        <span className="mr-2">年度</span>
-        <input
-          type="text"
-          value={fiscalYear}
-          onChange={(e) => onFiscalYearChange(e.target.value)}
-          className="border rounded px-2 py-1"
-        />
+    <label className="flex items-center space-x-2">
+      <input 
+        type="checkbox" 
+        checked={checked} 
+        onChange={(e) => onChange(e.target.checked)} 
+        className="form-checkbox"
+      />
+      <span>{label}</span>
+    </label>
+  );
+};
+
+interface DropdownProps {
+  options: string[];
+  selected: string;
+  onChange: (value: string) => void;
+}
+
+const Dropdown: React.FC<DropdownProps> = ({ options, selected, onChange }) => {
+  return (
+    <select 
+      value={selected} 
+      onChange={(e) => onChange(e.target.value)} 
+      className="form-select mt-1 block w-full"
+    >
+      {options.map(option => (
+        <option key={option} value={option}>
+          {option}
+        </option>
+      ))}
+    </select>
+  );
+};
+
+interface SystemSettingProps {
+  buttons: { label: string; onClick: () => void; }[];
+  checkboxes: { label: string; checked: boolean; onChange: (checked: boolean) => void; }[];
+  dropdowns: { options: string[]; selected: string; onChange: (value: string) => void; }[];
+}
+
+const SystemSetting: React.FC<SystemSettingProps> = ({ buttons, checkboxes, dropdowns }) => {
+  return (
+    <div className="p-4 bg-gray-100 rounded">
+      {/* Buttons */}
+      <div className="mb-4">
+        {buttons.map((button, index) => (
+          <Button key={index} label={button.label} onClick={button.onClick} />
+        ))}
       </div>
       
-      <button
-        onClick={onDisplayClick}
-        className="mr-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-      >
-        表示
-      </button>
-      
-      <select
-        value={currencyFormat}
-        onChange={(e) => onCurrencyFormatChange(e.target.value)}
-        className="border rounded px-2 py-1"
-      >
-        <option value="名称:金額円で示す">名称:金額円で示す</option>
-        {/* 他のオプションをここに追加 */}
-      </select>
+      {/* Checkboxes */}
+      <div className="mb-4">
+        {checkboxes.map((checkbox, index) => (
+          <Checkbox 
+            key={index} 
+            label={checkbox.label} 
+            checked={checkbox.checked} 
+            onChange={checkbox.onChange} 
+          />
+        ))}
+      </div>
 
-      <div className="mt-4">
-        <button
-          onClick={onEditClick}
-          className="mr-2 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
-        >
-          編集
-        </button>
-        <button
-          onClick={onClearClick}
-          className="mr-2 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-        >
-          クリア
-        </button>
-        <button
-          onClick={onEndClick}
-          className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-        >
-          終了
-        </button>
+      {/* Dropdowns */}
+      <div className="mb-4">
+        {dropdowns.map((dropdown, index) => (
+          <Dropdown 
+            key={index} 
+            options={dropdown.options} 
+            selected={dropdown.selected} 
+            onChange={dropdown.onChange}
+          />
+        ))}
       </div>
     </div>
   );
 };
 
-export default BudgetMasterForm;
+export default SystemSetting;
