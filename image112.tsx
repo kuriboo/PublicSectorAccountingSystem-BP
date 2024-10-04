@@ -1,45 +1,38 @@
+```tsx
+// Required imports
 import React from 'react';
 
-// Props type definition
-type DataTableProps = {
-  data: { date: string; flag: number; type: string; description: string }[];
+// TypeScript type definitions for props
+type TableProps = {
+  data: {
+    code: string;
+    name: string;
+    notes: string;
+  }[];
+  highlightedCodes?: string[];
 };
 
-// Reusable DataTable component
-const DataTable: React.FC<DataTableProps> = ({ data }) => {
+const CustomTable: React.FC<TableProps> = ({ data, highlightedCodes = [] }) => {
   return (
-    <table className="min-w-full bg-white border border-gray-300">
+    <table className="table-auto w-full border border-collapse">
       <thead>
         <tr>
-          <th className="py-2 px-4 border-b border-gray-300 bg-gray-100 text-left text-sm font-semibold text-gray-700">
-            Date
-          </th>
-          <th className="py-2 px-4 border-b border-gray-300 bg-gray-100 text-left text-sm font-semibold text-gray-700">
-            Flag
-          </th>
-          <th className="py-2 px-4 border-b border-gray-300 bg-gray-100 text-left text-sm font-semibold text-gray-700">
-            Type
-          </th>
-          <th className="py-2 px-4 border-b border-gray-300 bg-gray-100 text-left text-sm font-semibold text-gray-700">
-            Description
-          </th>
+          <th className="border px-4 py-2">コード</th>
+          <th className="border px-4 py-2">名称</th>
+          <th className="border px-4 py-2">備考</th>
         </tr>
       </thead>
       <tbody>
-        {data.map((item, index) => (
-          <tr key={index}>
-            <td className="py-2 px-4 border-b border-gray-300 text-sm text-gray-900">
-              {item.date}
-            </td>
-            <td className="py-2 px-4 border-b border-gray-300 text-sm text-gray-900">
-              {item.flag}
-            </td>
-            <td className="py-2 px-4 border-b border-gray-300 text-sm text-gray-900">
-              {item.type}
-            </td>
-            <td className="py-2 px-4 border-b border-gray-300 text-sm text-gray-900">
-              {item.description}
-            </td>
+        {data.map(({ code, name, notes }) => (
+          <tr
+            key={code}
+            className={
+              highlightedCodes.includes(code) ? 'bg-red-100' : 'bg-white'
+            }
+          >
+            <td className="border px-4 py-2">{code}</td>
+            <td className="border px-4 py-2">{name}</td>
+            <td className="border px-4 py-2">{notes}</td>
           </tr>
         ))}
       </tbody>
@@ -47,49 +40,5 @@ const DataTable: React.FC<DataTableProps> = ({ data }) => {
   );
 };
 
-export default DataTable;
-
-// Sample data
-const sampleData = [
-  {
-    date: '2001年3月',
-    flag: 1,
-    type: '繰越データ',
-    description: '2000年までの入出庫数量の取りまとめ（次年度繰越）',
-  },
-  {
-    date: '2001年4月',
-    flag: 0,
-    type: '通常データ',
-    description: '2001年4月の通常入出庫数',
-  },
-  {
-    date: '2001年5月',
-    flag: 0,
-    type: '通常データ',
-    description: '2001年5月の通常入出庫数',
-  },
-  {
-    date: '2001年6月',
-    flag: 0,
-    type: '通常データ',
-    description: '2001年6月の通常入出庫数',
-  },
-  {
-    date: '2001年9月',
-    flag: 0,
-    type: '通常データ',
-    description: '2001年9月の通常入出庫数',
-  },
-  {
-    date: '2001年10月',
-    flag: 0,
-    type: '通常データ',
-    description: '2001年10月の通常入出庫数',
-  },
-];
-
-// Usage example
-/*
-<DataTable data={sampleData} />
-*/
+export default CustomTable;
+```
