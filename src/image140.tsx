@@ -120,9 +120,8 @@ const AssetForm: React.FC<AssetFormProps> = ({
 
 export default AssetForm;
 
-```css
 /* Tailwind styles for buttons and input fields */
-.input-style {
+/*.input-style {
   border: 1px solid #ccc;
   padding: 0.5rem;
   margin-top: 0.5rem;
@@ -139,4 +138,4 @@ export default AssetForm;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
-}
+}*/

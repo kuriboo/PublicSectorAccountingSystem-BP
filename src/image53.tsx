@@ -39,12 +39,6 @@ const FinancialTable: React.FC<FinancialTableProps> = ({
   );
 };
 
-export default FinancialTable;
-
-```tsx
-// Usage Example
-import FinancialTable from './components/FinancialTable';
-
 const App = () => {
   const data = [
     { name: '建設改良費', values: [2100000, 2100000, 0, 2100000, 0, 0, 2000000, 100000] },

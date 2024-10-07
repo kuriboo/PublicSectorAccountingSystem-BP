@@ -29,14 +29,6 @@ const Button: React.FC<ButtonProps> = ({
   );
 };
 
-export default Button;
-
-```tsx
-// App.tsx
-
-import React from 'react';
-import Button from './Button';
-
 const App: React.FC = () => {
   const handleClick = () => {
     console.log('Button clicked!');

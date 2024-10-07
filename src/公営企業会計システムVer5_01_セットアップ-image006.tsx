@@ -39,14 +39,6 @@ const DescriptionMaster: React.FC<DescriptionMasterProps> = ({ title, entries, o
   );
 }
 
-export default DescriptionMaster;
-
-```tsx
-// 使用例: ExampleUsage.tsx
-
-import React from 'react';
-import DescriptionMaster from './DescriptionMaster';
-
 const ExampleUsage: React.FC = () => {
   const entries = [
     { code: '000001', content1: '月分給料', content2: '' },

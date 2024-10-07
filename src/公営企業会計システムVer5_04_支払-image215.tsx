@@ -45,5 +45,3 @@ const DataTable: React.FC<DataTableProps> = ({ title, data }) => {
 };
 
 export default DataTable;
-
-カスタマイズ可能なタイトルとデータが受け取れるコンポーネントを実装しています。Tailwind CSSは対応するクラス名をスタイルに使用しています。

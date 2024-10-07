@@ -58,14 +58,6 @@ const PaymentDetail: React.FC<PaymentDetailProps> = ({
   );
 };
 
-export default PaymentDetail;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import PaymentDetail from '../components/PaymentDetail';
-
 const Home: React.FC = () => {
   return (
     <div className="max-w-2xl mx-auto mt-10">
@@ -86,31 +78,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
-```tsx
-// postcss.config.js
-
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
-
-```tsx
-// tailwind.config.js
-
-module.exports = {
-  content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-
-```tsx
-// styles/globals.css
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

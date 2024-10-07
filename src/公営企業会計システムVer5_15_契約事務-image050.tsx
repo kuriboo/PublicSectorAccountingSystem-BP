@@ -78,15 +78,6 @@ const BidHistory: React.FC<BidHistoryProps> = ({
   );
 };
 
-export default BidHistory;
-
-```tsx
-// Usage example
-// This would be in a different file where you use the BidHistory component
-
-import React from 'react';
-import BidHistory from './BidHistory';
-
 const ExampleUsage = () => {
   const handleConfirm = () => {
     // Handle confirm action

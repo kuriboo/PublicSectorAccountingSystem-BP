@@ -24,12 +24,6 @@ const Logo: React.FC<LogoProps> = ({ imageUrl, altText, width = 150, height = 50
   );
 };
 
-export default Logo;
-
-```tsx
-// 使用例
-import Logo from './components/Logo';
-
 const Example = () => {
   return (
     <div className="p-4">

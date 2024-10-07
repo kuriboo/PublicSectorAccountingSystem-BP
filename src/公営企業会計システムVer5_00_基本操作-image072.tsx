@@ -35,25 +35,20 @@ const Menu: React.FC<MenuProps> = ({ title, buttons }) => {
   );
 };
 
-export default Menu;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import Menu from '../components/Menu';
-
 const HomePage: React.FC = () => {
   const buttons = [
-    { label: '実績', onClick: () => alert('実績 clicked') },
-    { label: '予算事務所', onClick: () => alert('予算事務所 clicked') },
-    { label: '決算', onClick: () => alert('決算 clicked') },
+    { label: '実績', variant: "default", onClick: () => alert('実績 clicked') },
+    { label: '予算事務所', variant: "default", onClick: () => alert('予算事務所 clicked') },
+    { label: '決算', variant: "default", onClick: () => alert('決算 clicked') },
     { label: 'セットアップ', onClick: () => alert('セットアップ clicked'), variant: 'highlight' },
   ];
 
   return (
     <div className="min-h-screen bg-gray-200 flex items-center justify-center">
-      <Menu title="メインメニュー" buttons={buttons} />
+      <Menu title="メインメニュー" buttons={buttons.map(button => ({ 
+        ...button, 
+        variant: button.variant as "default" | "highlight" // ここで型を明示的に指定
+      }))} />
     </div>
   );
 };

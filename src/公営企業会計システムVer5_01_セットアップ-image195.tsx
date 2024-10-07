@@ -33,13 +33,6 @@ const LogoComponent: React.FC<LogoComponentProps> = ({
   );
 };
 
-export default LogoComponent;
-
-```tsx
-// 使用例: pages/index.tsx など
-
-import LogoComponent from '../components/LogoComponent';
-
 const HomePage = () => {
   return (
     <div className="p-4">
@@ -54,8 +47,3 @@ const HomePage = () => {
 
 export default HomePage;
 
-```css
-/* Tailwind CSSでカスタムクラスを追加する場合 */
-.my-custom-class {
-  /* カスタムスタイルをここに追加可能 */
-}

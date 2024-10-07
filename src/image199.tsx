@@ -23,14 +23,6 @@ const Logo: React.FC<LogoProps> = ({ width = '200px', height = '60px', altText =
   );
 };
 
-export default Logo;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import Logo from '../components/Logo';
-
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
@@ -42,12 +34,12 @@ const Home: React.FC = () => {
 
 export default Home;
 
-```css
+
 /* styles/globals.css */
 
 /* Tailwind CSS styles (make sure to setup Tailwind CSS in your project) */
-@tailwind base;
+/*@tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;*/
 
 /* Additional custom styles can be added here */

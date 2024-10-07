@@ -45,12 +45,6 @@ const ExcelTable: React.FC<ExcelTableProps> = ({ data, className }) => {
   );
 };
 
-export default ExcelTable;
-
-```tsx
-// Example usage of the ExcelTable component
-import ExcelTable from './ExcelTable';
-
 // Sample data to mimic the Excel spreadsheet
 const sampleData = [
   { ColumnA: '支出', ColumnB: '不課税支出', ColumnC: '収益的支出', ColumnD: '3', ColumnE: '不課税', ColumnF: '1137468' },

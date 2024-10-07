@@ -51,13 +51,6 @@ const ExpenseTable: React.FC<ExpenseTableProps> = ({ data, title }) => {
   );
 };
 
-export default ExpenseTable;
-
-```tsx
-// pages/index.tsx
-import React from 'react';
-import ExpenseTable from '../components/ExpenseTable';
-
 const HomePage: React.FC = () => {
   const expenseData = [
     { responsibilityNumber: 144, detailNumber: 0, changeCount: 0, description: "図書費", taxExcludedAmount: 15556 },

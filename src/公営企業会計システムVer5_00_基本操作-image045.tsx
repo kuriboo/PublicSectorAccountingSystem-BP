@@ -22,12 +22,6 @@ const DocumentHeader: React.FC<DocumentHeaderProps> = ({ title, burdenNumber, ye
   );
 };
 
-export default DocumentHeader;
-
-```tsx
-// 使用例
-import DocumentHeader from './DocumentHeader';
-
 const ExampleComponent = () => {
   return (
     <DocumentHeader 

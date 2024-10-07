@@ -31,13 +31,6 @@ const PaymentManagement: React.FC<PaymentManagementProps> = ({ steps, onSelectSt
   );
 };
 
-export default PaymentManagement;
-
-```tsx
-// pages/index.tsx
-import React from "react";
-import PaymentManagement from "../components/PaymentManagement";
-
 const Home: React.FC = () => {
   const steps = [
     { id: "1", label: "給与データ取込み", color: "bg-pink-200" },

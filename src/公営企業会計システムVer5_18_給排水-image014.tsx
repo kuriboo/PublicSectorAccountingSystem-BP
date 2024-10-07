@@ -54,14 +54,6 @@ const ProgressManagementInput: React.FC<ProgressManagementInputProps> = ({
   );
 };
 
-export default ProgressManagementInput;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import ProgressManagementInput from '../components/ProgressManagementInput';
-
 const Home: React.FC = () => {
   return (
     <div className="container mx-auto p-4">

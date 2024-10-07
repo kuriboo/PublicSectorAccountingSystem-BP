@@ -29,11 +29,6 @@ const CompanyLogo: React.FC<CompanyLogoProps> = ({
   );
 };
 
-export default CompanyLogo;
-
-```tsx
-// 使用例
-import CompanyLogo from './components/CompanyLogo';
 
 const Example = () => {
   return (

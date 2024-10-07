@@ -121,4 +121,3 @@ const ComparisonForm: React.FC<ComparisonFormProps> = ({
 };
 
 export default ComparisonForm;
-```.

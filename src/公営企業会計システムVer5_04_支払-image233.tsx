@@ -22,7 +22,6 @@ const Logo: React.FC<LogoProps> = ({ text = "株式会社ぎょうせい", image
 
 export default Logo;
 
-```tsx
 // 使用例
 <Logo
   imageSrc="/path/to/logo.png"

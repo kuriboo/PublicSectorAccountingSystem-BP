@@ -47,13 +47,6 @@ const TableComponent: React.FC<TableComponentProps> = ({ title, subtitle, rows }
   );
 }
 
-export default TableComponent;
-
-```tsx
-// Example of using the TableComponent
-import React from 'react';
-import TableComponent from './components/TableComponent';
-
 const data = [
   { category: '販売不動産', amount: 4102, remarks: '計' },
   { category: '販売不動産期末', amount: 46744, remarks: '-' },

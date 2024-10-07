@@ -1,6 +1,4 @@
-申し訳ありませんが、画像を確認できません。代わりに、例としてNext.js + TypeScriptのコンポーネントを生成します。以下のコードをご覧ください。
 
-```tsx
 import React from 'react';
 
 // 型定義
@@ -35,12 +33,6 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, buttonText, o
     </div>
   );
 };
-
-export default Card;
-
-```tsx
-// 使用例
-import Card from './Card';
 
 const handleButtonClick = () => {
   alert('Button clicked!');

@@ -46,11 +46,6 @@ const SearchForm: React.FC<SearchFormProps> = ({
   );
 };
 
-export default SearchForm;
-
-```tsx
-import React from 'react';
-
 // TypeScriptの型定義
 type DataTableProps = {
   data: {

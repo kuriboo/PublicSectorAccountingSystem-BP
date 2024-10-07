@@ -41,13 +41,6 @@ const DataTable: React.FC<TableProps> = ({ columns, data }) => {
   );
 };
 
-export default DataTable;
-
-```tsx
-// Sample Usage
-import React from 'react';
-import DataTable from './DataTable';
-
 const columns = [
   { id: '1', header: '予算部コード', accessor: 'budgetCode' },
   { id: '2', header: '予算細部コード', accessor: 'detailCode' },

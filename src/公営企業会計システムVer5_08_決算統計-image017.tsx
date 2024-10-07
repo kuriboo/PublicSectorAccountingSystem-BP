@@ -18,7 +18,6 @@ export interface MainContentProps {
 
 // Header.tsx
 import { FC } from 'react';
-import { HeaderProps } from './types';
 
 export const Header: FC<HeaderProps> = ({ title, description, date }) => (
   <div className="bg-indigo-100 py-4 px-6">
@@ -27,10 +26,6 @@ export const Header: FC<HeaderProps> = ({ title, description, date }) => (
     <p className="text-right text-sm">{date}</p>
   </div>
 );
-
-// MainContent.tsx
-import { FC } from 'react';
-import { MainContentProps } from './types';
 
 export const MainContent: FC<MainContentProps> = ({
   fiscalYear,
@@ -62,11 +57,6 @@ export const MainContent: FC<MainContentProps> = ({
     </div>
   </div>
 );
-
-// App.tsx
-import { FC } from 'react';
-import { Header } from './Header';
-import { MainContent } from './MainContent';
 
 const App: FC = () => {
   return (

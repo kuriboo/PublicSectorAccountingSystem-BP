@@ -58,12 +58,6 @@ const AssetDetails: React.FC<AssetDetailProps> = ({
   );
 };
 
-export default AssetDetails;
-
-```tsx
-// AssetDetailTable.tsx
-import React from 'react';
-
 type DetailRowProps = {
   nameCode: string;
   standardCode: string;

@@ -26,13 +26,6 @@ const LogoComponent: React.FC<LogoComponentProps> = ({
   );
 };
 
-export default LogoComponent;
-
-```tsx
-// 使用例: SomePage.tsx
-import React from 'react';
-import LogoComponent from './LogoComponent';
-
 const SomePage: React.FC = () => {
   return (
     <div className="p-8">

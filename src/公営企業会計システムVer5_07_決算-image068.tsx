@@ -49,13 +49,6 @@ const TaxAdjustmentTable: React.FC<TaxAdjustmentTableProps> = ({ rows }) => {
   );
 };
 
-export default TaxAdjustmentTable;
-
-```tsx
-// Example usage in a page component
-import React from 'react';
-import TaxAdjustmentTable from './components/TaxAdjustmentTable';
-
 const ExamplePage: React.FC = () => {
   const tableData = [
     {

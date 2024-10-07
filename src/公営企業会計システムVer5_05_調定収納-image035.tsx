@@ -18,7 +18,7 @@ const DateRangeSelector: React.FC<DateRangeSelectorProps> = ({
   onEndDateChange,
 }) => {
   // Format date to Japanese era format (Heisei)
-  const formatDate = (date: Date) => format(date, 'GGGGy年MM月dd日', { locale: ja });
+  const formatDate = (date: Date) => format(date, 'GGGGy年MM月dd日'); // 引数を2つに修正
 
   return (
     <div className="p-4 border rounded-md shadow-sm bg-gray-100 w-full max-w-md">

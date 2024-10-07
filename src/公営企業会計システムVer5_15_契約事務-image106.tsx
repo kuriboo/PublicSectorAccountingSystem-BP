@@ -23,14 +23,6 @@ const Logo: React.FC<LogoProps> = ({ text = 'ぎょうせい', textColor = 'blac
   );
 };
 
-export default Logo;
-
-```tsx
-// Usage Example in a Next.js page
-// pages/index.tsx
-import React from 'react';
-import Logo from '../components/Logo';
-
 const HomePage: React.FC = () => {
   return (
     <div className="p-4">

@@ -1,4 +1,4 @@
-```ts
+
 import React from 'react';
 
 type InventoryFormProps = {

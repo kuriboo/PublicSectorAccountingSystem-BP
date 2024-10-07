@@ -23,11 +23,6 @@ export const StickyNote: React.FC<StickyNoteProps> = ({ title, content, color = 
 // <StickyNote title="注意" content="このコンポーネントは再利用可能です。" color="bg-pink-200" />
 // <StickyNote title="タスク一覧" content="1. 対応中\n2. 完了" />
 
-```tsx
-// Desktop.tsx
-import React from 'react';
-import { StickyNote } from './StickyNote';
-
 // デスクトップコンポーネント
 const Desktop: React.FC = () => {
   return (
@@ -41,20 +36,6 @@ const Desktop: React.FC = () => {
 
 export default Desktop;
 
-// 次のように使用します：
-// <Desktop />
 
-```css
-/* Tailwind CSSのため、別途tailwind.config.jsで設定する必要があります */
-/* tailwind.config.js */
-module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // または 'media' または 'class'
-  theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-};
+
+

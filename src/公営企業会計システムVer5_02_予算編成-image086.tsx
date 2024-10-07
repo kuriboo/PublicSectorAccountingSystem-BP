@@ -48,14 +48,6 @@ const BudgetComponent: React.FC<BudgetComponentProps> = ({
   );
 };
 
-export default BudgetComponent;
-
-```tsx
-// Example usage in a Next.js page
-// pages/index.tsx
-import React from 'react';
-import BudgetComponent from '../components/BudgetComponent';
-
 const Home: React.FC = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
@@ -70,16 +62,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
-```css
-/* tailwind.config.js */
-module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};

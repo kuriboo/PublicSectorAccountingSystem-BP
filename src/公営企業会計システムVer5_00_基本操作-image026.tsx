@@ -40,14 +40,6 @@ const ExpandableList: React.FC<ExpandableListProps> = ({ title, items }) => {
   );
 };
 
-export default ExpandableList;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import ExpandableList from '../components/ExpandableList';
-
 // ツールダウンロードの情報
 const toolItems = [
   'セットアップ',

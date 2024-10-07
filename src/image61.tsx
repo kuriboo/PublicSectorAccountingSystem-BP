@@ -51,14 +51,6 @@ const TaxTable: React.FC<TaxTableProps> = ({ rows }) => {
   );
 };
 
-export default TaxTable;
-
-```tsx
-// Example usage of the TaxTable component
-
-import React from 'react';
-import TaxTable from './TaxTable';
-
 const data = [
   {
     id: 1,

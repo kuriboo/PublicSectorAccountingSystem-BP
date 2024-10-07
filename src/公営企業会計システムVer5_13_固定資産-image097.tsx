@@ -194,23 +194,3 @@ const AssetForm: React.FC<AssetFormProps> = ({
 };
 
 export default AssetForm;
-
-```css
-/* Assuming you are using Tailwind CSS */
-.input {
-  border: 1px solid #ccc;
-  padding: 0.5rem;
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
-
-.btn {
-  background-color: #ddd;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ccc;
-}

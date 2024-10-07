@@ -1,6 +1,3 @@
-申し訳ありませんが、画像を確認することはできません。しかし、Next.js + TypeScriptのコンポーネントを作成する一般的な例を提供できます。
-
-```tsx
 // Button.tsx
 
 import React from 'react'
@@ -35,13 +32,6 @@ const Button: React.FC<ButtonProps> = ({ text, onClick, disabled = false }) => {
   )
 }
 
-export default Button;
-
-```tsx
-// ExampleUsage.tsx
-
-import React from 'react';
-import Button from './Button';
 
 const ExampleUsage = () => {
   // ボタンがクリックされたときの処理

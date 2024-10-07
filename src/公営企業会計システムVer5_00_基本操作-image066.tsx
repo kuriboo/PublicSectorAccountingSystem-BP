@@ -50,13 +50,6 @@ const MainMenu: React.FC<MainMenuProps> = ({ headerText, noticeText, sections })
   </div>
 );
 
-export default MainMenu;
-
-```tsx
-// pages/index.tsx
-
-import MainMenu from '../components/MainMenu';
-
 const HomePage = () => {
   const sections = [
     {

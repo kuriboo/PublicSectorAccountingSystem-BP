@@ -57,14 +57,6 @@ const CashFlowAdjustment: React.FC<CashFlowAdjustmentProps> = ({
   );
 };
 
-export default CashFlowAdjustment;
-
-```tsx
-// Usage example for CashFlowAdjustment component
-
-import React from 'react';
-import CashFlowAdjustment from './components/CashFlowAdjustment';
-
 const adjustmentData = [
   { id: 1, itemName: '業務活動によるキャッシュ・フロー', itemType: '明細見出し', monthlyAmount: 504550064, yearlyAmount: 504550064, adjustmentAmount: 0, finalAmount: 504550064 },
   // 他のデータは省略

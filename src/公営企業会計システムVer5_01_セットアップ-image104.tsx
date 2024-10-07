@@ -9,7 +9,7 @@ export interface CheckboxListProps {
 
 // CheckboxList.tsx
 import React from 'react';
-import { CheckboxListProps } from './types';
+
 
 const CheckboxList: React.FC<CheckboxListProps> = ({
   options,
@@ -45,12 +45,3 @@ const CheckboxList: React.FC<CheckboxListProps> = ({
 
 export default CheckboxList;
 
-```tailwind.config.js
-// Add Tailwind CSS configuration if needed
-module.exports = {
-  content: ['./**/*.tsx'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};

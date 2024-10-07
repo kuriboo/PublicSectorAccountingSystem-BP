@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Define the types for the component's props
-type Project {
+type Project = {
   number: number;
   name: string;
   location: string;

@@ -63,13 +63,6 @@ const TransactionDetail: React.FC<TransactionDetailProps> = ({
   );
 };
 
-export default TransactionDetail;
-
-```tsx
-// Example usage
-import React from 'react';
-import TransactionDetail from './TransactionDetail';
-
 const App: React.FC = () => {
   const entries = [
     { debit: '流動資産', credit: '水道事業収益', amount: '536,800', unit: '円' },

@@ -1,6 +1,6 @@
 // components/BudgetForm.tsx
 
-import React from 'react';
+import React, { useState } from 'react';
 
 interface BusinessTask {
   code: string;
@@ -92,14 +92,6 @@ const BudgetForm: React.FC<BudgetFormProps> = ({
   );
 };
 
-export default BudgetForm;
-
-```tsx
-// pages/index.tsx
-
-import React, { useState } from 'react';
-import BudgetForm from '../components/BudgetForm';
-
 const initialTasks = [
   { code: '010', name: '水道事業・簡易水道事業', selected: false },
   { code: '020', name: '工業用水道事業', selected: false },
@@ -134,27 +126,3 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-
-```css
-/* styles/globals.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-```bash
-# Install dependencies
-npm install tailwindcss
-npx tailwindcss init
-
-```json
-// tailwind.config.js
-module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};

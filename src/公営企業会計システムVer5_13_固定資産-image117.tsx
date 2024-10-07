@@ -1,6 +1,6 @@
 // components/InspectionTable.tsx
 
-import React from 'react';
+import React, { useState } from 'react'; // useStateをインポート
 
 type InspectionItem = {
   id: string;
@@ -46,14 +46,6 @@ const InspectionTable: React.FC<InspectionTableProps> = ({
     </div>
   );
 };
-
-export default InspectionTable;
-
-```tsx
-// pages/index.tsx
-
-import React, { useState } from 'react';
-import InspectionTable from '../components/InspectionTable';
 
 const IndexPage: React.FC = () => {
   const [selectedItem, setSelectedItem] = useState<string | null>(null);

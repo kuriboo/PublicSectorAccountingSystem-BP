@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 
 type TreeNode = {
   id: string;
   label: string;
   children?: TreeNode[];
-  checked?: boolean;
+  checked: boolean;
 };
 
 type TreeViewProps = {
@@ -20,7 +20,7 @@ const TreeView: React.FC<TreeViewProps> = ({ nodes, onCheck }) => {
           <div>
             <input
               type="checkbox"
-              checked={node.checked || false}
+              checked={node.checked}
               onChange={(e) => onCheck(node.id, e.target.checked)}
               className="mr-2"
             />
@@ -35,57 +35,51 @@ const TreeView: React.FC<TreeViewProps> = ({ nodes, onCheck }) => {
   return <div className="treeview">{renderTree(nodes)}</div>;
 };
 
-export default TreeView;
-
-```tsx
-import React, { useState } from 'react';
-import TreeView from './TreeView';
-
-const nodes = [
+const initialNodes: TreeNode[] = [
   {
     id: '0',
     label: '執行機能',
+    checked: false,
     children: [
       {
         id: '1',
         label: '月例',
+        checked: false,
         children: [
           { id: '2', label: '03_総勘定合計表前年同月比較(目)', checked: false },
           { id: '3', label: '04_総勘定合計表前年同月比較(節)', checked: false },
-          // 追加のノードはここに記述
         ],
       },
       {
         id: '4',
         label: '支出',
+        checked: false,
         children: [
           { id: '5', label: '32_負担明細データ抽出', checked: false },
         ],
       },
-      // 追加のノードはここに記述
     ],
   },
-  // その他のノードも同様に追加可能
 ];
 
-const TreeComponent = () => {
-  const [stateNodes, setStateNodes] = useState(nodes);
+const TreeComponent: React.FC = () => {
+  const [stateNodes, setStateNodes] = useState<TreeNode[]>(initialNodes);
 
-  const handleCheck = (id: string, checked: boolean) => {
-    const updateNodes = (nodes: TreeNode[]): TreeNode[] => {
-      return nodes.map((node) => {
-        if (node.id === id) {
-          node.checked = checked;
-        }
-        if (node.children) {
-          node.children = updateNodes(node.children);
-        }
-        return node;
-      });
-    };
+  const updateNodes = useCallback((nodes: TreeNode[], id: string, checked: boolean): TreeNode[] => {
+    return nodes.map(node => {
+      if (node.id === id) {
+        return { ...node, checked };
+      }
+      if (node.children) {
+        return { ...node, children: updateNodes(node.children, id, checked) };
+      }
+      return node;
+    });
+  }, []);
 
-    setStateNodes(updateNodes(stateNodes));
-  };
+  const handleCheck = useCallback((id: string, checked: boolean) => {
+    setStateNodes(prevNodes => updateNodes(prevNodes, id, checked));
+  }, [updateNodes]);
 
   return <TreeView nodes={stateNodes} onCheck={handleCheck} />;
 };

@@ -8,7 +8,7 @@ export interface SpreadsheetRow {
 
 // Spreadsheet.tsx
 import React from 'react';
-import { SpreadsheetRow } from './types';
+//import { SpreadsheetRow } from './types';
 
 interface SpreadsheetProps {
   data: SpreadsheetRow[];

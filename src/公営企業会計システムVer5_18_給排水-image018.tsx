@@ -56,14 +56,6 @@ const ReceptionTable: React.FC<ReceptionTableProps> = ({ receptions }) => {
   );
 };
 
-export default ReceptionTable;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import ReceptionTable from '../components/ReceptionTable';
-
 const receptions = [
   {
     receptionNo: '1',
@@ -90,12 +82,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
-```css
-// styles/globals.css (if Tailwind CSS is set up)
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Custom styles if needed */

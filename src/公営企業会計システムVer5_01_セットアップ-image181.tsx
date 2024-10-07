@@ -47,14 +47,6 @@ const YearCodeForm: React.FC<YearCodeFormProps> = ({ onRegister, onEdit, onDelet
   );
 };
 
-export default YearCodeForm;
-
-```tsx
-// components/YearCodeTable.tsx
-
-import React from 'react';
-
-// TypeScriptの型定義
 type YearCode = {
   code: number;
   eraName: string;
@@ -91,15 +83,6 @@ const YearCodeTable: React.FC<YearCodeTableProps> = ({ data }) => {
   );
 };
 
-export default YearCodeTable;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import YearCodeForm from '@/components/YearCodeForm';
-import YearCodeTable from '@/components/YearCodeTable';
-
 const Home: React.FC = () => {
   // Dummy data for table
   const yearCodes = [
@@ -132,8 +115,3 @@ const Home: React.FC = () => {
 
 export default Home;
 
-```css
-/* styles/globals.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

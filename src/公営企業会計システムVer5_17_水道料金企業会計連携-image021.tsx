@@ -19,13 +19,6 @@ const MenuButton: React.FC<MenuButtonProps> = ({ label, onClick }) => {
   );
 };
 
-export default MenuButton;
-
-```tsx
-// components/Menu.tsx
-
-import React from 'react';
-import MenuButton from './MenuButton';
 
 // プロパティの型定義
 type MenuProps = {
@@ -41,14 +34,6 @@ const Menu: React.FC<MenuProps> = ({ menuItems }) => {
     </div>
   );
 };
-
-export default Menu;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import Menu from '../components/Menu';
 
 const HomePage: React.FC = () => {
   // ダミーのアクション関数
@@ -76,9 +61,3 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-
-```css
-/* styles/globals.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

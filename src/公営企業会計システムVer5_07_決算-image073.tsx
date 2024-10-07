@@ -22,13 +22,6 @@ const Logo: React.FC<LogoProps> = ({ src, alt, width = 100, height = 40, classNa
   );
 };
 
-export default Logo;
-
-```tsx
-// 使用例（別のコンポーネントでの利用）
-import React from 'react';
-import Logo from './Logo';
-
 const Header: React.FC = () => {
   return (
     <header className="p-4 bg-gray-100 flex justify-between items-center">

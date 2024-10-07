@@ -1,6 +1,7 @@
 // components/DataExportForm.tsx
 
 import React from 'react';
+import { useState } from 'react'; // 追加: useStateをインポート
 
 // Define the props type
 interface DataExportFormProps {
@@ -108,14 +109,6 @@ const DataExportForm: React.FC<DataExportFormProps> = ({
     </div>
   );
 };
-
-export default DataExportForm;
-
-```tsx
-// Usage example (e.g., in a page or another component)
-
-import DataExportForm from './components/DataExportForm';
-import { useState } from 'react';
 
 const ExamplePage = () => {
   const [year, setYear] = useState('');

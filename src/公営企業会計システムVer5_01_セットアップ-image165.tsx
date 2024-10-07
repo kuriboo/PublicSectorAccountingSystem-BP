@@ -72,12 +72,6 @@ const TitleMasterList: React.FC<TitleMasterListProps> = ({
   );
 };
 
-export default TitleMasterList;
-
-```tsx
-// pages/index.tsx
-import TitleMasterList from '../components/TitleMasterList';
-
 const Home = () => {
   const handleOk = () => {
     // Handle OK button action

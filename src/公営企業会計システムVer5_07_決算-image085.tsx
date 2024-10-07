@@ -43,5 +43,3 @@ const CheckboxList: React.FC<CheckboxListProps> = ({ items, onChange, onOk, onCl
 };
 
 export default CheckboxList;
-
-Make sure to integrate Tailwind CSS in your project for the styling to work as expected.

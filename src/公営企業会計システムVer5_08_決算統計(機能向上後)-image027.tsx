@@ -23,13 +23,6 @@ const Logo: React.FC<LogoProps> = ({ src, alt = 'Logo', width = 100, height = 50
   );
 };
 
-export default Logo;
-
-```tsx
-// pages/index.tsx
-
-import React from 'react';
-import Logo from '../components/Logo';
 
 const HomePage: React.FC = () => {
   return (

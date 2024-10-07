@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // Props for the BudgetInput component
 type BudgetInputProps = {
@@ -46,13 +46,6 @@ const BudgetForm: React.FC<BudgetFormProps> = ({ values, onChange }) => {
     </div>
   );
 };
-
-export default BudgetForm;
-
-```tsx
-// Usage example
-import React, { useState } from 'react';
-import BudgetForm from './BudgetForm';
 
 const BudgetPage: React.FC = () => {
   const [values, setValues] = useState({

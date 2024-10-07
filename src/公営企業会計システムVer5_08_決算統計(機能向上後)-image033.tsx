@@ -79,12 +79,6 @@ const BudgetProcessing: React.FC<BudgetProcessingProps> = ({ title, updatedAt, r
   </div>
 );
 
-export default BudgetProcessing;
-
-```tsx
-// Example of using the BudgetProcessing component
-import BudgetProcessing from './components/BudgetProcessing';
-
 const data = [
   {
     code: "001",

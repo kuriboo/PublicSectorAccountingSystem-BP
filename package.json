@@ -1,18 +1,39 @@
 {
-  "name": "publicsectoraccountingsystem-bp",
+  "name": "public-sector-accounting-system-bp",
   "version": "1.0.0",
-  "description": "公営企業会計システムの画像変換後ソース保存先",
+  "description": "Public Sector Accounting System - Best Practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rm .next"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "accounting",
+    "public sector",
+    "best practice"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^18.3.11",
     "classnames": "^2.5.1",
-    "react": "^18.3.1",
-    "typescript": "^5.6.2"
+    "date-fns": "^4.1.0",
+    "next": "^12.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.5.3",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.33",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.1.0",
+    "eslint-config-next": "^12.0.0",
+    "jest": "^27.3.1",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.4.4"
   }
 }
