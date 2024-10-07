@@ -70,6 +70,5 @@ const AssetSearchConditions: React.FC<AssetSearchConditionsProps> = ({
 };
 
 export default AssetSearchConditions;
-```
 
 For the Tailwind CSS styling to take effect, make sure Tailwind is properly installed and configured in your Next.js project.

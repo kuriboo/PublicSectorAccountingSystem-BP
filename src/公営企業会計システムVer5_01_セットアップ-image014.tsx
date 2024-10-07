@@ -99,4 +99,3 @@ const SettingsForm: React.FC<SettingsFormProps> = ({
 };
 
 export default SettingsForm;
-```

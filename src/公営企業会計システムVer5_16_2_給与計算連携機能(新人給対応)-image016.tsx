@@ -98,4 +98,3 @@ const AccountingTable: React.FC<TableProps> = ({
 );
 
 export default AccountingTable;
-```

@@ -58,4 +58,3 @@ const TableComponent: React.FC<TableComponentProps> = ({ data }) => {
 };
 
 export default TableComponent;
-```

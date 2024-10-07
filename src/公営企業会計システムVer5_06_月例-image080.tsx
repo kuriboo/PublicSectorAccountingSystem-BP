@@ -64,4 +64,3 @@ const TransactionTable: React.FC<TableProps> = ({ rows }) => {
 };
 
 export default TransactionTable;
-```

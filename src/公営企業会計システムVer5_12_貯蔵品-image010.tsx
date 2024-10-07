@@ -110,4 +110,3 @@ const OrderInput: React.FC<OrderInputProps> = ({
 };
 
 export default OrderInput;
-```

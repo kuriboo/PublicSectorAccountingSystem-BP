@@ -101,4 +101,3 @@ const TransferEntry: React.FC<TransferEntryProps> = ({
 };
 
 export default TransferEntry;
-```

@@ -54,6 +54,5 @@ const Document: React.FC<DocumentProps> = ({
 };
 
 export default Document;
-```
 
 変更するポイントがあれば、適宜プロパティの充実をお願いいたします。

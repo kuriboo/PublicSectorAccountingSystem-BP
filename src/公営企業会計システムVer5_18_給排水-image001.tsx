@@ -64,4 +64,3 @@ const WorkListTable: React.FC<WorkListTableProps> = ({ items }) => {
 };
 
 export default WorkListTable;
-```

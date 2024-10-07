@@ -109,4 +109,3 @@ const ManagementForm: React.FC<ManagementFormProps> = ({
 };
 
 export default ManagementForm;
-```

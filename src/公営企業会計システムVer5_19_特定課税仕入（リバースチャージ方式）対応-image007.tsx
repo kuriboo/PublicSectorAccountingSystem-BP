@@ -64,4 +64,3 @@ const InvoiceManagement: React.FC<Props> = ({
 };
 
 export default InvoiceManagement;
-```

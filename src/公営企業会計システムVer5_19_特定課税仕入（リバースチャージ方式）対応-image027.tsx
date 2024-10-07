@@ -47,4 +47,3 @@ const Sidebar: React.FC<SidebarProps> = ({ menuItems, subMenuItems }) => {
 };
 
 export default Sidebar;
-```

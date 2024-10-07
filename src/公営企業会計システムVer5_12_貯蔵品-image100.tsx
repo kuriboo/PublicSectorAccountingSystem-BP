@@ -99,4 +99,3 @@ const MasterList: React.FC<MasterListProps> = ({
 };
 
 export default MasterList;
-```

@@ -95,4 +95,3 @@ const ExampleComponent: React.FC<ComponentProps> = ({
 };
 
 export default ExampleComponent;
-```

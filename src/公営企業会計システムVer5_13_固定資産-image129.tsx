@@ -134,4 +134,3 @@ const LandDetailForm: React.FC<LandDetailFormProps> = ({
 };
 
 export default LandDetailForm;
-```

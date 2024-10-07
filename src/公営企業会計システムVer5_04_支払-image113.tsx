@@ -62,4 +62,3 @@ const PaymentTable: React.FC<PaymentTableProps> = ({ records, onToggleCheck }) =
 };
 
 export default PaymentTable;
-```

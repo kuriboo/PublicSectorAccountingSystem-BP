@@ -132,4 +132,3 @@ const IncomeUpdateComponent: React.FC<IncomeUpdateProps> = ({
 };
 
 export default IncomeUpdateComponent;
-```

@@ -22,7 +22,6 @@ const Logo: React.FC<LogoProps> = ({ src, alt, width = 200, height = 50, classNa
 };
 
 export default Logo;
-```
 
 ```tsx
 // 使用例
@@ -43,4 +42,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-```

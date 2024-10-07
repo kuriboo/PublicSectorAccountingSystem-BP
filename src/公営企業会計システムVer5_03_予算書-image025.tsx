@@ -168,4 +168,3 @@ const BudgetForm: React.FC<FormProps> = ({
 };
 
 export default BudgetForm;
-```

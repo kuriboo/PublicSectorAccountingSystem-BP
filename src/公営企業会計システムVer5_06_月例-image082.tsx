@@ -90,4 +90,3 @@ const InputForm: FC<InputFormProps> = ({ title, onSubmit }) => {
 };
 
 export default InputForm;
-```

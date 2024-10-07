@@ -93,4 +93,3 @@ const InventoryItem: React.FC<InventoryItemProps> = ({
 };
 
 export default InventoryItem;
-```

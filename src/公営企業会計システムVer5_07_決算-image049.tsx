@@ -94,4 +94,3 @@ const KeieiBunseki: React.FC<KeieiBunsekiProps> = ({
 };
 
 export default KeieiBunseki;
-```

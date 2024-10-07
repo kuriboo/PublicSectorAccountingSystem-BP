@@ -46,4 +46,3 @@ const AlertDialog: React.FC<AlertDialogProps> = ({
 };
 
 export default AlertDialog;
-```

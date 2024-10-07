@@ -57,4 +57,3 @@ const PaymentListForm: React.FC<Props> = ({
 };
 
 export default PaymentListForm;
-```

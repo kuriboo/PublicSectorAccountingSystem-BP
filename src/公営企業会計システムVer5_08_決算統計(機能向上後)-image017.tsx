@@ -100,4 +100,3 @@ const FacilitySettings: React.FC<FacilitySettingsProps> = ({
 };
 
 export default FacilitySettings;
-```

@@ -102,4 +102,3 @@ const ContractForm: React.FC<ContractFormProps> = ({
 }
 
 export default ContractForm;
-```

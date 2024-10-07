@@ -82,4 +82,3 @@ const DecisionForm: React.FC<DecisionFormProps> = ({ records, onSearch, onClear,
 };
 
 export default DecisionForm;
-```

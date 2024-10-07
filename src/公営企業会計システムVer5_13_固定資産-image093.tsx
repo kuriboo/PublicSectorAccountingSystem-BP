@@ -34,4 +34,3 @@ const FileSelector: React.FC<FileSelectorProps> = ({
 };
 
 export default FileSelector;
-```

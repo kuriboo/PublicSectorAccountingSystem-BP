@@ -55,4 +55,3 @@ const FileList: React.FC<Props> = ({ title, description, files, onFilter }) => {
 };
 
 export default FileList;
-```

@@ -85,4 +85,3 @@ const DecisionInputForm: React.FC<Props> = ({
 };
 
 export default DecisionInputForm;
-```

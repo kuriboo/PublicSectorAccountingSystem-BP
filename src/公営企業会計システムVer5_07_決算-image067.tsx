@@ -77,4 +77,3 @@ const ReportFilter: React.FC<ReportFilterProps> = ({
 };
 
 export default ReportFilter;
-```

@@ -73,4 +73,3 @@ const AssetDetails: React.FC<AssetDetailsProps> = ({ assetInfo, accountSummary, 
 };
 
 export default AssetDetails;
-```

@@ -27,4 +27,3 @@ const InputLabel: React.FC<InputLabelProps> = ({ label, value, onChange }) => {
 };
 
 export default InputLabel;
-```

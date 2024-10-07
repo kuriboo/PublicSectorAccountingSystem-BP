@@ -41,4 +41,3 @@ const BudgetTable: React.FC<BudgetTableProps> = ({ title, categories, style }) =
 };
 
 export default BudgetTable;
-```

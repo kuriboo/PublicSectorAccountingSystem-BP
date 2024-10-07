@@ -129,4 +129,3 @@ const InspectionForm: React.FC<InspectionFormProps> = ({ categories, results, on
 };
 
 export default InspectionForm;
-```

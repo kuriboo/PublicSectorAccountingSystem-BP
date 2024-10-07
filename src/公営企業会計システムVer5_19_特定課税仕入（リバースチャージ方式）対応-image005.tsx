@@ -64,4 +64,3 @@ const InvoiceEntry: React.FC<InvoiceEntryProps> = ({
 };
 
 export default InvoiceEntry;
-```

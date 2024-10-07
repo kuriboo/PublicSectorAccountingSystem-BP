@@ -90,4 +90,3 @@ const AdjustmentInput: React.FC<AdjustmentInputProps> = ({
 };
 
 export default AdjustmentInput;
-```

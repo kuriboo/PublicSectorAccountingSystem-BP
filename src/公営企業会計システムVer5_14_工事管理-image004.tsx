@@ -92,4 +92,3 @@ const MasterForm: React.FC<ComponentProps> = ({ data, onSubmit, onCancel, select
 };
 
 export default MasterForm;
-```

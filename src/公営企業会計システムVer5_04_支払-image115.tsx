@@ -29,4 +29,3 @@ const AlertBox: React.FC<AlertBoxProps> = ({ title, message, onOk }) => {
 };
 
 export default AlertBox;
-```

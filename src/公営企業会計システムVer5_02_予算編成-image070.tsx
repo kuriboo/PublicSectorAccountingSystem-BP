@@ -121,4 +121,3 @@ const PlanningDetailForm: React.FC<Props> = ({
 };
 
 export default PlanningDetailForm;
-```

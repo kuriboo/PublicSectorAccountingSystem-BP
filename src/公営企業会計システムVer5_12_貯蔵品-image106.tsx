@@ -48,4 +48,3 @@ const SystemManagement: React.FC<SystemManagementProps> = ({
 };
 
 export default SystemManagement;
-```

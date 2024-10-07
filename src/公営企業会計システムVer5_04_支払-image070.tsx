@@ -45,4 +45,3 @@ const CheckboxForm: React.FC<CheckboxFormProps> = ({ options, selectedOptions, o
 };
 
 export default CheckboxForm;
-```

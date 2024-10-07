@@ -78,4 +78,3 @@ const EmployeeMaster: React.FC<Props> = ({
 };
 
 export default EmployeeMaster;
-```

@@ -80,4 +80,3 @@ const ApplicationMaster: React.FC<ApplicationMasterProps> = ({
 };
 
 export default ApplicationMaster;
-```

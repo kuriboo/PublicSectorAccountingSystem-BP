@@ -85,4 +85,3 @@ const AssetManagement: React.FC<AssetManagementProps> = ({
 };
 
 export default AssetManagement;
-```

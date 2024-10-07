@@ -107,4 +107,3 @@ const ReportForm: FC<ReportFormProps> = ({
 };
 
 export default ReportForm;
-```

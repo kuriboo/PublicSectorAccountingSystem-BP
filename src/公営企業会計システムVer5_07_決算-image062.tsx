@@ -102,4 +102,3 @@ const IncomeTable: React.FC<IncomeTableProps> = ({
 };
 
 export default IncomeTable;
-```

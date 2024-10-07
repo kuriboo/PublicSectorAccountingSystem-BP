@@ -128,4 +128,3 @@ const IndustryFilter: React.FC<IndustryFilterProps> = ({
 };
 
 export default IndustryFilter;
-```

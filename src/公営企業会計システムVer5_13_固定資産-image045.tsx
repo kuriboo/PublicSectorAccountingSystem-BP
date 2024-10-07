@@ -80,4 +80,3 @@ const AcquisitionForm: React.FC<AcquisitionFormProps> = ({
 };
 
 export default AcquisitionForm;
-```

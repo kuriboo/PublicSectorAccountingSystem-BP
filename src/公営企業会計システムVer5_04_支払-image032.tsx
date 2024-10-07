@@ -52,4 +52,3 @@ const CustomComponent: React.FC<Props> = ({ items, onChange, onOk, onClear, onCa
 };
 
 export default CustomComponent;
-```

@@ -52,4 +52,3 @@ const InputForm: React.FC<InputFormProps> = ({ initialValue, onOk, onClear, onCa
 };
 
 export default InputForm;
-```

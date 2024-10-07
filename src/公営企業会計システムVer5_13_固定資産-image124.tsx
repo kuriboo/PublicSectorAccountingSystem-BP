@@ -80,4 +80,3 @@ const AssetFluctuation: React.FC<AssetFluctuationProps> = ({
 };
 
 export default AssetFluctuation;
-```

@@ -93,4 +93,3 @@ const ScreenTitleMaster: React.FC<ScreenTitleMasterProps> = ({
 };
 
 export default ScreenTitleMaster;
-```

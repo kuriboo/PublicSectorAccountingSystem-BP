@@ -86,4 +86,3 @@ const MaintenanceRecord: React.FC<MaintenanceRecordProps> = ({
 };
 
 export default MaintenanceRecord;
-```

@@ -64,4 +64,3 @@ const AccountingForm: FC<FormProps> = ({
 };
 
 export default AccountingForm;
-```

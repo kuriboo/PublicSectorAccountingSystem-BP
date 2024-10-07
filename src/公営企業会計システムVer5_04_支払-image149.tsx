@@ -92,4 +92,3 @@ const PaymentDetailForm: React.FC<PaymentDetailFormProps> = ({
 };
 
 export default PaymentDetailForm;
-```

@@ -103,4 +103,3 @@ const DesignatedContractorList: React.FC<DesignatedContractorListProps> = ({
 };
 
 export default DesignatedContractorList;
-```

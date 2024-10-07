@@ -71,4 +71,3 @@ const Report: React.FC<ReportProps> = ({ title, dateRange, items }) => {
 };
 
 export default Report;
-```

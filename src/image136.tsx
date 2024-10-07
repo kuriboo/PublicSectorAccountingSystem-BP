@@ -46,4 +46,3 @@ const AssetTable: React.FC<AssetTableProps> = ({ assetNumber, assetName, entries
 };
 
 export default AssetTable;
-```

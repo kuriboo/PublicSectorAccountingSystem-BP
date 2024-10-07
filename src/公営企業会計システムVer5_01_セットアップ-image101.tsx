@@ -71,4 +71,3 @@ const ExampleComponent: React.FC<Props> = ({ title = '資金計画科目編集',
 };
 
 export default ExampleComponent;
-```

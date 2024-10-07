@@ -29,4 +29,3 @@ const Logo: React.FC<LogoProps> = ({ imageUrl, altText, width = 'auto', height =
 };
 
 export default Logo;
-```

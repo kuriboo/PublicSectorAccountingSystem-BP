@@ -106,4 +106,3 @@ const PropertyInfoForm: React.FC<PropertyInfoFormProps> = ({ date, onSubmit, onC
 };
 
 export default PropertyInfoForm;
-```

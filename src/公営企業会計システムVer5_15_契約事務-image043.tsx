@@ -74,4 +74,3 @@ const EntryForm: React.FC<EntryProps> = ({
 };
 
 export default EntryForm;
-```

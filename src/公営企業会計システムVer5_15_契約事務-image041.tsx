@@ -137,4 +137,3 @@ const ReceptionForm: React.FC<ReceptionFormProps> = ({ onSubmit, onClear, onClos
 };
 
 export default ReceptionForm;
-```

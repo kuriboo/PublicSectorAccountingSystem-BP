@@ -29,4 +29,3 @@ const CompanyLogo: React.FC<LogoProps> = ({
 };
 
 export default CompanyLogo;
-```

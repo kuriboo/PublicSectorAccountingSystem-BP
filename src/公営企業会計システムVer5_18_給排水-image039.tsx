@@ -61,4 +61,3 @@ const AddressSearch: React.FC<AddressSearchProps> = ({ prefectures, onSubmit }) 
 };
 
 export default AddressSearch;
-```

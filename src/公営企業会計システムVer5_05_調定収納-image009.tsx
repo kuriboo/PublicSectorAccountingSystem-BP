@@ -89,4 +89,3 @@ const DateRangeForm: React.FC<FormProps> = ({
 };
 
 export default DateRangeForm;
-```

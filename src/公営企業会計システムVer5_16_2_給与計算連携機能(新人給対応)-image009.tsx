@@ -143,4 +143,3 @@ const PaymentDataRemoval: React.FC<PaymentDataRemovalProps> = ({
 };
 
 export default PaymentDataRemoval;
-```

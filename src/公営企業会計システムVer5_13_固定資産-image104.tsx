@@ -98,4 +98,3 @@ const AssetDetailCard: React.FC<AssetDetailProps> = ({
 };
 
 export default AssetDetailCard;
-```

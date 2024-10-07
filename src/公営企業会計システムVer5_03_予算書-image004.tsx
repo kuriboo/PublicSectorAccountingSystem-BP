@@ -72,4 +72,3 @@ export const AutoRounding: React.FC<AutoRoundingProps> = ({
 };
 
 export default AutoRounding;
-```

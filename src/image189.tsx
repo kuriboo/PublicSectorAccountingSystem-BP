@@ -62,4 +62,3 @@ const CodeMaster: React.FC<CodeMasterProps> = ({
 };
 
 export default CodeMaster;
-```

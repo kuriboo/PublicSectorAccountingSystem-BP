@@ -101,4 +101,3 @@ const StorageEntryForm: React.FC<StorageEntryFormProps> = ({
 };
 
 export default StorageEntryForm;
-```

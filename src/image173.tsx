@@ -92,4 +92,3 @@ const PermissionTable: React.FC<PermissionTableProps> = ({
 };
 
 export default PermissionTable;
-```

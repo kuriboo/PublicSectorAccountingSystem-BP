@@ -100,4 +100,3 @@ const AdjustmentComponent: React.FC<AdjustmentComponentProps> = ({
 };
 
 export default AdjustmentComponent;
-```

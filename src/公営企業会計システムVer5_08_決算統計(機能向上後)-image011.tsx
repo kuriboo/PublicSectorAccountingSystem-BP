@@ -57,4 +57,3 @@ const BudgetSection: React.FC<BudgetSectionProps> = ({ projects, onConfirm, onCa
 };
 
 export default BudgetSection;
-```

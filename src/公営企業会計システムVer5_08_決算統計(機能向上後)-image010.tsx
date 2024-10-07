@@ -68,4 +68,3 @@ const BusinessDetails: React.FC<BusinessDetailsProps> = ({
 };
 
 export default BusinessDetails;
-```

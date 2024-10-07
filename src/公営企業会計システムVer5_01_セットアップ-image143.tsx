@@ -93,4 +93,3 @@ const DecisionTableMaster: React.FC<DecisionTableMasterProps> = ({
 };
 
 export default DecisionTableMaster;
-```

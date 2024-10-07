@@ -56,4 +56,3 @@ const BudgetTable: React.FC<BudgetTableProps> = ({ data }) => {
 };
 
 export default BudgetTable;
-```

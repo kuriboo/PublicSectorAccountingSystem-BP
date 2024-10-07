@@ -29,6 +29,5 @@ const FileSelector: React.FC<FileSelectorProps> = ({ directoryPath, fileName, on
 };
 
 export default FileSelector;
-```
 
 注意: Tailwind CSSを使用するためには、プロジェクトにTailwind CSSのセットアップが必要です。

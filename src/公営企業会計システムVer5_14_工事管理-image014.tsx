@@ -52,7 +52,6 @@ const ExpenseTable: React.FC<ExpenseTableProps> = ({ data, title }) => {
 };
 
 export default ExpenseTable;
-```
 
 ```tsx
 // pages/index.tsx
@@ -74,4 +73,3 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-```

@@ -97,4 +97,3 @@ const ReportForm: FC<ReportFormProps> = ({ initialDate = '', onSubmit, onClear }
 };
 
 export default ReportForm;
-```

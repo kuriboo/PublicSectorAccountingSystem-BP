@@ -82,4 +82,3 @@ const ConfirmationTable: React.FC<ConfirmationTableProps> = ({
 };
 
 export default ConfirmationTable;
-```

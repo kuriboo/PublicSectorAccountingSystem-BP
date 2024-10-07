@@ -74,4 +74,3 @@ const CustomTable: React.FC<TableProps> = ({ rows, filterText, onFilterChange, o
 };
 
 export default CustomTable;
-```

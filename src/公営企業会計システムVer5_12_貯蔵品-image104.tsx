@@ -50,4 +50,3 @@ const StorageCategory: React.FC<StorageCategoryProps> = ({ title, items }) => {
 };
 
 export default StorageCategory;
-```

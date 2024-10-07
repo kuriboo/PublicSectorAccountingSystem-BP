@@ -111,4 +111,3 @@ const ValuationCalculationComponent: React.FC = () => {
 };
 
 export default ValuationCalculationComponent;
-```

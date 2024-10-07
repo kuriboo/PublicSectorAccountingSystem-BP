@@ -82,4 +82,3 @@ const FinancialStatement: React.FC<FinancialStatementProps> = ({
 };
 
 export default FinancialStatement;
-```

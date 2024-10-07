@@ -84,4 +84,3 @@ const FiscalYearDataForm: React.FC<FiscalYearDataFormProps> = ({
 };
 
 export default FiscalYearDataForm;
-```

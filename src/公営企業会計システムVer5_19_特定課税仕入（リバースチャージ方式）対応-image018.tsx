@@ -48,4 +48,3 @@ export default ExcelTable;
 //   ["控除額", 100000, 100000, 100000],
 // ];
 // <ExcelTable data={sampleData} />;
-```

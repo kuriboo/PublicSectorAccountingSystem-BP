@@ -80,4 +80,3 @@ const ManagementComponent: React.FC<ManagementComponentProps> = ({
 };
 
 export default ManagementComponent;
-```

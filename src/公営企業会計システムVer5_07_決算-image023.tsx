@@ -147,4 +147,3 @@ const AccountingForm: FC<AccountingFormProps> = ({
 };
 
 export default AccountingForm;
-```

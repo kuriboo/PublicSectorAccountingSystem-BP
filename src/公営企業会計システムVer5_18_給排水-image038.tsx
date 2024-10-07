@@ -69,4 +69,3 @@ const ReceptionForm: FC<FormProps> = ({ onSubmit, onClear, onClose }) => {
 };
 
 export default ReceptionForm;
-```

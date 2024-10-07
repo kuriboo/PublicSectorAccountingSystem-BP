@@ -89,4 +89,3 @@ const SalaryAdjustmentForm: React.FC<FormProps> = ({
 };
 
 export default SalaryAdjustmentForm;
-```

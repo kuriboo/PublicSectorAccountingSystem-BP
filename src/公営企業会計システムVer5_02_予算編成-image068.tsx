@@ -118,4 +118,3 @@ const KijiForm: React.FC<KijiFormProps> = ({ onSubmit }) => {
 };
 
 export default KijiForm;
-```

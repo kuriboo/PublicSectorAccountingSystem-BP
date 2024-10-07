@@ -96,4 +96,3 @@ const EmployeeForm: React.FC<EmployeeFormProps> = ({
 };
 
 export default EmployeeForm;
-```

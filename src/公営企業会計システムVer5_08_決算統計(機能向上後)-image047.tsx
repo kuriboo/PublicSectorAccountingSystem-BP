@@ -80,4 +80,3 @@ const BudgetTable: React.FC<BudgetTableProps> = ({
 };
 
 export default BudgetTable;
-```

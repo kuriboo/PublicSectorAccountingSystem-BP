@@ -74,4 +74,3 @@ const PayrollDataImport: React.FC<PayrollDataImportProps> = ({
 };
 
 export default PayrollDataImport;
-```

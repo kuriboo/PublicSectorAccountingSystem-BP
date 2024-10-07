@@ -157,4 +157,3 @@ const FormComponent: React.FC<FormProps> = ({ onSubmit }) => {
 };
 
 export default FormComponent;
-```

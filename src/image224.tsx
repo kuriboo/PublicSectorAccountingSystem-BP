@@ -76,4 +76,3 @@ const StatementSearch: React.FC<StatementSearchProps> = ({
 };
 
 export default StatementSearch;
-```

@@ -63,4 +63,3 @@ const summary = '総計: 2,030,112,070';
 
 <TaxCalculationDetail data={data} summary={summary} />
 */
-```

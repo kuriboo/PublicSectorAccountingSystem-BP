@@ -112,4 +112,3 @@ const AccountForm: React.FC<AccountFormProps> = ({
 };
 
 export default AccountForm;
-```

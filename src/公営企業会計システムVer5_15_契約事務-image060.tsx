@@ -87,4 +87,3 @@ const TextMaster: React.FC<TextMasterProps> = ({
 };
 
 export default TextMaster;
-```

@@ -25,4 +25,3 @@ const GradientLine: React.FC<GradientLineProps> = ({
 );
 
 export default GradientLine;
-```

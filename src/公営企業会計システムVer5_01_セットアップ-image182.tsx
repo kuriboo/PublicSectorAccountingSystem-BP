@@ -123,4 +123,3 @@ const FinanceMaster: React.FC<FinanceMasterProps> = ({
 };
 
 export default FinanceMaster;
-```

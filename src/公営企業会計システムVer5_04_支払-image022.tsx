@@ -54,4 +54,3 @@ const Dialog: React.FC<Props> = ({ options, onConfirm, onClear, onCancel }) => {
 };
 
 export default Dialog;
-```

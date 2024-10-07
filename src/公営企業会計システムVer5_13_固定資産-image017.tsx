@@ -148,4 +148,3 @@ const DepreciationForm: React.FC<DepreciationFormProps> = ({
 };
 
 export default DepreciationForm;
-```

@@ -53,4 +53,3 @@ const PropertyTable: React.FC<PropertyTableProps> = ({ records, onEdit, onDelete
 };
 
 export default PropertyTable;
-```

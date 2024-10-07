@@ -97,4 +97,3 @@ const SearchForm: React.FC<SearchFormProps> = ({ year, onSearch, onClear, onCanc
 };
 
 export default SearchForm;
-```

@@ -40,7 +40,6 @@ const FinancialTable: React.FC<FinancialTableProps> = ({
 };
 
 export default FinancialTable;
-```
 
 ```tsx
 // Usage Example
@@ -62,4 +61,3 @@ const App = () => {
 };
 
 export default App;
-```

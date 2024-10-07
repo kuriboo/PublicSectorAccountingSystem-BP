@@ -62,4 +62,3 @@ const FinancialDetails: React.FC<FinancialDetailsProps> = ({
 };
 
 export default FinancialDetails;
-```

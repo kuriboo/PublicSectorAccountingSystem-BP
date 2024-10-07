@@ -118,4 +118,3 @@ const KobetsuForm: React.FC<KobetsuFormProps> = ({
 };
 
 export default KobetsuForm;
-```

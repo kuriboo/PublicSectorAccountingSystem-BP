@@ -72,4 +72,3 @@ const SegmentEditor: React.FC<SegmentEditorProps> = ({
 };
 
 export default SegmentEditor;
-```

@@ -64,4 +64,3 @@ const SegmentTable: React.FC<SegmentTableProps> = ({
 };
 
 export default SegmentTable;
-```

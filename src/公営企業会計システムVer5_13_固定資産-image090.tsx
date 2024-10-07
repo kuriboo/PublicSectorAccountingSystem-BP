@@ -44,4 +44,3 @@ const DownloadDialog: React.FC<DownloadDialogProps> = ({
 };
 
 export default DownloadDialog;
-```

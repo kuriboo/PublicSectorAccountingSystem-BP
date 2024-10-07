@@ -79,7 +79,6 @@ const BidHistory: React.FC<BidHistoryProps> = ({
 };
 
 export default BidHistory;
-```
 
 ```tsx
 // Usage example
@@ -113,4 +112,3 @@ const ExampleUsage = () => {
 };
 
 export default ExampleUsage;
-```

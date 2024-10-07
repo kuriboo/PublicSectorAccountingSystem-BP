@@ -59,4 +59,3 @@ const ContractorTable: React.FC<ContractorTableProps> = ({ contractors, onEdit, 
 };
 
 export default ContractorTable;
-```

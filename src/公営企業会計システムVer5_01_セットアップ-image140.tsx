@@ -92,4 +92,3 @@ const DepositTypeMaster: React.FC<DepositTypeMasterProps> = ({
 };
 
 export default DepositTypeMaster;
-```

@@ -78,4 +78,3 @@ const TaxForm: React.FC<TaxFormProps> = ({
 };
 
 export default TaxForm;
-```

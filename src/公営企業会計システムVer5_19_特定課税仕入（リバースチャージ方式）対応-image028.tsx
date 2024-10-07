@@ -60,4 +60,3 @@ const CustomTable: React.FC<TableProps> = ({ data }) => {
 };
 
 export default CustomTable;
-```

@@ -177,4 +177,3 @@ const SystemSettings: React.FC<SystemSettingsProps> = ({
 };
 
 export default SystemSettings;
-```

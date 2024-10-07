@@ -120,4 +120,3 @@ const PresetCalculationForm: React.FC<PresetCalculationFormProps> = ({
 };
 
 export default PresetCalculationForm;
-```

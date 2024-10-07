@@ -39,4 +39,3 @@ const ProcessFlow: React.FC<ProcessFlowProps> = ({ steps }) => {
 };
 
 export default ProcessFlow;
-```

@@ -123,4 +123,3 @@ const PaymentScheduleForm: React.FC<Props> = ({
 };
 
 export default PaymentScheduleForm;
-```

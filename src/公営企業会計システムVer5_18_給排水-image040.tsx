@@ -96,4 +96,3 @@ const TaxComponent: React.FC = () => {
 };
 
 export default TaxComponent;
-```

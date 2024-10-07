@@ -62,4 +62,3 @@ const ConfirmationLetter: React.FC<ConfirmationLetterProps> = ({
 };
 
 export default ConfirmationLetter;
-```

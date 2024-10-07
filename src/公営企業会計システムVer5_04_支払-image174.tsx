@@ -94,4 +94,3 @@ const BudgetComponent: React.FC<RangeProps> = ({
 };
 
 export default BudgetComponent;
-```

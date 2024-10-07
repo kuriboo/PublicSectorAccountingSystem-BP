@@ -124,4 +124,3 @@ const PrintOptions: React.FC<PrintOptionsProps> = ({
 };
 
 export default PrintOptions;
-```

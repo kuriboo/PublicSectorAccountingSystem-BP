@@ -71,4 +71,3 @@ const RequestComponent: React.FC<RequestProps> = ({
 };
 
 export default RequestComponent;
-```

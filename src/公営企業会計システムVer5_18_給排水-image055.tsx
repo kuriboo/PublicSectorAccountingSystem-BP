@@ -103,4 +103,3 @@ const PricingComponent: React.FC<PricingComponentProps> = ({
 };
 
 export default PricingComponent;
-```

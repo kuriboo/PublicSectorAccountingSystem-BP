@@ -60,4 +60,3 @@ const AssetYearUpdateCancel: React.FC<AssetYearUpdateCancelProps> = ({
 };
 
 export default AssetYearUpdateCancel;
-```

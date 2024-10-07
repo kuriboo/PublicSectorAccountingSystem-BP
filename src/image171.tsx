@@ -72,4 +72,3 @@ const AppGroupForm: React.FC<AppGroupProps> = ({
 };
 
 export default AppGroupForm;
-```

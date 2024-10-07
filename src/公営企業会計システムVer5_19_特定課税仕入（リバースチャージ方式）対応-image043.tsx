@@ -35,4 +35,3 @@ const ThreeColumnLayout: React.FC<ThreeColumnLayoutProps> = ({
 };
 
 export default ThreeColumnLayout;
-```

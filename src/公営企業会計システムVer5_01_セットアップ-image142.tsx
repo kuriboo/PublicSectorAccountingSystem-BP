@@ -96,4 +96,3 @@ const DecisionMaker: React.FC<DecisionMakerProps> = ({
 };
 
 export default DecisionMaker;
-```

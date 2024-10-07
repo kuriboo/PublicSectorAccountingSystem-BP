@@ -190,4 +190,3 @@ const ExpenseInput: React.FC<ExpenseInputProps> = ({
 };
 
 export default ExpenseInput;
-```

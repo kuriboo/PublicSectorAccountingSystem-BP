@@ -104,4 +104,3 @@ const CashSetting: React.FC<CashSettingProps> = ({
 };
 
 export default CashSetting;
-```

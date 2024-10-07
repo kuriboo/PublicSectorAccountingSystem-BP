@@ -70,4 +70,3 @@ const YearUpdate: React.FC<YearUpdateProps> = ({
 };
 
 export default YearUpdate;
-```

@@ -74,4 +74,3 @@ const ConstructionDetails: React.FC<ConstructionDetailsProps> = ({
 };
 
 export default ConstructionDetails;
-```

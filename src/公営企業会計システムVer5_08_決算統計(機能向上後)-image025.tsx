@@ -60,4 +60,3 @@ const MockComponent = () => {
 };
 
 export default MockComponent;
-```

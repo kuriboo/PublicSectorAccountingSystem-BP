@@ -77,4 +77,3 @@ const DateRangeSelector: FC<DateRangeSelectorProps> = ({
 };
 
 export default DateRangeSelector;
-```

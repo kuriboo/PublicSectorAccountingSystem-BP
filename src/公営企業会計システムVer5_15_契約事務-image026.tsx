@@ -152,4 +152,3 @@ const PaymentConditionForm: React.FC<PaymentConditionFormProps> = ({
 };
 
 export default PaymentConditionForm;
-```

@@ -46,4 +46,3 @@ const PriceSetting: React.FC<PriceSettingProps> = ({ startDate, price, onOk, onC
 };
 
 export default PriceSetting;
-```

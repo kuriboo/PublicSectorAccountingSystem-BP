@@ -72,4 +72,3 @@ const RoundProcessing: React.FC<RoundProcessingProps> = ({
 };
 
 export default RoundProcessing;
-```

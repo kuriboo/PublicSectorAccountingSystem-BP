@@ -87,4 +87,3 @@ const DataExtractionComponent: React.FC<Props> = ({
 };
 
 export default DataExtractionComponent;
-```

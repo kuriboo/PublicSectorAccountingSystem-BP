@@ -88,4 +88,3 @@ const BalanceInputTable: React.FC<Props> = ({
 };
 
 export default BalanceInputTable;
-```

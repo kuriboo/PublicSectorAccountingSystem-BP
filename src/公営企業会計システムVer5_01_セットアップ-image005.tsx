@@ -128,4 +128,3 @@ const Calendar: React.FC<CalendarProps> = ({ year, onSelectDate }) => {
 };
 
 export default Calendar;
-```

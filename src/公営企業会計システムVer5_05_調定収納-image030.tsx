@@ -98,4 +98,3 @@ const BillDetail: React.FC<BillDetailProps> = ({
 };
 
 export default BillDetail;
-```

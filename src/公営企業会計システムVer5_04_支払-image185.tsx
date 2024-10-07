@@ -56,4 +56,3 @@ const PaymentDataViewer: React.FC<PaymentDataViewerProps> = ({ data, onClear, on
 );
 
 export default PaymentDataViewer;
-```

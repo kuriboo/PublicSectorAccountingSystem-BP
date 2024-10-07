@@ -118,4 +118,3 @@ const DocumentComponent: React.FC<Props> = ({ years, categories, items, onOk, on
 };
 
 export default DocumentComponent;
-```

@@ -72,4 +72,3 @@ const BudgetForm: FC<BudgetFormProps> = ({
 );
 
 export default BudgetForm;
-```

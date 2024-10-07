@@ -106,4 +106,3 @@ const BusinessMaster: React.FC<BusinessMasterProps> = ({
 };
 
 export default BusinessMaster;
-```

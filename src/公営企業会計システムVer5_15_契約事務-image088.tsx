@@ -69,4 +69,3 @@ const DataProcessing: React.FC<DataProcessingProps> = ({
 };
 
 export default DataProcessing;
-```

@@ -107,4 +107,3 @@ const AttributeMaster: React.FC<AttributeMasterProps> = ({
 };
 
 export default AttributeMaster;
-```

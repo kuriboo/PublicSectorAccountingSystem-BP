@@ -100,4 +100,3 @@ const PaymentStatus: React.FC<PaymentStatusProps> = ({ formData, onSubmit }) => 
 };
 
 export default PaymentStatus;
-```

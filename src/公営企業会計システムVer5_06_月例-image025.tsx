@@ -77,4 +77,3 @@ const BankForm: React.FC<BankFormProps> = ({ date, period, onOk, onClear, onClos
 };
 
 export default BankForm;
-```

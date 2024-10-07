@@ -145,4 +145,3 @@ const InvoiceForm: React.FC<InvoiceFormProps> = ({ onSubmit, onCancel, initialDa
 };
 
 export default InvoiceForm;
-```

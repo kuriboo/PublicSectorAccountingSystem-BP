@@ -63,4 +63,3 @@ const SampleComponent: React.FC = () => {
 };
 
 export default SampleComponent;
-```

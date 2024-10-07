@@ -64,4 +64,3 @@ const FinanceTable: React.FC<FinanceTableProps> = ({ data, onConfirm, onCancel }
 };
 
 export default FinanceTable;
-```

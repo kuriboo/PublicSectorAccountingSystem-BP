@@ -48,7 +48,6 @@ const YearCodeForm: React.FC<YearCodeFormProps> = ({ onRegister, onEdit, onDelet
 };
 
 export default YearCodeForm;
-```
 
 ```tsx
 // components/YearCodeTable.tsx
@@ -93,7 +92,6 @@ const YearCodeTable: React.FC<YearCodeTableProps> = ({ data }) => {
 };
 
 export default YearCodeTable;
-```
 
 ```tsx
 // pages/index.tsx
@@ -133,11 +131,9 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-```
 
 ```css
 /* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```

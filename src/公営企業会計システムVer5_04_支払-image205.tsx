@@ -91,4 +91,3 @@ const BudgetDetail: React.FC<BudgetDetailProps> = ({
 };
 
 export default BudgetDetail;
-```

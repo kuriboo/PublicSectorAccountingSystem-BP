@@ -60,4 +60,3 @@ const TaxPeriod: React.FC<TaxPeriodProps> = ({
 };
 
 export default TaxPeriod;
-```

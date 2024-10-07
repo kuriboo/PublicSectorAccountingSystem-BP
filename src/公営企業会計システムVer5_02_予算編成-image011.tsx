@@ -98,4 +98,3 @@ const CeilingSetting: React.FC<CeilingSettingProps> = ({
 
 // コンポーネントとしてエクスポート
 export default CeilingSetting;
-```

@@ -80,4 +80,3 @@ const ShelfResultsForm: React.FC<ShelfResultsFormProps> = ({
 };
 
 export default ShelfResultsForm;
-```

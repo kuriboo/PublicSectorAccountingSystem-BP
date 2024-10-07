@@ -60,4 +60,3 @@ const MasterCreation: React.FC<MasterCreationProps> = ({
 };
 
 export default MasterCreation;
-```

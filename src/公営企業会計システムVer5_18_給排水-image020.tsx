@@ -87,4 +87,3 @@ const WaterMasterComponent: React.FC<WaterMasterProps> = ({
 };
 
 export default WaterMasterComponent;
-```

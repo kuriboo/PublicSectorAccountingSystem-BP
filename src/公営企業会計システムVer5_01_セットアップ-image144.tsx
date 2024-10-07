@@ -60,4 +60,3 @@ const DecisionTable: React.FC<DecisionTableProps> = ({ data, onEdit, onDelete })
 };
 
 export default DecisionTable;
-```

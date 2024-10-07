@@ -50,4 +50,3 @@ const FlowChart: React.FC = () => {
 };
 
 export default FlowChart;
-```

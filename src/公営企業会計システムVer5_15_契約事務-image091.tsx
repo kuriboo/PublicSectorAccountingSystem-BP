@@ -60,4 +60,3 @@ const ProcessingComponent: React.FC<ProcessingComponentProps> = ({
 };
 
 export default ProcessingComponent;
-```

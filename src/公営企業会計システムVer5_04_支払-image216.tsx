@@ -59,4 +59,3 @@ const PaymentHistory: React.FC<PaymentHistoryProps> = ({ records }) => {
 };
 
 export default PaymentHistory;
-```

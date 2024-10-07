@@ -94,4 +94,3 @@ const InventoryInputComponent: React.FC<InventoryInputProps> = ({
 };
 
 export default InventoryInputComponent;
-```

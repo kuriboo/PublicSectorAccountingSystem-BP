@@ -94,4 +94,3 @@ const CounterpartyInfo: React.FC<CounterpartyInfoProps> = ({
 };
 
 export default CounterpartyInfo;
-```

@@ -60,4 +60,3 @@ const TermMaster: React.FC<TermMasterProps> = ({ year, termSections, data, onEdi
 };
 
 export default TermMaster;
-```

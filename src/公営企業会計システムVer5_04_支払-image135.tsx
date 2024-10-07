@@ -55,4 +55,3 @@ const PaymentTable: React.FC<PaymentTableProps> = ({ entries }) => (
 );
 
 export default PaymentTable;
-```

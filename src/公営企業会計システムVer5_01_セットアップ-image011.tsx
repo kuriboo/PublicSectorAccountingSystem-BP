@@ -84,4 +84,3 @@ const PaymentMethodMaster: React.FC<PaymentMethodMasterProps> = ({
 };
 
 export default PaymentMethodMaster;
-```

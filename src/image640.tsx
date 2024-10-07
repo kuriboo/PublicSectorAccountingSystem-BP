@@ -23,4 +23,3 @@ const Logo: React.FC<LogoProps> = ({ logoSrc, altText, className }) => {
 };
 
 export default Logo;
-```

@@ -119,4 +119,3 @@ const InspectionForm: React.FC<InspectionFormProps> = ({
 };
 
 export default InspectionForm;
-```

@@ -49,4 +49,3 @@ const TaxReport: React.FC<TaxReportProps> = ({ title, entries }) => {
 };
 
 export default TaxReport;
-```

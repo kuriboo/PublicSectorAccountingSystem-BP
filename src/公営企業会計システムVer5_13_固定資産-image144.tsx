@@ -29,4 +29,3 @@ export default Logo;
 //   altText="企業ロゴ"
 //   className="custom-class"
 // />
-```

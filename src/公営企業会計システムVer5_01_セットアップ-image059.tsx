@@ -73,4 +73,3 @@ const FormComponent: React.FC<FormComponentProps> = ({ year, collectionNumber, i
 };
 
 export default FormComponent;
-```

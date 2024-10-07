@@ -87,4 +87,3 @@ const ContractMethodMaster: React.FC<ContractMethodProps> = ({
 };
 
 export default ContractMethodMaster;
-```

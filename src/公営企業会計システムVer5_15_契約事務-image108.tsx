@@ -65,4 +65,3 @@ const RecordComponent: React.FC<RecordComponentProps> = ({
 };
 
 export default RecordComponent;
-```

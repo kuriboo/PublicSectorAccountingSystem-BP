@@ -75,4 +75,3 @@ const ProductDetailForm: React.FC<ProductDetailFormProps> = ({
 };
 
 export default ProductDetailForm;
-```

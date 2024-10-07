@@ -90,4 +90,3 @@ const TextMasterComponent: React.FC<TextMasterProps> = ({
 };
 
 export default TextMasterComponent;
-```

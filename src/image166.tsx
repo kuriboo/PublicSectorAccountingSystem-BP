@@ -63,4 +63,3 @@ const MasterTable: React.FC<TableProps> = ({ data, onExecute, onClear, onExit })
 };
 
 export default MasterTable;
-```

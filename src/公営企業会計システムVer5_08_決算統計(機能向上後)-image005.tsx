@@ -74,4 +74,3 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({
 };
 
 export default ProjectDetail;
-```

@@ -74,4 +74,3 @@ const PropertyAdjustmentForm: React.FC<PropertyAdjustmentFormProps> = ({
 };
 
 export default PropertyAdjustmentForm;
-```

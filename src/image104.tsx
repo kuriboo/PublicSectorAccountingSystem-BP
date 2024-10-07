@@ -70,4 +70,3 @@ const ProjectHistory: React.FC<ProjectHistoryProps> = ({
 };
 
 export default ProjectHistory;
-```

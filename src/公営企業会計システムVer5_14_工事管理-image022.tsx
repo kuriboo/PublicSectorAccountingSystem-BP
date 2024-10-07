@@ -104,4 +104,3 @@ const ContractInfo: React.FC<ContractInfoProps> = ({
 };
 
 export default ContractInfo;
-```

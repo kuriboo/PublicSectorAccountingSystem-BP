@@ -66,4 +66,3 @@ const FinancialDocument: React.FC<DocumentProps> = ({
 };
 
 export default FinancialDocument;
-```

@@ -55,4 +55,3 @@ const ReportForm: React.FC<ReportFormProps> = ({ onSubmit, onClear, onExit }) =>
 };
 
 export default ReportForm;
-```

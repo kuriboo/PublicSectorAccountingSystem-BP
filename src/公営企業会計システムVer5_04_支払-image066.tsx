@@ -82,4 +82,3 @@ export default PaymentDetails;
   taxAmount={2020}
 />
 */
-```

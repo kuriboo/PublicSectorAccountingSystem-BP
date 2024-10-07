@@ -78,4 +78,3 @@ const PaymentConfirmation: React.FC<PaymentConfirmationProps> = ({
 };
 
 export default PaymentConfirmation;
-```

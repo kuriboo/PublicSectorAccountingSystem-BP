@@ -31,7 +31,6 @@ const LogoComponent: React.FC<LogoComponentProps> = ({
 };
 
 export default LogoComponent;
-```
 
 ```tsx
 // example usage in a Next.js page
@@ -54,7 +53,6 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-```
 
 ```css
 /* tailwind.config.jsファイルが必要 */
@@ -69,4 +67,3 @@ module.exports = {
   },
   plugins: [],
 }
-```

@@ -93,4 +93,3 @@ const ProjectRegistrationForm: React.FC<ProjectRegistrationFormProps> = ({
 };
 
 export default ProjectRegistrationForm;
-```

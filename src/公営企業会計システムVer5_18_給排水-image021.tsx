@@ -52,4 +52,3 @@ export default DataTable;
 //     // ... 他の行データ
 //   ]}
 // />
-```

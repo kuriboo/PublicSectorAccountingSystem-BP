@@ -110,4 +110,3 @@ const ContractInquiryForm: FC<ContractInquiryFormProps> = ({
 );
 
 export default ContractInquiryForm;
-```

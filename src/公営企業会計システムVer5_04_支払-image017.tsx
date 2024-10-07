@@ -79,4 +79,3 @@ const BudgetItem: React.FC<BudgetItemProps> = ({
 };
 
 export default BudgetItem;
-```

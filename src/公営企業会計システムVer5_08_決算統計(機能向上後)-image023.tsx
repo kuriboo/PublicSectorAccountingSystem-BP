@@ -78,4 +78,3 @@ const DataTable: React.FC<DataTableProps> = ({ data, onDisplay, onClear }) => {
 };
 
 export default DataTable;
-```

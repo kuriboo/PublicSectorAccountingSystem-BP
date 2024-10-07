@@ -42,4 +42,3 @@ const CheckboxList: React.FC<CheckboxListProps> = ({ items, onChange, onOk, onCl
 };
 
 export default CheckboxList;
-```

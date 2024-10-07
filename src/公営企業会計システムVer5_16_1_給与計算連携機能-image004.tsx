@@ -22,7 +22,6 @@ const Logo: React.FC<LogoProps> = ({ src, alt, width = 100, height = 50, classNa
 };
 
 export default Logo;
-```
 
 ```tsx
 // Usage example:
@@ -33,4 +32,3 @@ export default Logo;
 //   height={100}
 //   className="mx-auto my-4"
 // />
-```

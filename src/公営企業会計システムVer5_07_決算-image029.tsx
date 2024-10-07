@@ -136,4 +136,3 @@ const InputForm: React.FC<FormProps> = ({ year, category, amount, onSubmit }) =>
 };
 
 export default InputForm;
-```

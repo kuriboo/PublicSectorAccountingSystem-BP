@@ -115,4 +115,3 @@ const RegistrationForm: React.FC<FormProps> = ({
 };
 
 export default RegistrationForm;
-```

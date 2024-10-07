@@ -91,4 +91,3 @@ const SuspensionPage: React.FC<SuspensionPageProps> = ({
 };
 
 export default SuspensionPage;
-```

@@ -51,4 +51,3 @@ const TaxCalculationTable: React.FC<TaxCalculationTableProps> = ({ title, taxDat
 };
 
 export default TaxCalculationTable;
-```

@@ -49,4 +49,3 @@ const LogViewer: React.FC<LogViewerProps> = ({ logs, selectedLog, onSelectLog })
 };
 
 export default LogViewer;
-```

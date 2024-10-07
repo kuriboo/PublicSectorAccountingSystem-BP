@@ -38,14 +38,6 @@ const FileSelector: React.FC<FileSelectorProps> = ({ fileName, fileTypes, onSave
   );
 }
 
-export default FileSelector;
-```
-
-```tsx
-// ExampleUsage.tsx
-import React from 'react';
-import FileSelector from './FileSelector';
-
 const ExampleUsage: React.FC = () => {
   const handleSave = () => {
     // 保存ボタンがクリックされたときの処理
@@ -62,4 +54,3 @@ const ExampleUsage: React.FC = () => {
 };
 
 export default ExampleUsage;
-```

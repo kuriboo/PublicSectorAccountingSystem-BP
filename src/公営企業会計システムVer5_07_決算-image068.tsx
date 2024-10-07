@@ -50,7 +50,6 @@ const TaxAdjustmentTable: React.FC<TaxAdjustmentTableProps> = ({ rows }) => {
 };
 
 export default TaxAdjustmentTable;
-```
 
 ```tsx
 // Example usage in a page component
@@ -79,4 +78,3 @@ const ExamplePage: React.FC = () => {
 };
 
 export default ExamplePage;
-```

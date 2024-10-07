@@ -102,4 +102,3 @@ const StorageClassificationForm: React.FC<StorageClassificationFormProps> = ({
 };
 
 export default StorageClassificationForm;
-```

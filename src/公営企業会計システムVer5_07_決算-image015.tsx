@@ -51,4 +51,3 @@ const DocumentCopyComponent: React.FC<DocumentCopyComponentProps> = ({
 };
 
 export default DocumentCopyComponent;
-```

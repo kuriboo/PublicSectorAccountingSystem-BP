@@ -160,4 +160,3 @@ const ContractInputForm: React.FC<ContractInputFormProps> = ({
 };
 
 export default ContractInputForm;
-```

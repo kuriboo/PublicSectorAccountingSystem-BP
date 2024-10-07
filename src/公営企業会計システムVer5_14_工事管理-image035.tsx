@@ -101,4 +101,3 @@ const KanrenShuushiComponent: React.FC<KanrenShuushiProps> = ({
 };
 
 export default KanrenShuushiComponent;
-```

@@ -147,4 +147,3 @@ const ItemEntry: React.FC<ItemEntryProps> = ({
 };
 
 export default ItemEntry;
-```

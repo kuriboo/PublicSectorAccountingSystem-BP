@@ -66,4 +66,3 @@ const InventoryDetails: React.FC<InventoryDetailsProps> = ({
 };
 
 export default InventoryDetails;
-```

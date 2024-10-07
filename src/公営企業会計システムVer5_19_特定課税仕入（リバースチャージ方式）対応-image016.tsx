@@ -72,4 +72,3 @@ const SearchForm: React.FC<SearchFormProps> = ({ dateFrom, dateTo, numberFrom, n
 );
 
 export default SearchForm;
-```

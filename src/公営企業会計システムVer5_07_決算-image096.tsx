@@ -54,4 +54,3 @@ const FiscalReportComponent: React.FC<FiscalReportComponentProps> = ({
 };
 
 export default FiscalReportComponent;
-```

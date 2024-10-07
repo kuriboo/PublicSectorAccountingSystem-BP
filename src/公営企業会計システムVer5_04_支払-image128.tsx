@@ -81,4 +81,3 @@ const PaymentStatement: React.FC<PaymentStatementProps> = ({
 };
 
 export default PaymentStatement;
-```

@@ -132,4 +132,3 @@ const ProcessDataForm: React.FC<ProcessDataFormProps> = ({
 };
 
 export default ProcessDataForm;
-```

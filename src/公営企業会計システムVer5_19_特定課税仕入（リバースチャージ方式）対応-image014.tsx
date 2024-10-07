@@ -121,4 +121,3 @@ const SearchForm: React.FC<SearchFormProps> = ({ initialYear = 2023, onSubmit, o
 };
 
 export default SearchForm;
-```

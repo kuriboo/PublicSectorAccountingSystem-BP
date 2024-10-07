@@ -54,4 +54,3 @@ const DocumentComponent: React.FC<DocumentComponentProps> = ({
 
 export default DocumentComponent;
 
-```

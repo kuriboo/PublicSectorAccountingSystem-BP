@@ -91,4 +91,3 @@ const MasterComponent: React.FC<Props> = ({
 };
 
 export default MasterComponent;
-```

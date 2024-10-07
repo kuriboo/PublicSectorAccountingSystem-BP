@@ -109,4 +109,3 @@ const BusinessForm: React.FC<FormProps> = ({ year, onSubmit }) => {
 };
 
 export default BusinessForm;
-```

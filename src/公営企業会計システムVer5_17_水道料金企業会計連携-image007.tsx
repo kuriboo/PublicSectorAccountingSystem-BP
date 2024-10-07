@@ -57,4 +57,3 @@ const DataTable: React.FC<DataTableProps> = ({ data }) => {
 
 // Export the component
 export default DataTable;
-```

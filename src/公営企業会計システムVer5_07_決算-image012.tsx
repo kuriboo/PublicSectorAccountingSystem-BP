@@ -91,4 +91,3 @@ const ComparisonReport: React.FC<ComparisonReportProps> = ({
 }
 
 export default ComparisonReport;
-```

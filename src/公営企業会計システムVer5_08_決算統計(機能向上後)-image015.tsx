@@ -90,4 +90,3 @@ const BudgetMaster: React.FC<BudgetMasterProps> = ({
 };
 
 export default BudgetMaster;
-```

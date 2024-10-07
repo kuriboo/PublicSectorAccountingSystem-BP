@@ -67,4 +67,3 @@ export default BusinessAnalysis;
   onCancel={() => console.log('Cancel clicked')}
 />
 */
-```

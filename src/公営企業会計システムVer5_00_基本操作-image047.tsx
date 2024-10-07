@@ -48,4 +48,3 @@ const Dashboard: React.FC<DashboardProps> = ({ buttons, activeButtonIndex }) => 
 };
 
 export default Dashboard;
-```

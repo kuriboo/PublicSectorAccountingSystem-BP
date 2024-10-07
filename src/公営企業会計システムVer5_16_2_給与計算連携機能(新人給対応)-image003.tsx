@@ -32,7 +32,6 @@ const PaymentManagement: React.FC<PaymentManagementProps> = ({ steps, onSelectSt
 };
 
 export default PaymentManagement;
-```
 
 ```tsx
 // pages/index.tsx
@@ -60,4 +59,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-```

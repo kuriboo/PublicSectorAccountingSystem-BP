@@ -124,4 +124,3 @@ const BusinessForm: React.FC<BusinessFormProps> = ({
 };
 
 export default BusinessForm;
-```

@@ -73,4 +73,3 @@ const AssetRecord: React.FC<AssetRecordProps> = ({
 };
 
 export default AssetRecord;
-```

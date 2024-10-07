@@ -69,4 +69,3 @@ const BudgetForm: React.FC<BudgetFormProps> = ({ onSubmit, onClear, onExit }) =>
 };
 
 export default BudgetForm;
-```

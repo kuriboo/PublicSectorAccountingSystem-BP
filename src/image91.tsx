@@ -77,4 +77,3 @@ const ContractSystem: React.FC = () => {
 };
 
 export default ContractSystem;
-```

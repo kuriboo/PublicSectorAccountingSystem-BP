@@ -93,4 +93,3 @@ const Selector: React.FC<SelectorProps> = ({
 };
 
 export default Selector;
-```

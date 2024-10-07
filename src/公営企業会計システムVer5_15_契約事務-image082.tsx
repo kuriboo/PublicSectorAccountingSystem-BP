@@ -62,4 +62,3 @@ const ContractTable: React.FC<ContractTableProps> = ({ contracts, onOk, onCancel
 };
 
 export default ContractTable;
-```

@@ -45,4 +45,3 @@ const FinancialTable: React.FC<FinancialTableProps> = ({ headers, data, classNam
 };
 
 export default FinancialTable;
-```

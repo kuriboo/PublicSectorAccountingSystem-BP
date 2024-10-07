@@ -102,4 +102,3 @@ const JVComponent: React.FC<JVComponentProps> = ({
 };
 
 export default JVComponent;
-```

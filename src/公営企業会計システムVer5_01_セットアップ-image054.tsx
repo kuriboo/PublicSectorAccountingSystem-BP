@@ -51,4 +51,3 @@ const CollectionForm: React.FC<CollectionFormProps> = ({ initialCode = '', onOk,
 };
 
 export default CollectionForm;
-```

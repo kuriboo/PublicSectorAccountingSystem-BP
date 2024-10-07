@@ -113,4 +113,3 @@ const DecisionEntry: React.FC<DecisionEntryProps> = ({
 };
 
 export default DecisionEntry;
-```

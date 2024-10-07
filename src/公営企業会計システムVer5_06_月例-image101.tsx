@@ -118,4 +118,3 @@ const RangeSpecificationComponent: React.FC<RangeSpecificationComponentProps> = 
 };
 
 export default RangeSpecificationComponent;
-```

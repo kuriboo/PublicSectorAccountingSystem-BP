@@ -51,4 +51,3 @@ const FixedAssetComposition: React.FC<FixedAssetCompositionProps> = ({
 };
 
 export default FixedAssetComposition;
-```

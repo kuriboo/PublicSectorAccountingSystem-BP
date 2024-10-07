@@ -95,4 +95,3 @@ const ConstructionSearch: React.FC<ConstructionSearchProps> = ({
 };
 
 export default ConstructionSearch;
-```

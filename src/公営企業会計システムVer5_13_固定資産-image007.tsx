@@ -60,4 +60,3 @@ const MyComponent: React.FC<MyComponentProps> = ({ title, tables, onSearch }) =>
 };
 
 export default MyComponent;
-```

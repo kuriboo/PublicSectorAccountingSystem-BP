@@ -38,4 +38,3 @@ const MessageBox: React.FC<MessageBoxProps> = ({ message, onOk }) => (
 );
 
 export { Button, MessageBox };
-```

@@ -62,4 +62,3 @@ const ExpenseReport: React.FC<ExpenseReportProps> = ({
 };
 
 export default ExpenseReport;
-```

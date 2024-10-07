@@ -72,4 +72,3 @@ const CreditAmountDetails: React.FC<CreditAmountDetailsProps> = ({ beforeAdjustm
 };
 
 export default CreditAmountDetails;
-```

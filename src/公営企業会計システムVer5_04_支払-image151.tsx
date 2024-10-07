@@ -65,4 +65,3 @@ const ReusableComponent: React.FC<ReusableComponentProps> = ({
 };
 
 export default ReusableComponent;
-```

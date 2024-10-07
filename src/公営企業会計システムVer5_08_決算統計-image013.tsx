@@ -74,4 +74,3 @@ const BudgetAdjustment: React.FC<BudgetAdjustmentProps> = ({
 };
 
 export default BudgetAdjustment;
-```

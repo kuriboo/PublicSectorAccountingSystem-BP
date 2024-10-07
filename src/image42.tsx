@@ -35,4 +35,3 @@ export default Dropdown;
 //   selectedOption={'一般競争入札'} 
 //   onChange={(newOption) => console.log(newOption)} 
 // />
-```

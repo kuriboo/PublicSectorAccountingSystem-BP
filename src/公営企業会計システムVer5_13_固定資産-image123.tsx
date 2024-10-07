@@ -64,4 +64,3 @@ const AssetTable: FC<AssetTableProps> = ({ assetNumber, assetName, rows }) => {
 };
 
 export default AssetTable;
-```

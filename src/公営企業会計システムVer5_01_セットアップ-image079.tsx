@@ -135,4 +135,3 @@ const FinancialReport: React.FC<FinancialReportProps> = ({
 };
 
 export default FinancialReport;
-```

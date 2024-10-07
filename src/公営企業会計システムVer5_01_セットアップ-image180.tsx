@@ -108,4 +108,3 @@ const ManagementMasta: React.FC<ManagementMastaProps> = ({
 };
 
 export default ManagementMasta;
-```

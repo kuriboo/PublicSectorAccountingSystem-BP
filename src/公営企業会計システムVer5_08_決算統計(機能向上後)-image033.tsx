@@ -80,7 +80,6 @@ const BudgetProcessing: React.FC<BudgetProcessingProps> = ({ title, updatedAt, r
 );
 
 export default BudgetProcessing;
-```
 
 ```tsx
 // Example of using the BudgetProcessing component
@@ -109,4 +108,3 @@ const App = () => (
 );
 
 export default App;
-```

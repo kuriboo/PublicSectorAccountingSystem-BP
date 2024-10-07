@@ -105,4 +105,3 @@ const ExecutionPlan: React.FC<ExecutionPlanProps> = ({
 };
 
 export default ExecutionPlan;
-```

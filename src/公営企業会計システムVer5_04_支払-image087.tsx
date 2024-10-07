@@ -56,4 +56,3 @@ const CommandForm: React.FC<CommandFormProps> = ({ title, checkboxLabel, onOk, o
 };
 
 export default CommandForm;
-```

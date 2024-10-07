@@ -170,4 +170,3 @@ const CategoryForm: React.FC<FormProps> = ({
 };
 
 export default CategoryForm;
-```

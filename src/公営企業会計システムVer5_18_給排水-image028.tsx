@@ -122,4 +122,3 @@ const BillingTable: React.FC<BillingTableProps> = ({ rows }) => {
 };
 
 export default BillingTable;
-```

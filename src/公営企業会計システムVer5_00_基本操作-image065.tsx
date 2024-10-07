@@ -27,4 +27,3 @@ export default IconCard;
 
 // Example Usage
 // <IconCard title="企業会計115" imageUrl="/path/to/image.png" altText="企業会計115のアイコン" />
-```

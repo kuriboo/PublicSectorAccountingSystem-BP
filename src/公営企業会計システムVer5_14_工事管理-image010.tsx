@@ -75,4 +75,3 @@ const ProjectSearch: React.FC<ProjectSearchProps> = ({
 };
 
 export default ProjectSearch;
-```

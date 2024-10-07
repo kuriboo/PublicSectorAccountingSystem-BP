@@ -56,4 +56,3 @@ const ExpenseReportForm: React.FC<ExpenseReportFormProps> = ({
 };
 
 export default ExpenseReportForm;
-```

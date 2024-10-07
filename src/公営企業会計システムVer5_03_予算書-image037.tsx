@@ -231,4 +231,3 @@ const TaxCalculationForm: React.FC<TaxCalculationFormProps> = ({
 };
 
 export default TaxCalculationForm;
-```

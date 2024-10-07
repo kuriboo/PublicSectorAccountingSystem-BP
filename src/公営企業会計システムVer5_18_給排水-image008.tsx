@@ -79,4 +79,3 @@ const EmployeeSearch: React.FC<EmployeeSearchProps> = ({
 };
 
 export default EmployeeSearch;
-```

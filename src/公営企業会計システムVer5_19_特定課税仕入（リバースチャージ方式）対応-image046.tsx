@@ -48,7 +48,6 @@ const BudgetForm: React.FC<BudgetFormProps> = ({ values, onChange }) => {
 };
 
 export default BudgetForm;
-```
 
 ```tsx
 // Usage example
@@ -77,4 +76,3 @@ const BudgetPage: React.FC = () => {
 };
 
 export default BudgetPage;
-```

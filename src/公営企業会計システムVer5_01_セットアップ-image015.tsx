@@ -83,4 +83,3 @@ const MasterEntryComponent: React.FC<Props> = ({ headerTitle, entries, onEdit, o
 };
 
 export default MasterEntryComponent;
-```

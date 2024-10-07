@@ -20,4 +20,3 @@ const DateDisplay: React.FC<DateDisplayProps> = ({ label, date }) => {
 };
 
 export default DateDisplay;
-```

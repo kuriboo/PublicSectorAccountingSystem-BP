@@ -110,4 +110,3 @@ const MonthlyReportForm: React.FC<Props> = ({
 };
 
 export default MonthlyReportForm;
-```

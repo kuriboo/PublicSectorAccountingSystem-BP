@@ -35,4 +35,3 @@ const ExcelTable: React.FC<ExcelTableProps> = ({ data, className }) => {
 };
 
 export default ExcelTable;
-```

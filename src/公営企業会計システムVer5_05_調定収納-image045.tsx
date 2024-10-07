@@ -95,4 +95,3 @@ const AdjustmentForm: FC<FormProps> = ({
 };
 
 export default AdjustmentForm;
-```

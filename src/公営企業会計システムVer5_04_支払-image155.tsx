@@ -132,4 +132,3 @@ const PaymentForm: FC<Props> = ({
 };
 
 export default PaymentForm;
-```

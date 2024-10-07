@@ -107,4 +107,3 @@ const NotificationForm: React.FC<NotificationFormProps> = ({
 };
 
 export default NotificationForm;
-```

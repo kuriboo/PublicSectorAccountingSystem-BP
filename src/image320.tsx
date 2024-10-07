@@ -62,4 +62,3 @@ const CustomButtons: React.FC<CustomButtonsProps> = ({
 };
 
 export default CustomButtons;
-```

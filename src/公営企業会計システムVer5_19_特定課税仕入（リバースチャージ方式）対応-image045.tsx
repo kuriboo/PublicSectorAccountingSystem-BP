@@ -22,4 +22,3 @@ const CustomButton: React.FC<CustomButtonProps> = ({ text, onClick, color = "blu
 };
 
 export default CustomButton;
-```

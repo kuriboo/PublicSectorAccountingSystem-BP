@@ -101,4 +101,3 @@ const ReportCreationComponent: React.FC<Props> = ({
 };
 
 export default ReportCreationComponent;
-```

@@ -84,4 +84,3 @@ const IncomeEntryForm: React.FC<IncomeEntryFormProps> = ({
 };
 
 export default IncomeEntryForm;
-```

@@ -106,4 +106,3 @@ const ContractListComponent: React.FC<Props> = ({
 };
 
 export default ContractListComponent;
-```

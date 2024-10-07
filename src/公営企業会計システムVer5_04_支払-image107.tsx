@@ -71,4 +71,3 @@ const ControlMaster: React.FC<ControlMasterProps> = ({
 };
 
 export default ControlMaster;
-```

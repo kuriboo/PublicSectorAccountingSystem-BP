@@ -194,7 +194,6 @@ const AssetForm: React.FC<AssetFormProps> = ({
 };
 
 export default AssetForm;
-```
 
 ```css
 /* Assuming you are using Tailwind CSS */
@@ -215,4 +214,3 @@ export default AssetForm;
 .btn:hover {
   background-color: #ccc;
 }
-```

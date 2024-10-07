@@ -64,4 +64,3 @@ const BudgetComponent: React.FC<Props> = ({
 
 // Export the component as default
 export default BudgetComponent;
-```

@@ -52,4 +52,3 @@ const DataImport: React.FC<DataImportProps> = ({ year, onFileSelect, onExecute }
 };
 
 export default DataImport;
-```

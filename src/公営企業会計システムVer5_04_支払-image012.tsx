@@ -30,4 +30,3 @@ const Card: React.FC<CardProps> = ({ title, content, buttonText, onButtonClick }
 }
 
 export default Card;
-```

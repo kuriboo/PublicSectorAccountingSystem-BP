@@ -91,4 +91,3 @@ const RevenueInput: React.FC<RevenueInputProps> = ({
 };
 
 export default RevenueInput;
-```

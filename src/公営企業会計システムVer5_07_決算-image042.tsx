@@ -87,4 +87,3 @@ const DetailInput: React.FC<DetailInputProps> = ({
 };
 
 export default DetailInput;
-```

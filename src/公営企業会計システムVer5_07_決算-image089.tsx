@@ -46,4 +46,3 @@ const DataTable: React.FC<DataTableProps> = ({ data, startDate, endDate }) => {
 };
 
 export default DataTable;
-```

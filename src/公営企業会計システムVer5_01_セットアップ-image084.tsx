@@ -89,4 +89,3 @@ const EditModal: React.FC<Props> = ({
 };
 
 export default EditModal;
-```

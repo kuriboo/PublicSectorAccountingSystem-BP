@@ -84,4 +84,3 @@ const DenshiShokai: React.FC<DenshiShokaiProps> = ({
 };
 
 export default DenshiShokai;
-```

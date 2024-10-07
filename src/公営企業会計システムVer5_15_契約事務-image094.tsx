@@ -73,4 +73,3 @@ const PreparationProcess: React.FC<PreparationProcessProps> = ({
 };
 
 export default PreparationProcess;
-```

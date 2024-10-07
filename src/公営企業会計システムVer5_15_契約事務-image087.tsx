@@ -101,4 +101,3 @@ const CaseInfo: React.FC<CaseInfoProps> = ({
 };
 
 export default CaseInfo;
-```

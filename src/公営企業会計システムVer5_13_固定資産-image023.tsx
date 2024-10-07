@@ -173,4 +173,3 @@ const AssetRemovalForm: React.FC<Props> = ({
 };
 
 export default AssetRemovalForm;
-```

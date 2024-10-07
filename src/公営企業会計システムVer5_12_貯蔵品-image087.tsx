@@ -108,4 +108,3 @@ const FormComponent: React.FC<Props> = ({
 };
 
 export default FormComponent;
-```

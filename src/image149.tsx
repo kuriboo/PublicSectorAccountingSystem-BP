@@ -64,4 +64,3 @@ const ItemTable: React.FC<ItemTableProps> = ({ items, onSearch }) => {
 };
 
 export default ItemTable;
-```

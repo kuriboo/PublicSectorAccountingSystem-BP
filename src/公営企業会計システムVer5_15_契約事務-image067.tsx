@@ -120,4 +120,3 @@ const InspectionRelationComponent: React.FC<Props> = ({
 };
 
 export default InspectionRelationComponent;
-```

@@ -94,4 +94,3 @@ const EntityManagement: React.FC<Props> = ({
 };
 
 export default EntityManagement;
-```

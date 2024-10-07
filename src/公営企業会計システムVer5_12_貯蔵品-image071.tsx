@@ -45,4 +45,3 @@ const FlowChart: React.FC<FlowChartProps> = ({
 };
 
 export default FlowChart;
-```

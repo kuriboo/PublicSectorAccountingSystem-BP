@@ -77,4 +77,3 @@ const ClassificationForm: React.FC<ClassificationFormProps> = ({
 };
 
 export default ClassificationForm;
-```

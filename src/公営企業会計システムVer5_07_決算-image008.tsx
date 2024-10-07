@@ -157,4 +157,3 @@ const StatementForm: React.FC<StatementFormProps> = ({ onSubmit }) => {
 };
 
 export default StatementForm;
-```

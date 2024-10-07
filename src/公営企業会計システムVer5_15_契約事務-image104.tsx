@@ -82,4 +82,3 @@ const CustomForm: React.FC<FormProps> = ({ year, category, items, onSelectAll, o
 };
 
 export default CustomForm;
-```

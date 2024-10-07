@@ -84,4 +84,3 @@ const Form: React.FC<FormProps> = ({ onSubmit, onClear, onFinish }) => {
 };
 
 export default Form;
-```

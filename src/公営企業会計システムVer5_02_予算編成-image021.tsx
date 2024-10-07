@@ -94,4 +94,3 @@ export const FinancialRecordForm: React.FC<Props> = ({
     </div>
   );
 };
-```

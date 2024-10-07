@@ -56,4 +56,3 @@ const IndustryTable: React.FC<IndustryTableProps> = ({ data, onRowClick }) => {
 };
 
 export default IndustryTable;
-```

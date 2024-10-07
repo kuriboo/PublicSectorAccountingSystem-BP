@@ -69,4 +69,3 @@ const ChecklistForm: React.FC<ChecklistFormProps> = ({
 };
 
 export default ChecklistForm;
-```

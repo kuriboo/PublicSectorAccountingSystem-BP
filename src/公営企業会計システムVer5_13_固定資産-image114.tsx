@@ -79,4 +79,3 @@ const AssetManagementTable: React.FC<AssetManagementTableProps> = ({
 };
 
 export default AssetManagementTable;
-```

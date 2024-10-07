@@ -57,4 +57,3 @@ export default CalculationComponent;
 
 // 使用例:
 // <CalculationComponent fiscalYear="令和03年度" budgetType="当初予算" reviewCount={1} />
-```

@@ -67,4 +67,3 @@ const PropertyMaster: React.FC<PropertyMasterProps> = ({
 };
 
 export default PropertyMaster;
-```

@@ -59,4 +59,3 @@ const ConstructionReferenceGrid: React.FC<ConstructionReferenceGridProps> = ({ c
 };
 
 export default ConstructionReferenceGrid;
-```

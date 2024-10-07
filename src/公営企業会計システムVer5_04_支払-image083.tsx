@@ -59,4 +59,3 @@ const PrintSelection: React.FC<PrintSelectionProps> = ({
 };
 
 export default PrintSelection;
-```

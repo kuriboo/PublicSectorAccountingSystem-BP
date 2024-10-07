@@ -82,4 +82,3 @@ const ZaikoInput: React.FC<ZaikoInputProps> = ({
 };
 
 export default ZaikoInput;
-```

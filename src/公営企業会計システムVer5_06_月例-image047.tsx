@@ -101,4 +101,3 @@ const JournalFilter: React.FC<JournalFilterProps> = ({
 };
 
 export default JournalFilter;
-```

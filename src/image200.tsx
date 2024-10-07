@@ -40,4 +40,3 @@ export default Logo;
 //   companyName="株式会社ぎょうせい"
 //   departmentName="システム事業部"
 // />
-```

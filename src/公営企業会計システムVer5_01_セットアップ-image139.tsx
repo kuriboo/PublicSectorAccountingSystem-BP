@@ -91,4 +91,3 @@ const BankBranchList: React.FC<BankBranchListProps> = ({ onSubmit }) => {
 };
 
 export default BankBranchList;
-```

@@ -152,4 +152,3 @@ const YosanForm: React.FC<YosanFormProps> = ({
 };
 
 export default YosanForm;
-```

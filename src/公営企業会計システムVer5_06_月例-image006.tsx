@@ -82,4 +82,3 @@ const RegistrationTable: React.FC<Props> = ({
 };
 
 export default RegistrationTable;
-```

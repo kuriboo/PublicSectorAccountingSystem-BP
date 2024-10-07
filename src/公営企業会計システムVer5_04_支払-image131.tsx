@@ -71,4 +71,3 @@ const DecisionTable: React.FC<DecisionTableProps> = ({
 };
 
 export default DecisionTable;
-```

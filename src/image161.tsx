@@ -79,4 +79,3 @@ const TableComponent: React.FC<TableProps> = ({ rows, onReset, onOk, onClear }) 
 };
 
 export default TableComponent;
-```

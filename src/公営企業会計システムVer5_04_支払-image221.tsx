@@ -67,4 +67,3 @@ const SearchForm: React.FC<SearchFormProps> = ({ records, onSubmit, onClear, onC
 };
 
 export default SearchForm;
-```

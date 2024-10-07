@@ -97,4 +97,3 @@ export const SessionManagement: React.FC<SessionManagementProps> = ({
     </div>
   );
 };
-```

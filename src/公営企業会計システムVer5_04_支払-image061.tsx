@@ -57,4 +57,3 @@ const PrintOptionComponent: React.FC<PrintOptionProps> = ({
 };
 
 export default PrintOptionComponent;
-```

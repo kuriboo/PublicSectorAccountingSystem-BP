@@ -88,4 +88,3 @@ const InvoiceInput: React.FC<InvoiceInputProps> = ({
 };
 
 export default InvoiceInput;
-```

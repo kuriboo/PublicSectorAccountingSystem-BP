@@ -51,7 +51,6 @@ const MainMenu: React.FC<MainMenuProps> = ({ headerText, noticeText, sections })
 );
 
 export default MainMenu;
-```
 
 ```tsx
 // pages/index.tsx
@@ -88,4 +87,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-```

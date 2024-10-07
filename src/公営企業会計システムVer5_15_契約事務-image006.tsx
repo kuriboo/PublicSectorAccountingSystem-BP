@@ -79,4 +79,3 @@ const NoteEditor: React.FC<NoteEditorProps> = ({
 };
 
 export default NoteEditor;
-```

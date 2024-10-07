@@ -87,4 +87,3 @@ const CollectionHistory: React.FC<CollectionHistoryProps> = ({
 
 // Export the component as the default export
 export default CollectionHistory;
-```

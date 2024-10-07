@@ -30,7 +30,6 @@ const CompanyLogo: React.FC<CompanyLogoProps> = ({
 };
 
 export default CompanyLogo;
-```
 
 ```tsx
 // 使用例
@@ -45,4 +44,3 @@ const Example = () => {
 };
 
 export default Example;
-```

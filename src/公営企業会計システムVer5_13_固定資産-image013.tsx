@@ -64,4 +64,3 @@ const LandAcquisitionForm: React.FC<LandAcquisitionFormProps> = ({ assetNumber, 
 };
 
 export default LandAcquisitionForm;
-```

@@ -109,4 +109,3 @@ const SessionManagement: React.FC<SessionManagementProps> = ({
 };
 
 export default SessionManagement;
-```

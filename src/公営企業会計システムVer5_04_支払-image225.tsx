@@ -45,4 +45,3 @@ const AgreementDivisionTable: React.FC<Props> = ({ rows, onOk, onClear, onCancel
 };
 
 export default AgreementDivisionTable;
-```

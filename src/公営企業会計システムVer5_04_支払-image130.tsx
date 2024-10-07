@@ -96,4 +96,3 @@ const PaymentInfo: React.FC<PaymentInfoProps> = ({
 };
 
 export default PaymentInfo;
-```

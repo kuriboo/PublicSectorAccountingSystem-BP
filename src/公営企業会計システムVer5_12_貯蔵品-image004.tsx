@@ -95,4 +95,3 @@ const InventoryInputForm: React.FC<FormProps> = ({
 
 // Export the component as default
 export default InventoryInputForm;
-```

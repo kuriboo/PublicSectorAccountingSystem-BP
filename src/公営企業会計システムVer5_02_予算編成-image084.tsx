@@ -59,4 +59,3 @@ const BudgetComponent: React.FC<Props> = ({ entries, onOk, onClear, onClose }) =
 };
 
 export default BudgetComponent;
-```

@@ -71,4 +71,3 @@ const CashFlowComponent: React.FC<CashFlowComponentProps> = ({
 };
 
 export default CashFlowComponent;
-```

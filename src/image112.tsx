@@ -48,4 +48,3 @@ const data = [
 export default function App() {
   return <DataTable data={data} title="Data Table" />;
 }
-```

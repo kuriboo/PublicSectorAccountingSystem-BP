@@ -56,4 +56,3 @@ const AnnotationForm: React.FC<AnnotationFormProps> = ({
 };
 
 export default AnnotationForm;
-```

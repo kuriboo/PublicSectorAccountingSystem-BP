@@ -93,4 +93,3 @@ const ManagementMaster: React.FC<ManagementMasterProps> = ({
 };
 
 export default ManagementMaster;
-```

@@ -59,4 +59,3 @@ const MasterDataComponent: React.FC<MasterDataProps> = ({
 };
 
 export default MasterDataComponent;
-```

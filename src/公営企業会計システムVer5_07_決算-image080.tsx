@@ -83,4 +83,3 @@ const IncomeUpdateForm: React.FC<IncomeUpdateFormProps> = ({
 };
 
 export default IncomeUpdateForm;
-```

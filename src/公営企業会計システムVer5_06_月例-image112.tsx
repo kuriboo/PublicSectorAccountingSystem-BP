@@ -136,4 +136,3 @@ const BudgetReportForm: React.FC<BudgetReportFormProps> = ({
 };
 
 export default BudgetReportForm;
-```

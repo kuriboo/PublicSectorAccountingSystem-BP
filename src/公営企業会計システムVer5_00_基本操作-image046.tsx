@@ -30,7 +30,6 @@ const Button: React.FC<ButtonProps> = ({
 };
 
 export default Button;
-```
 
 ```tsx
 // App.tsx
@@ -56,4 +55,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-```

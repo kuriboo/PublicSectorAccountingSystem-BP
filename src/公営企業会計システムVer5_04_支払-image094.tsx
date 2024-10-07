@@ -78,4 +78,3 @@ const PaymentDecisionInput: React.FC<Props> = ({
 };
 
 export default PaymentDecisionInput;
-```

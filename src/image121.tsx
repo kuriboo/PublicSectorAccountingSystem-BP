@@ -88,4 +88,3 @@ const AdjustmentForm: React.FC<AdjustmentFormProps> = ({
 };
 
 export default AdjustmentForm;
-```

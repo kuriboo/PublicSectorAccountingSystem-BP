@@ -173,4 +173,3 @@ const BudgetDetailForm: React.FC<BudgetDetailFormProps> = ({ year, onSubmit }) =
 };
 
 export default BudgetDetailForm;
-```

@@ -60,4 +60,3 @@ const TaxCalculation: React.FC<TaxCalculationProps> = ({
 };
 
 export default TaxCalculation;
-```

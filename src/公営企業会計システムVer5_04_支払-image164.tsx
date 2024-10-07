@@ -80,4 +80,3 @@ const ReturnInfo: React.FC<ReturnInfoProps> = ({
 };
 
 export default ReturnInfo;
-```

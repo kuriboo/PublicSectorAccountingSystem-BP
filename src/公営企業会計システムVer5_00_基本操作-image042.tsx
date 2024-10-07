@@ -63,4 +63,3 @@ const DataTable: React.FC<TableProps> = ({ data, onEdit, onDelete }) => {
 };
 
 export default DataTable;
-```

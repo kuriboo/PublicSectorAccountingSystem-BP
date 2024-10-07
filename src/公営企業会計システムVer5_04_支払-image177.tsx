@@ -135,4 +135,3 @@ const MainForm: React.FC<MainFormProps> = ({
 };
 
 export default MainForm;
-```

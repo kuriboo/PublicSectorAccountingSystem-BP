@@ -105,4 +105,3 @@ const PrintDialog: React.FC = () => {
 };
 
 export default PrintDialog;
-```

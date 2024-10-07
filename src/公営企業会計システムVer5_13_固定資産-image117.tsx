@@ -48,7 +48,6 @@ const InspectionTable: React.FC<InspectionTableProps> = ({
 };
 
 export default InspectionTable;
-```
 
 ```tsx
 // pages/index.tsx
@@ -91,4 +90,3 @@ const IndexPage: React.FC = () => {
 };
 
 export default IndexPage;
-```

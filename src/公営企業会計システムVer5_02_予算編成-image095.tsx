@@ -70,4 +70,3 @@ const TaxDetail: React.FC<TaxDetailProps> = ({
 };
 
 export default TaxDetail;
-```

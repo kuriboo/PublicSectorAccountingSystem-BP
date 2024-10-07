@@ -79,4 +79,3 @@ const TaxSummary: React.FC<TaxSummaryProps> = ({
 };
 
 export default TaxSummary;
-```

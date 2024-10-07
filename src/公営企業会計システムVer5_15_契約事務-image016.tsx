@@ -151,4 +151,3 @@ const EconomicRegistration: React.FC<EconomicRegistrationProps> = ({
 };
 
 export default EconomicRegistration;
-```

@@ -82,4 +82,3 @@ const DepartmentSearch: React.FC<DepartmentSearchProps> = ({ data, onOk, onCance
 };
 
 export default DepartmentSearch;
-```

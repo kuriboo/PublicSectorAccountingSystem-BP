@@ -186,4 +186,3 @@ const BudgetForm: React.FC<BudgetFormProps> = ({ onSubmit }) => {
 };
 
 export default BudgetForm;
-```

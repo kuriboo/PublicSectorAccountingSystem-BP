@@ -76,7 +76,6 @@ const ContractForm: React.FC<ContractFormProps> = ({
 };
 
 export default ContractForm;
-```
 
 ```css
 /* Tailwind CSS のスタイル */
@@ -87,4 +86,3 @@ export default ContractForm;
 .input {
   @apply border border-gray-300 rounded p-1 w-full;
 }
-```

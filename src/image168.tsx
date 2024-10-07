@@ -40,4 +40,3 @@ const DialogBox: React.FC<DialogBoxProps> = ({ title, message, onOk, onCancel })
 };
 
 export default DialogBox;
-```

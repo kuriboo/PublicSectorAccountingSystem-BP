@@ -84,4 +84,3 @@ const DataTable: React.FC<DataTableProps> = ({ rows, onEdit, onCancel, onConfirm
 };
 
 export default DataTable;
-```

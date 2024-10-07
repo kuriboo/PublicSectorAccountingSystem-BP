@@ -77,4 +77,3 @@ const StatementComponent: React.FC<StatementProps> = ({
 };
 
 export default StatementComponent;
-```

@@ -42,7 +42,6 @@ const DataTable: React.FC<TableProps> = ({ columns, data }) => {
 };
 
 export default DataTable;
-```
 
 ```tsx
 // Sample Usage
@@ -72,4 +71,3 @@ const ExampleComponent = () => {
 };
 
 export default ExampleComponent;
-```

@@ -24,4 +24,3 @@ const GyouseiLogo: React.FC<LogoProps> = ({ logoUrl, altText, className }) => {
 };
 
 export default GyouseiLogo;
-```

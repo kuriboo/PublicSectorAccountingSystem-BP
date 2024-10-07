@@ -70,4 +70,3 @@ const DepartmentSearch: React.FC<DepartmentSearchProps> = ({ departments, onSear
 }
 
 export default DepartmentSearch;
-```

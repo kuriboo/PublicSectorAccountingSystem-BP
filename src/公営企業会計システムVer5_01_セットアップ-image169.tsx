@@ -69,4 +69,3 @@ const AppGroupForm: React.FC<AppGroupFormProps> = ({ initialCode = '', initialGr
 };
 
 export default AppGroupForm;
-```

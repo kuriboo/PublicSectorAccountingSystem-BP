@@ -37,7 +37,6 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, buttonText, o
 };
 
 export default Card;
-```
 
 ```tsx
 // 使用例
@@ -58,4 +57,3 @@ const Example = () => (
 );
 
 export default Example;
-```

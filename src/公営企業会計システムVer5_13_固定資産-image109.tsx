@@ -55,4 +55,3 @@ const AssetManagementTable: React.FC<Props> = ({ title, items, onItemSelect }) =
 };
 
 export default AssetManagementTable;
-```

@@ -65,4 +65,3 @@ const TaxTable: React.FC<TaxTableProps> = ({ rows }) => {
 };
 
 export default TaxTable;
-```

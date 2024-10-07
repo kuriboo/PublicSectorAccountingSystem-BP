@@ -154,4 +154,3 @@ const AssetForm: React.FC<AssetFormProps> = ({
 };
 
 export default AssetForm;
-```

@@ -83,4 +83,3 @@ const InventoryInput: React.FC<InventoryInputProps> = ({
 };
 
 export default InventoryInput;
-```

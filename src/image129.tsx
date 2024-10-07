@@ -68,4 +68,3 @@ const AssetHistory: React.FC<AssetHistoryProps> = ({
 };
 
 export default AssetHistory;
-```

@@ -51,4 +51,3 @@ const EditableTable: React.FC<TableProps> = ({ data, onEdit, onDelete }) => {
 };
 
 export default EditableTable;
-```

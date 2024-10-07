@@ -64,7 +64,6 @@ const TransactionDetail: React.FC<TransactionDetailProps> = ({
 };
 
 export default TransactionDetail;
-```
 
 ```tsx
 // Example usage
@@ -92,4 +91,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-```

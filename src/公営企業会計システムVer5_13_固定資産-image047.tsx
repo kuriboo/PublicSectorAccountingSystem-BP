@@ -76,4 +76,3 @@ const FinanceEntry: React.FC<FinanceEntryProps> = ({
 };
 
 export default FinanceEntry;
-```

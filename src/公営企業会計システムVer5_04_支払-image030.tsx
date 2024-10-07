@@ -140,4 +140,3 @@ const BudgetEntryForm: React.FC<BudgetEntryFormProps> = ({
 );
 
 export default BudgetEntryForm;
-```

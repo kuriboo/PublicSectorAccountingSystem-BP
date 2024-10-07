@@ -53,4 +53,3 @@ const AdjustmentRatioCalculation: React.FC<AdjustmentRatioCalculationProps> = ({
 };
 
 export default AdjustmentRatioCalculation;
-```

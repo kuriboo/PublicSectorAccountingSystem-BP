@@ -68,4 +68,3 @@ const YearProcessingForm: React.FC<YearProcessingFormProps> = ({
 };
 
 export default YearProcessingForm;
-```

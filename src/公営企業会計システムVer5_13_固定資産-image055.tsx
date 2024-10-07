@@ -112,4 +112,3 @@ const ExtractionChecklist: React.FC<ExtractionChecklistProps> = ({
 };
 
 export default ExtractionChecklist;
-```

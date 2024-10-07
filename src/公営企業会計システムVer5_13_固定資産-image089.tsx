@@ -73,4 +73,3 @@ const AssetManager: React.FC<AssetManagerProps> = ({
 };
 
 export default AssetManager;
-```

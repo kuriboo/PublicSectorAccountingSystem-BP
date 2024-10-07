@@ -62,4 +62,3 @@ const BudgetTable: React.FC<BudgetTableProps> = ({ entries, onConfirm, onClear, 
 };
 
 export default BudgetTable;
-```

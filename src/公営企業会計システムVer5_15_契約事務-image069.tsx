@@ -142,4 +142,3 @@ const InspectionInput: React.FC<InspectionInputProps> = ({
 };
 
 export default InspectionInput;
-```

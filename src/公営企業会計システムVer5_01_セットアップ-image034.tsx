@@ -43,4 +43,3 @@ const GroupMaster: React.FC<GroupMasterProps> = ({ name, summary, onSubmit, onCl
 };
 
 export default GroupMaster;
-```

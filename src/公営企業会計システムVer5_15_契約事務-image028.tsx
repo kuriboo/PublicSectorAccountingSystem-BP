@@ -50,4 +50,3 @@ const SummaryComponent: React.FC<SummaryComponentProps> = ({
 };
 
 export default SummaryComponent;
-```

@@ -91,4 +91,3 @@ const AssetManagement: FC<AssetManagementProps> = ({ onSearch, onExclude }) => {
 };
 
 export default AssetManagement;
-```

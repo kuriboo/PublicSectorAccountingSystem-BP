@@ -27,4 +27,3 @@ export default StatCard;
 // <StatCard title="決算統計" subtitle="損益計算書" />
 // <StatCard title="決算統計" subtitle="貸借対照表集計処理" />
 // <StatCard title="決算統計" subtitle="貸借対照表" />
-```

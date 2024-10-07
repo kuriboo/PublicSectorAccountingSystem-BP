@@ -57,4 +57,3 @@ const TermTable: React.FC<TermTableProps> = ({ rows }) => {
 };
 
 export default TermTable;
-```

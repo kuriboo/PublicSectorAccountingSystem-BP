@@ -84,4 +84,3 @@ const FixedAssetForm: React.FC<Props> = ({
 };
 
 export default FixedAssetForm;
-```

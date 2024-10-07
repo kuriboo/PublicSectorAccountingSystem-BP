@@ -99,4 +99,3 @@ const FiscalYearSelector: React.FC<FiscalYearSelectorProps> = ({
 };
 
 export default FiscalYearSelector;
-```

@@ -50,4 +50,3 @@ const IncomeStatus: React.FC<IncomeStatusProps> = ({ monthLabel, taxOptions, onT
 };
 
 export default IncomeStatus;
-```

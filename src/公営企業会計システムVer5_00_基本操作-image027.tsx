@@ -85,4 +85,3 @@ const FaqPage: React.FC<FaqPageProps> = ({
 };
 
 export default FaqPage;
-```

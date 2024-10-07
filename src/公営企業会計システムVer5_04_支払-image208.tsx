@@ -59,7 +59,6 @@ const PaymentDetail: React.FC<PaymentDetailProps> = ({
 };
 
 export default PaymentDetail;
-```
 
 ```tsx
 // pages/index.tsx
@@ -87,7 +86,6 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-```
 
 ```tsx
 // postcss.config.js
@@ -98,7 +96,6 @@ module.exports = {
     autoprefixer: {},
   },
 }
-```
 
 ```tsx
 // tailwind.config.js
@@ -110,7 +107,6 @@ module.exports = {
   },
   plugins: [],
 }
-```
 
 ```tsx
 // styles/globals.css
@@ -118,4 +114,3 @@ module.exports = {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```

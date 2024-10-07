@@ -72,4 +72,3 @@ const RecordsTable: React.FC<Props> = ({ title, records, onDeleteSelected, onDis
 };
 
 export default RecordsTable;
-```

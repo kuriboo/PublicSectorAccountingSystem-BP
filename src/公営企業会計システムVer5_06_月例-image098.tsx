@@ -112,4 +112,3 @@ const CashFlowForm: React.FC<CashFlowFormProps> = ({
 };
 
 export default CashFlowForm;
-```

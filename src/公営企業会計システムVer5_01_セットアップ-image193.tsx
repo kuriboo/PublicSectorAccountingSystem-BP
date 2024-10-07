@@ -74,4 +74,3 @@ const ManagementTable: React.FC<ManagementTableProps> = ({
 };
 
 export default ManagementTable;
-```

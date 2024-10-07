@@ -99,4 +99,3 @@ const AccountingComponent: React.FC<Props> = ({
 };
 
 export default AccountingComponent;
-```

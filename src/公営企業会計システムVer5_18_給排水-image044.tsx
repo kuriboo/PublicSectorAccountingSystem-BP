@@ -150,4 +150,3 @@ export const ManagementMaster: React.FC<ManagementMasterProps> = ({
     </div>
   );
 };
-```

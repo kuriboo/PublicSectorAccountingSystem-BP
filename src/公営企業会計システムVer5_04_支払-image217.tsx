@@ -77,4 +77,3 @@ const UsageHistory: React.FC<UsageHistoryProps> = ({
 };
 
 export default UsageHistory;
-```

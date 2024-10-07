@@ -33,4 +33,3 @@ const FormComponent: React.FC<FormProps> = ({ startDate, endDate, onDisplay, onP
 };
 
 export default FormComponent;
-```

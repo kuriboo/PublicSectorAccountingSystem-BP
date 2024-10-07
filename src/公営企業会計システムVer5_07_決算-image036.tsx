@@ -48,4 +48,3 @@ const FiscalYearUpdate: React.FC<FiscalYearUpdateProps> = ({
 };
 
 export default FiscalYearUpdate;
-```

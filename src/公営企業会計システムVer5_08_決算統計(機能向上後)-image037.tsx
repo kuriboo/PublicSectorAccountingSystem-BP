@@ -91,4 +91,3 @@ export default FinancialTable;
 //   onClear={() => console.log("Cleared")}
 //   onCancel={() => console.log("Cancelled")}
 // />
-```

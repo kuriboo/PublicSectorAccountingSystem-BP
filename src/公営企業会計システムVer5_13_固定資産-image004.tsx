@@ -61,4 +61,3 @@ const CustomItemEditor: React.FC<CustomItemEditorProps> = ({
 };
 
 export default CustomItemEditor;
-```

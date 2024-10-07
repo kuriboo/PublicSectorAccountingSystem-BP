@@ -85,4 +85,3 @@ const RecordDetails: React.FC<RecordDetailsProps> = ({
 };
 
 export default RecordDetails;
-```

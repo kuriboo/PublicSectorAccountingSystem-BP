@@ -78,4 +78,3 @@ const DenshuManagement: React.FC<DenshuManagementProps> = ({
 };
 
 export default DenshuManagement;
-```

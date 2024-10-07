@@ -99,4 +99,3 @@ const PaymentInput: React.FC<PaymentInputProps> = ({
 };
 
 export default PaymentInput;
-```

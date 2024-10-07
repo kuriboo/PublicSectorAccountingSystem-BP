@@ -79,4 +79,3 @@ const ItemTable: React.FC<ItemTableProps> = ({ items, onDisplay, onClear }) => {
 };
 
 export default ItemTable;
-```

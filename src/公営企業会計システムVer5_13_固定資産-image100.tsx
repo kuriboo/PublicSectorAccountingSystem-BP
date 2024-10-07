@@ -71,4 +71,3 @@ const AssetMaster: React.FC<AssetMasterProps> = ({
 };
 
 export default AssetMaster;
-```

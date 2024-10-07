@@ -67,4 +67,3 @@ const CsvUploader: React.FC<CsvUploaderProps> = ({
 };
 
 export default CsvUploader;
-```

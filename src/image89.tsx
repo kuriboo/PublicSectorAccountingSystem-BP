@@ -68,4 +68,3 @@ const ResultProcessing: React.FC<ResultProcessingProps> = ({
 };
 
 export default ResultProcessing;
-```

@@ -91,4 +91,3 @@ const InputForm: React.FC<InputFormProps> = ({ onSubmit, initialData }) => {
 };
 
 export default InputForm;
-```

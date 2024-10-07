@@ -80,4 +80,3 @@ const ExpenseEntry: React.FC<ExpenseEntryProps> = ({
 );
 
 export default ExpenseEntry;
-```

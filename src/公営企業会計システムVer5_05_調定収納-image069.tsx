@@ -68,4 +68,3 @@ const InputForm: FC<InputFormProps> = ({
 };
 
 export default InputForm;
-```

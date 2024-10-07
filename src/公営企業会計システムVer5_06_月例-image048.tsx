@@ -100,4 +100,3 @@ const AggregationForm: React.FC<FormProps> = ({ initialYearMonth, onSubmit }) =>
 };
 
 export default AggregationForm;
-```

@@ -56,4 +56,3 @@ const MasterListForm: React.FC<MasterListFormProps> = ({ onSubmit, onClear, onCa
 };
 
 export default MasterListForm;
-```

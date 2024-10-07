@@ -106,4 +106,3 @@ const ShiwakeForm: React.FC<ShiwakeFormProps> = ({
 };
 
 export default ShiwakeForm;
-```

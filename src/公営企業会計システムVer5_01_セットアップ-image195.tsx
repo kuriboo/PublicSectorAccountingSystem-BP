@@ -34,7 +34,6 @@ const LogoComponent: React.FC<LogoComponentProps> = ({
 };
 
 export default LogoComponent;
-```
 
 ```tsx
 // 使用例: pages/index.tsx など
@@ -54,11 +53,9 @@ const HomePage = () => {
 };
 
 export default HomePage;
-```
 
 ```css
 /* Tailwind CSSでカスタムクラスを追加する場合 */
 .my-custom-class {
   /* カスタムスタイルをここに追加可能 */
 }
-```

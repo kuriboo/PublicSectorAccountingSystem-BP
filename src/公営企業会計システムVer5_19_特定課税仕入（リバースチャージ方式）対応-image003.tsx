@@ -89,4 +89,3 @@ export default TaxManagementComponent;
 
 // Note: The above component assumes using Tailwind CSS for styling.
 // Styling classes such as 'btn-control', 'input-field', and 'btn-display' should be defined in your CSS.
-```

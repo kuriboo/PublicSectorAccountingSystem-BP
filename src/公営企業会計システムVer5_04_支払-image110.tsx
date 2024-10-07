@@ -51,4 +51,3 @@ const PaymentDetails: React.FC<PaymentDetailsProps> = ({ details }) => {
 };
 
 export default PaymentDetails;
-```

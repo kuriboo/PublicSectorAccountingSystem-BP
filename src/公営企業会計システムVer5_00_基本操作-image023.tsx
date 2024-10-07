@@ -59,4 +59,3 @@ const MainMenu: React.FC<MainMenuProps> = ({
 };
 
 export default MainMenu;
-```

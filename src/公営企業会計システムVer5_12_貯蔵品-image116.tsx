@@ -89,4 +89,3 @@ const ProductSearch: React.FC<ProductSearchProps> = ({
 };
 
 export default ProductSearch;
-```

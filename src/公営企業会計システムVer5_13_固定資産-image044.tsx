@@ -86,4 +86,3 @@ const DataInputForm: React.FC<ComponentProps> = ({ data, onChange }) => {
 };
 
 export default DataInputForm;
-```

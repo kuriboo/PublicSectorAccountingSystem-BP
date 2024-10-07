@@ -136,4 +136,3 @@ const ChecklistComponent: FC<ChecklistProps> = ({ onSubmit, onClear, onClose }) 
 };
 
 export default ChecklistComponent;
-```

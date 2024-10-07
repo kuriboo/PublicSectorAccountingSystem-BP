@@ -108,4 +108,3 @@ const MyForm: React.FC<FormProps> = ({ onSubmit }) => {
 };
 
 export default MyForm;
-```

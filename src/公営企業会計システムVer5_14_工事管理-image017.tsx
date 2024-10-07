@@ -67,4 +67,3 @@ const AssetItem: React.FC<AssetItemProps> = ({
 };
 
 export default AssetItem;
-```

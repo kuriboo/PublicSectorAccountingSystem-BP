@@ -113,4 +113,3 @@ const CostInputForm: React.FC<CostInputFormProps> = ({
 };
 
 export default CostInputForm;
-```

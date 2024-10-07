@@ -63,4 +63,3 @@ const KessaiTable: React.FC<KessaiTableProps> = ({ records, searchTerm, handleSe
 };
 
 export default KessaiTable;
-```

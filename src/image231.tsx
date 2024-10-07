@@ -71,4 +71,3 @@ const TransactionTable: React.FC<TransactionTableProps> = ({
 };
 
 export default TransactionTable;
-```

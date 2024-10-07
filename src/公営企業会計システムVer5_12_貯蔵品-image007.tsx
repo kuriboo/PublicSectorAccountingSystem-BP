@@ -107,4 +107,3 @@ const InventoryForm: React.FC<InventoryFormProps> = ({
 };
 
 export { InventoryTable, InventoryForm };
-```

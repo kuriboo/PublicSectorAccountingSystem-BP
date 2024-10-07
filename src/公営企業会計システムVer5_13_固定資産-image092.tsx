@@ -24,4 +24,3 @@ const MapImage: React.FC<MapImageProps> = ({ src, alt, width = 600, height = 400
 };
 
 export default MapImage;
-```

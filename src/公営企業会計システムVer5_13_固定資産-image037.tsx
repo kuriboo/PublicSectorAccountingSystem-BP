@@ -101,4 +101,3 @@ const AssetListForm: React.FC<AssetListFormProps> = ({
 };
 
 export default AssetListForm;
-```

@@ -116,4 +116,3 @@ const AuthorizationComponent: React.FC<Props> = ({
 };
 
 export default AuthorizationComponent;
-```

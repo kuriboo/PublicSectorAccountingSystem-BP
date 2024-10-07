@@ -40,7 +40,6 @@ const DescriptionMaster: React.FC<DescriptionMasterProps> = ({ title, entries, o
 }
 
 export default DescriptionMaster;
-```
 
 ```tsx
 // 使用例: ExampleUsage.tsx
@@ -71,4 +70,3 @@ const ExampleUsage: React.FC = () => {
 }
 
 export default ExampleUsage;
-```

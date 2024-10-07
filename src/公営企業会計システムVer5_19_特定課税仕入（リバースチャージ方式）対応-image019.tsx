@@ -55,4 +55,3 @@ const TaxDetail: React.FC<TaxDetailProps> = ({ title, subtitle, dateRange, rows 
 };
 
 export default TaxDetail;
-```

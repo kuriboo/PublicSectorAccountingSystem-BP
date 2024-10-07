@@ -26,4 +26,3 @@ export default Logo;
 
 // 使用例:
 // <Logo src="/path/to/logo.png" alt="株式会社ぎょうせいロゴ" width={100} height={50} />
-```

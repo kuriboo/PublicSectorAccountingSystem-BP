@@ -59,7 +59,6 @@ const AssetDetails: React.FC<AssetDetailProps> = ({
 };
 
 export default AssetDetails;
-```
 
 ```tsx
 // AssetDetailTable.tsx
@@ -111,4 +110,3 @@ const AssetDetailTable: React.FC<AssetDetailTableProps> = ({ details }) => {
 };
 
 export default AssetDetailTable;
-```

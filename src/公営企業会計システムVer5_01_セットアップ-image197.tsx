@@ -32,4 +32,3 @@ export default Logo;
 
 // Usage Example
 // <Logo src="/path/to/logo.png" alt="Company Logo"/>
-```

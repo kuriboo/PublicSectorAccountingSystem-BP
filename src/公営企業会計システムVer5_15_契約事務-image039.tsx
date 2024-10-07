@@ -255,4 +255,3 @@ const BidExecutionForm: React.FC<Props> = ({
 };
 
 export default BidExecutionForm;
-```

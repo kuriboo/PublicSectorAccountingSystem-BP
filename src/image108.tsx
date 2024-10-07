@@ -23,4 +23,3 @@ const Logo: FC<LogoProps> = ({ src, alt, width = 100, height = 50, className }) 
 }
 
 export default Logo;
-```

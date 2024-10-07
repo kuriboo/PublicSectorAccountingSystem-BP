@@ -85,4 +85,3 @@ const FinancialForm: React.FC<Props> = ({ data, onSubmit, onReset }) => {
 };
 
 export default FinancialForm;
-```

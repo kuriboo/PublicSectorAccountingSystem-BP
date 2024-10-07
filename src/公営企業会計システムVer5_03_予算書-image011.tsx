@@ -66,4 +66,3 @@ const SummaryForm: React.FC<SummaryFormProps> = ({
 };
 
 export default SummaryForm;
-```

@@ -44,4 +44,3 @@ const PreparationComponent: React.FC<PreparationComponentProps> = ({
 
 // Export the component for use in other parts of the application
 export default PreparationComponent;
-```

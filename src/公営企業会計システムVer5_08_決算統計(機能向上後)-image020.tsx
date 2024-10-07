@@ -64,4 +64,3 @@ const SegmentMaster: React.FC<SegmentMasterProps> = ({ year, entries, onOk, onCl
 };
 
 export default SegmentMaster;
-```

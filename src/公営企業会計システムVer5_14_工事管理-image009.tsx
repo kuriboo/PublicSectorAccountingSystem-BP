@@ -53,4 +53,3 @@ const YearUpdate: React.FC<YearUpdateProps> = ({ updateYear, updatePeriod, onOk,
 };
 
 export { UpdateHeader, YearUpdate };
-```

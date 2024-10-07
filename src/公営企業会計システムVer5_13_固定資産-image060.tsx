@@ -116,4 +116,3 @@ const DepartmentForm: React.FC<DepartmentFormProps> = ({
 };
 
 export default DepartmentForm;
-```

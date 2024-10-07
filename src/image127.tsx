@@ -98,4 +98,3 @@ const AssetDetailForm: FC<AssetDetailFormProps> = ({
 };
 
 export default AssetDetailForm;
-```

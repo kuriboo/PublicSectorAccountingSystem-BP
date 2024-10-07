@@ -78,4 +78,3 @@ const BudgetInfoCard: React.FC<Props> = ({
 };
 
 export default BudgetInfoCard;
-```

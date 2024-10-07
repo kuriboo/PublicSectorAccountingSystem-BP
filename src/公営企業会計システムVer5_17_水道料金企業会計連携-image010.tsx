@@ -85,4 +85,3 @@ const ZoneTable: React.FC<ZoneTableProps> = ({
 };
 
 export default ZoneTable;
-```

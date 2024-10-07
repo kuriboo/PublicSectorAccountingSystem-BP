@@ -71,4 +71,3 @@ const InventoryComponent: React.FC<InventoryComponentProps> = ({
 };
 
 export default InventoryComponent;
-```

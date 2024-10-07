@@ -62,4 +62,3 @@ const AssetComposition: React.FC<AssetCompositionProps> = ({
 };
 
 export default AssetComposition;
-```

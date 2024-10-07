@@ -101,4 +101,3 @@ const PriceMaster: React.FC<PriceMasterProps> = ({
 };
 
 export default PriceMaster;
-```

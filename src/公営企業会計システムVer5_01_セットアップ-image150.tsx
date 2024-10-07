@@ -65,4 +65,3 @@ const EmployeeCodeForm: React.FC<EmployeeCodeFormProps> = ({
 };
 
 export default EmployeeCodeForm;
-```

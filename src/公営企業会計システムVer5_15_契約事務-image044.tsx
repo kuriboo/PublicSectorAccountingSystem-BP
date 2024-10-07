@@ -84,4 +84,3 @@ const BasePriceCalculation: FC<BasePriceCalculationProps> = ({
 };
 
 export default BasePriceCalculation;
-```

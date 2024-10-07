@@ -92,4 +92,3 @@ const SurveyForm: React.FC<SurveyFormProps> = ({
 };
 
 export default SurveyForm;
-```

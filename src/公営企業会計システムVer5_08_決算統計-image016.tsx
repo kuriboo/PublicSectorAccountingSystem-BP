@@ -102,4 +102,3 @@ const ReportForm: React.FC<ReportFormProps> = ({ title, date, includePageNumber,
 };
 
 export default ReportForm;
-```

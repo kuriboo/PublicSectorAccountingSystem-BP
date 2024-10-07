@@ -116,4 +116,3 @@ const SUD1380: React.FC<SUD1380Props> = ({
 };
 
 export default SUD1380;
-```

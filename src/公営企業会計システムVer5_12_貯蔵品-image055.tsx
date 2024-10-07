@@ -79,4 +79,3 @@ const ReportForm: React.FC<ReportFormProps> = ({ initialStartDate, initialEndDat
 };
 
 export default ReportForm;
-```

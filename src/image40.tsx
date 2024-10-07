@@ -21,4 +21,3 @@ const CustomButton: React.FC<ButtonProps> = ({ label, onClick, className }) => {
 };
 
 export default CustomButton;
-```

@@ -132,4 +132,3 @@ const ClassificationSearch: React.FC<ClassificationSearchProps> = ({
 };
 
 export default ClassificationSearch;
-```

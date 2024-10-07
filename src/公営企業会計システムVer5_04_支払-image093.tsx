@@ -50,4 +50,3 @@ const PrintSelection: React.FC<PrintSelectionProps> = ({ options, selectedOption
 };
 
 export default PrintSelection;
-```

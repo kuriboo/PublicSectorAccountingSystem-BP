@@ -77,4 +77,3 @@ const TitleMasterList: React.FC<TitleMasterListProps> = ({
 };
 
 export default TitleMasterList;
-```

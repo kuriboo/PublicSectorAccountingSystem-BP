@@ -120,4 +120,3 @@ const ConsumptionTaxForm: React.FC<ConsumptionTaxFormProps> = ({
 
 // Export the component
 export default ConsumptionTaxForm;
-```

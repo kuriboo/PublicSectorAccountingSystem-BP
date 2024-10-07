@@ -43,4 +43,3 @@ const DateRangeComponent: React.FC<Props> = ({ startDate, endDate, onOk, onCance
 };
 
 export default DateRangeComponent;
-```

@@ -90,4 +90,3 @@ const CashFlowComponent: React.FC<ComponentProps> = ({
 };
 
 export default CashFlowComponent;
-```

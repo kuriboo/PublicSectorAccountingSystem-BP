@@ -88,4 +88,3 @@ const MasterSettingForm: React.FC<MasterSettingFormProps> = ({
 };
 
 export default MasterSettingForm;
-```

@@ -110,7 +110,6 @@ const DataExportForm: React.FC<DataExportFormProps> = ({
 };
 
 export default DataExportForm;
-```
 
 ```tsx
 // Usage example (e.g., in a page or another component)
@@ -156,4 +155,3 @@ const ExamplePage = () => {
 };
 
 export default ExamplePage;
-```

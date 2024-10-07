@@ -42,4 +42,3 @@ const Dialog: React.FC<DialogProps> = ({ title, items, onOk, onClear, onCancel }
 };
 
 export default Dialog;
-```

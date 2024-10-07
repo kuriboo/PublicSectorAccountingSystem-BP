@@ -71,4 +71,3 @@ const ApplicationMaster: React.FC<Props> = ({ rows, onRegister, onEdit, onDelete
 };
 
 export default ApplicationMaster;
-```

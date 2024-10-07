@@ -54,4 +54,3 @@ const TantoshaTable: React.FC<TantoshaTableProps> = ({ employees, onEdit, onDele
 };
 
 export default TantoshaTable;
-```

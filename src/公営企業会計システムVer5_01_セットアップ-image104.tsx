@@ -44,7 +44,6 @@ const CheckboxList: React.FC<CheckboxListProps> = ({
 };
 
 export default CheckboxList;
-```
 
 ```tailwind.config.js
 // Add Tailwind CSS configuration if needed
@@ -55,4 +54,3 @@ module.exports = {
   },
   plugins: [],
 };
-```

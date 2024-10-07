@@ -50,4 +50,3 @@ const ItemCodeMappingTable: React.FC<ItemCodeMappingTableProps> = ({ items }) =>
 };
 
 export default ItemCodeMappingTable;
-```

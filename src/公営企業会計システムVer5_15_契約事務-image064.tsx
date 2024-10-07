@@ -88,4 +88,3 @@ const NoticeComponent: React.FC<NoticeProps> = ({
 };
 
 export default NoticeComponent;
-```

@@ -75,4 +75,3 @@ const InventoryEntry: React.FC<InventoryEntryProps> = ({ date, location, worksit
 };
 
 export default InventoryEntry;
-```

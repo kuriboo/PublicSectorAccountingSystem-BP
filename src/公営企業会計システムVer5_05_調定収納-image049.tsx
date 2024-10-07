@@ -75,4 +75,3 @@ const AccountingForm: React.FC<AccountingFormProps> = ({ onSubmit, onClear, onCl
 };
 
 export default AccountingForm;
-```

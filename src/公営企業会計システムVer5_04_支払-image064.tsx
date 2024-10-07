@@ -54,4 +54,3 @@ const AgreementComponent: React.FC<AgreementProps> = ({
 };
 
 export default AgreementComponent;
-```

@@ -55,4 +55,3 @@ const SummaryComponent: FC<SummaryProps> = ({ title, description, onSelectYear }
 };
 
 export default SummaryComponent;
-```

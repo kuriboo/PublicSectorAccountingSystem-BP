@@ -123,4 +123,3 @@ const ReceiptForm: React.FC<ReceiptFormProps> = ({
 };
 
 export default ReceiptForm;
-```

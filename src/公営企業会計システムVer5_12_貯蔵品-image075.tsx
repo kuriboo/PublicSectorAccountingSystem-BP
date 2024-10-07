@@ -67,4 +67,3 @@ const InventoryPrep: React.FC<InventoryPrepProps> = ({
 };
 
 export default InventoryPrep;
-```

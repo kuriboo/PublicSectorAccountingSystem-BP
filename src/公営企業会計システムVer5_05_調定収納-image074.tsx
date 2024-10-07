@@ -58,4 +58,3 @@ const ReceiptEntry: React.FC<Props> = ({ title, onOk, onClear, onExit }) => {
 };
 
 export default ReceiptEntry;
-```

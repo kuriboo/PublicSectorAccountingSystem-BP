@@ -21,7 +21,6 @@ const Logo: React.FC<LogoProps> = ({ text = "株式会社ぎょうせい", image
 };
 
 export default Logo;
-```
 
 ```tsx
 // 使用例
@@ -31,4 +30,3 @@ export default Logo;
   text="カスタムテキスト"
   className="custom-class"
 />
-```

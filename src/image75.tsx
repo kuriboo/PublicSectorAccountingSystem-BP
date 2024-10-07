@@ -99,4 +99,3 @@ const IndustryReportForm: React.FC<FormProps> = ({
 };
 
 export default IndustryReportForm;
-```

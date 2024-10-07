@@ -93,7 +93,6 @@ const BudgetForm: React.FC<BudgetFormProps> = ({
 };
 
 export default BudgetForm;
-```
 
 ```tsx
 // pages/index.tsx
@@ -135,20 +134,17 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-```
 
 ```css
 /* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```
 
 ```bash
 # Install dependencies
 npm install tailwindcss
 npx tailwindcss init
-```
 
 ```json
 // tailwind.config.js
@@ -162,4 +158,3 @@ module.exports = {
   },
   plugins: [],
 };
-```

@@ -101,4 +101,3 @@ const InventoryComponent: React.FC<InventoryProps> = ({
 };
 
 export default InventoryComponent;
-```

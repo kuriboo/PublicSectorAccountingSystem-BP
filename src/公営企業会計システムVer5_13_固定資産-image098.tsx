@@ -54,4 +54,3 @@ const CustomForm: React.FC<CustomComponentProps> = ({
 };
 
 export default CustomForm;
-```

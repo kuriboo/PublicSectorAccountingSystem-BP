@@ -156,4 +156,3 @@ const FacilityInfo: React.FC<FacilityInfoProps> = ({
 };
 
 export default FacilityInfo;
-```

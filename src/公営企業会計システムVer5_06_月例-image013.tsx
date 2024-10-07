@@ -174,4 +174,3 @@ const AccountingEntryForm: React.FC<Props> = ({
 };
 
 export default AccountingEntryForm;
-```

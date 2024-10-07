@@ -81,4 +81,3 @@ const ReceptionComponent: React.FC<ReceptionComponentProps> = ({
 };
 
 export default ReceptionComponent;
-```

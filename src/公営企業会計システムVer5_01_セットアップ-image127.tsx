@@ -59,4 +59,3 @@ const ExampleUsage: React.FC = () => {
 };
 
 export default ExampleUsage;
-```

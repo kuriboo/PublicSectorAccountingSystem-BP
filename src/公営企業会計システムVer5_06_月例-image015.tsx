@@ -61,4 +61,3 @@ const BudgetEntry: React.FC<BudgetEntryProps> = ({ title, date, categories }) =>
 };
 
 export default BudgetEntry;
-```

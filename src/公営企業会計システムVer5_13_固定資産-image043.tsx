@@ -92,4 +92,3 @@ const ExtractionComponent: FC<ExtractionComponentProps> = ({
 };
 
 export default ExtractionComponent;
-```

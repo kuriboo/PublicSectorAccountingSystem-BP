@@ -157,4 +157,3 @@ const InventoryForm: React.FC<InventoryFormProps> = ({ onSubmit }) => {
 };
 
 export default InventoryForm;
-```

@@ -98,4 +98,3 @@ const PaymentData: React.FC<PaymentDataProps> = ({
 };
 
 export default PaymentData;
-```

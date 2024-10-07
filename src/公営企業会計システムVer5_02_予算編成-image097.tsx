@@ -74,4 +74,3 @@ const AllocationComponent: React.FC<AllocationProps> = ({
 );
 
 export default AllocationComponent;
-```

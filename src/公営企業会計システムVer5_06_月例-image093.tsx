@@ -71,4 +71,3 @@ const ExtractionForm: React.FC<ExtractionFormProps> = ({
 };
 
 export default ExtractionForm;
-```

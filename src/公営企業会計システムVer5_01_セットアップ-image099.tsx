@@ -84,4 +84,3 @@ const FinancialPlanningForm: React.FC<FinancialPlanningProps> = ({
 };
 
 export default FinancialPlanningForm;
-```

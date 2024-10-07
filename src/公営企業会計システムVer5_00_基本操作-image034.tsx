@@ -51,4 +51,3 @@ const Calendar: React.FC<CalendarProps> = ({ year, month, selectedDate, onDateSe
 };
 
 export default Calendar;
-```

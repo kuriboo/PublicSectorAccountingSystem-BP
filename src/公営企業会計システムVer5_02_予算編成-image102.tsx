@@ -96,4 +96,3 @@ const ReleaseConfirmation: React.FC<ReleaseConfirmationProps> = ({
 };
 
 export default ReleaseConfirmation;
-```

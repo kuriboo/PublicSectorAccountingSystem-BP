@@ -52,4 +52,3 @@ const DateRangeSelector: React.FC<DateRangeSelectorProps> = ({
 };
 
 export default DateRangeSelector;
-```

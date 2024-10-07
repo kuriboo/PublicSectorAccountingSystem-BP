@@ -56,4 +56,3 @@ const YearUpdateComponent: React.FC<YearUpdateComponentProps> = ({
 };
 
 export default YearUpdateComponent;
-```

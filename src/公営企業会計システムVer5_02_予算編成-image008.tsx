@@ -107,4 +107,3 @@ const YearValueForm: React.FC<YearValueFormProps> = ({
 };
 
 export default YearValueForm;
-```

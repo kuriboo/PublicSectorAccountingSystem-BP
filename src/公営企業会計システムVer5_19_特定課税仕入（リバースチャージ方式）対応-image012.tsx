@@ -128,4 +128,3 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
 
 // Export the component
 export default SearchComponent;
-```

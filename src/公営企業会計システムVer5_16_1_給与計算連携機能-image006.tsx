@@ -85,4 +85,3 @@ const KyuuyoDataImport: React.FC<KyuuyoDataImportProps> = ({
 };
 
 export default KyuuyoDataImport;
-```

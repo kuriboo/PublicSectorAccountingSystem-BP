@@ -67,4 +67,3 @@ const RangeForm: React.FC<RangeFormProps> = ({
 };
 
 export default RangeForm;
-```

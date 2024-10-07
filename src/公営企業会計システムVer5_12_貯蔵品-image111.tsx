@@ -82,4 +82,3 @@ const ProductTable: React.FC<ProductTableProps> = ({ products, onOk, onClear, on
 };
 
 export default ProductTable;
-```

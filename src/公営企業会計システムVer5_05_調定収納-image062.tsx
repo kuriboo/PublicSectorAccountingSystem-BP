@@ -98,4 +98,3 @@ const DepositInput: React.FC<DepositInputProps> = ({
 };
 
 export default DepositInput;
-```

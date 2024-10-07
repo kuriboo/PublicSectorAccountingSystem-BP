@@ -77,4 +77,3 @@ const InputModal: React.FC<InputModalProps> = ({
 };
 
 export default InputModal;
-```

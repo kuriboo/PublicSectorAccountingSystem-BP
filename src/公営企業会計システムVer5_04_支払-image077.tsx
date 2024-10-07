@@ -102,4 +102,3 @@ const BudgetComponent: React.FC<BudgetComponentProps> = ({
 };
 
 export default BudgetComponent;
-```

@@ -114,4 +114,3 @@ const AccountInquiry: React.FC<AccountInquiryProps> = ({
 };
 
 export default AccountInquiry;
-```

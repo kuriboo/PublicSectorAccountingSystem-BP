@@ -26,4 +26,3 @@ export default Logo;
 
 // 使用例:
 // <Logo src="/path/to/logo.png" alt="会社ロゴ" width={200} height={80} className="mx-auto" />
-```

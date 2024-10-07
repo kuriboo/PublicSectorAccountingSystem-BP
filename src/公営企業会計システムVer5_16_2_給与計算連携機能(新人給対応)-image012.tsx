@@ -29,4 +29,3 @@ const Logo: React.FC<LogoProps> = ({ src, alt, width = 200, height = 60, classNa
 // <Logo src="/path/to/logo.png" alt="会社のロゴ" className="mx-auto my-4" />
 
 export default Logo;
-```

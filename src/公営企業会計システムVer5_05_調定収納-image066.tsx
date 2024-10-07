@@ -48,4 +48,3 @@ const AccountingEntry: React.FC<AccountingEntryProps> = ({
 };
 
 export default AccountingEntry;
-```

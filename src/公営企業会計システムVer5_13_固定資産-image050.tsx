@@ -75,4 +75,3 @@ const CalculationComponent: React.FC<CalculationComponentProps> = ({
 };
 
 export default CalculationComponent;
-```

@@ -91,4 +91,3 @@ const AssetSearch: React.FC<AssetSearchProps> = ({
 };
 
 export default AssetSearch;
-```

@@ -24,4 +24,3 @@ const Logo: React.FC<LogoProps> = ({ src, alt, width, height, className }) => {
 
 // Export the component for reuse
 export default Logo;
-```

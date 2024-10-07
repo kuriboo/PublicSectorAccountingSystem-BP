@@ -115,4 +115,3 @@ const BudgetAllocationForm: React.FC<BudgetAllocationFormProps> = ({
 };
 
 export default BudgetAllocationForm;
-```

@@ -57,4 +57,3 @@ const CsvDataComponent: React.FC<CsvDataProps> = ({
 };
 
 export default CsvDataComponent;
-```

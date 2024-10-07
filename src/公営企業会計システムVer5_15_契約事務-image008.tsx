@@ -97,4 +97,3 @@ const IndustryDetail: React.FC<IndustryDetailProps> = ({
 };
 
 export default IndustryDetail;
-```

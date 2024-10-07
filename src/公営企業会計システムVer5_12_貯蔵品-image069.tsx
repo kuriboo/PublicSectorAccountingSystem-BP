@@ -48,7 +48,6 @@ const TableComponent: React.FC<TableComponentProps> = ({ title, subtitle, rows }
 }
 
 export default TableComponent;
-```
 
 ```tsx
 // Example of using the TableComponent
@@ -73,4 +72,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-```

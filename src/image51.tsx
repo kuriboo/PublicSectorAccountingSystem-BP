@@ -64,4 +64,3 @@ const ConsumptionTaxDetails: React.FC<ConsumptionTaxDetailsProps> = ({
 };
 
 export default ConsumptionTaxDetails;
-```

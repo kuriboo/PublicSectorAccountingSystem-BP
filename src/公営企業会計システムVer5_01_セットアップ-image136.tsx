@@ -87,4 +87,3 @@ export const BankBranchMaster: React.FC<BankBranchMasterProps> = ({
     </div>
   );
 };
-```

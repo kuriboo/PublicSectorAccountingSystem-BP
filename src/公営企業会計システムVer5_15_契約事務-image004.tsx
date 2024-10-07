@@ -63,4 +63,3 @@ const LabelWithValue: React.FC<LabelWithValueProps> = ({ label, value, unit }) =
 );
 
 export default BusinessStatus;
-```

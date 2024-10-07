@@ -92,4 +92,3 @@ const MyComponent: React.FC<MyComponentProps> = ({
 };
 
 export default MyComponent;
-```

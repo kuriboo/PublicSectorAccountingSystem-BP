@@ -71,4 +71,3 @@ const InquiryForm: React.FC<InquiryFormProps> = ({
 };
 
 export default InquiryForm;
-```

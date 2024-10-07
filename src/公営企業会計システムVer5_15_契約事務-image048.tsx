@@ -79,4 +79,3 @@ const NotificationForm: FC<NotificationFormProps> = ({
 };
 
 export default NotificationForm;
-```

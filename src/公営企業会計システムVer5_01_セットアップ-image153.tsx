@@ -136,4 +136,3 @@ const CategoryMaster: React.FC<CategoryMasterProps> = ({
 };
 
 export default CategoryMaster;
-```

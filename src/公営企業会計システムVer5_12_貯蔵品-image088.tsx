@@ -70,4 +70,3 @@ const DataReplicationComponent: React.FC<DataReplicationComponentProps> = ({
 };
 
 export default DataReplicationComponent;
-```

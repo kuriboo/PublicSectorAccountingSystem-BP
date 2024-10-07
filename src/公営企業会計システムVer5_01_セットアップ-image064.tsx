@@ -83,4 +83,3 @@ const AccountingFileList: React.FC<Props> = ({
 };
 
 export default AccountingFileList;
-```

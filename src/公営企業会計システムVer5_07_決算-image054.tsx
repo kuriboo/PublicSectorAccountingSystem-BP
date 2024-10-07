@@ -51,4 +51,3 @@ const KeisanHoukokuComponent: React.FC<KeisanHoukokuProps> = ({
 };
 
 export default KeisanHoukokuComponent;
-```

@@ -58,4 +58,3 @@ const VoucherDecision: React.FC<VoucherDecisionProps> = ({
 };
 
 export default VoucherDecision;
-```

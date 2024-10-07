@@ -54,4 +54,3 @@ const BudgetItemEditor: React.FC<BudgetItemProps> = ({ title, code, description,
 };
 
 export default BudgetItemEditor;
-```

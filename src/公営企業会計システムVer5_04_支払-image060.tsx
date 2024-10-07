@@ -60,4 +60,3 @@ const PrintDialog: React.FC<PrintDialogProps> = ({ title, checkboxItems, onOk, o
 };
 
 export default PrintDialog;
-```

@@ -110,4 +110,3 @@ const SpecificCostInput: React.FC<SpecificCostInputProps> = ({
 };
 
 export default SpecificCostInput;
-```

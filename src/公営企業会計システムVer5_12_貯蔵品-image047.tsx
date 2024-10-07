@@ -76,4 +76,3 @@ const InventoryTable: React.FC<InventoryTableProps> = ({
 };
 
 export default InventoryTable;
-```

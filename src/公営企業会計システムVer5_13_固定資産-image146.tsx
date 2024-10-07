@@ -120,4 +120,3 @@ const AssetFormComponent: React.FC<AssetFormProps> = ({
 };
 
 export default AssetFormComponent;
-```

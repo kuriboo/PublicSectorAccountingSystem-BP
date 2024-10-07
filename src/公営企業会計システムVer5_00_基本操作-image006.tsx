@@ -49,6 +49,5 @@ const MainMenu: React.FC<MainMenuProps> = ({
 };
 
 export default MainMenu;
-```
 
 注意: このコードは使用例を必要としないため、コンポーネントの実装部分のみ提供しています。適切なプロパティを渡す例は別途作成してください。

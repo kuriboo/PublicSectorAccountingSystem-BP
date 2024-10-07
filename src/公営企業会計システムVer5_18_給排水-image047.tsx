@@ -57,4 +57,3 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({ buttons, radioButtons }) => {
 };
 
 export default ButtonGroup;
-```

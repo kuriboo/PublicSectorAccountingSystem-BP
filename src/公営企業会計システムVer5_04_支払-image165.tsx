@@ -83,4 +83,3 @@ const RangeSelector: React.FC<Props> = ({
 };
 
 export default RangeSelector;
-```

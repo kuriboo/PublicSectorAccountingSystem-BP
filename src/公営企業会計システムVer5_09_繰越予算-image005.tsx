@@ -43,4 +43,3 @@ const Flowchart: React.FC<FlowchartProps> = ({ elements, connections }) => {
 };
 
 export default Flowchart;
-```

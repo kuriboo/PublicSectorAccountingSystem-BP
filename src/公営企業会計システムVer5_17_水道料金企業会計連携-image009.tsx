@@ -80,4 +80,3 @@ const dataExample: DataItem[] = [
 export default function App() {
   return <DataTable data={dataExample} />;
 }
-```

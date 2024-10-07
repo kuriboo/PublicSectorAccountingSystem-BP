@@ -54,4 +54,3 @@ const InventoryTable: React.FC<InventoryTableProps> = ({ items, date }) => {
 };
 
 export default InventoryTable;
-```

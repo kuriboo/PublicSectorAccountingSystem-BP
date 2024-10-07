@@ -134,4 +134,3 @@ const CollectionInputComponent: React.FC<PropTypes> = ({
 };
 
 export default CollectionInputComponent;
-```

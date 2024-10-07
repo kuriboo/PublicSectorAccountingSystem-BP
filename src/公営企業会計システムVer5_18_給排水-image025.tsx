@@ -66,4 +66,3 @@ const MasterForm: React.FC<MasterFormProps> = ({ data, onChange }) => {
 };
 
 export default MasterForm;
-```

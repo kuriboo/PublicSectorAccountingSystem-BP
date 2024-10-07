@@ -91,4 +91,3 @@ const CollectionHistory: React.FC<CollectionHistoryProps> = ({
 };
 
 export default CollectionHistory;
-```

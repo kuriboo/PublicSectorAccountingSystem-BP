@@ -73,4 +73,3 @@ const InformationRegistration: React.FC<InformationRegistrationProps> = ({
 };
 
 export default InformationRegistration;
-```

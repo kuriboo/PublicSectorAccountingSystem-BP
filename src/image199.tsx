@@ -24,7 +24,6 @@ const Logo: React.FC<LogoProps> = ({ width = '200px', height = '60px', altText =
 };
 
 export default Logo;
-```
 
 ```tsx
 // pages/index.tsx
@@ -42,7 +41,6 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-```
 
 ```css
 /* styles/globals.css */
@@ -53,4 +51,3 @@ export default Home;
 @tailwind utilities;
 
 /* Additional custom styles can be added here */
-```

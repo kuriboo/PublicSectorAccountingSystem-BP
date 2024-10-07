@@ -164,4 +164,3 @@ const FilterForm: React.FC<FilterFormProps> = ({
 };
 
 export default FilterForm;
-```

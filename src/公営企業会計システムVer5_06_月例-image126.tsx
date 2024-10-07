@@ -24,4 +24,3 @@ export default GradientBar;
 
 // 使用例
 // <GradientBar colors={['#80c1ff', '#000', '#000', '#80c1ff']} height="10px" />
-```

@@ -78,4 +78,3 @@ const DataOutput: React.FC<DataOutputProps> = ({
 };
 
 export default DataOutput;
-```

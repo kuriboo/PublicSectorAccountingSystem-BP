@@ -88,4 +88,3 @@ const RevenueSettings: React.FC<RevenueSettingsProps> = ({
 };
 
 export default RevenueSettings;
-```

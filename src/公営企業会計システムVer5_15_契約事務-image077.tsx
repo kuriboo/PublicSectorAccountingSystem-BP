@@ -52,4 +52,3 @@ const BusinessInfoTable: React.FC<BusinessInfoTableProps> = ({ businesses }) => 
 };
 
 export default BusinessInfoTable;
-```

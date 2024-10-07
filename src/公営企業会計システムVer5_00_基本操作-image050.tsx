@@ -36,7 +36,6 @@ const TreeView: React.FC<TreeViewProps> = ({ nodes, onCheck }) => {
 };
 
 export default TreeView;
-```
 
 ```tsx
 import React, { useState } from 'react';
@@ -92,4 +91,3 @@ const TreeComponent = () => {
 };
 
 export default TreeComponent;
-```

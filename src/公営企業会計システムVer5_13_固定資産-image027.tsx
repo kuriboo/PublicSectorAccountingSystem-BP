@@ -98,4 +98,3 @@ const LeaseAssetForm: React.FC<LeaseAssetFormProps> = ({
 };
 
 export default LeaseAssetForm;
-```

@@ -56,4 +56,3 @@ const PaymentSlip: React.FC<PaymentSlipProps> = ({
 };
 
 export default PaymentSlip;
-```

@@ -92,4 +92,3 @@ const NotificationComponent: React.FC<NotificationProps> = ({
 };
 
 export default NotificationComponent;
-```

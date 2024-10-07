@@ -182,4 +182,3 @@ const ConsumptionTaxForm: React.FC<Props> = ({
 };
 
 export default ConsumptionTaxForm;
-```

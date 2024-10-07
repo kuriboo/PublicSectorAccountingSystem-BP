@@ -100,4 +100,3 @@ const BudgetEntry: React.FC<BudgetEntryProps> = ({
 };
 
 export default BudgetEntry;
-```

@@ -30,4 +30,3 @@ const FileExplorer: React.FC<FileExplorerProps> = ({ files, onFileSelect }) => {
 };
 
 export default FileExplorer;
-```

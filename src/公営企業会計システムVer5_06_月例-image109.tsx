@@ -122,4 +122,3 @@ const RangeSetting: React.FC<RangeSettingProps> = ({
 };
 
 export default RangeSetting;
-```

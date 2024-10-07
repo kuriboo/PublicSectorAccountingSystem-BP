@@ -106,4 +106,3 @@ const PermissionSettings: React.FC<PermissionSettingsProps> = ({
 };
 
 export default PermissionSettings;
-```

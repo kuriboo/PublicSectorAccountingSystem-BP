@@ -158,4 +158,3 @@ export const BudgetRequestForm: React.FC<BudgetRequestProps> = ({
     </div>
   );
 };
-```

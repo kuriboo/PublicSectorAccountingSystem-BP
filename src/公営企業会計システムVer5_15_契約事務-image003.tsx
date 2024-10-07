@@ -117,4 +117,3 @@ const PartnerRegistration: React.FC<PartnerRegistrationProps> = ({
 };
 
 export default PartnerRegistration;
-```

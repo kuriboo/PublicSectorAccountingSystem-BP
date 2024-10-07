@@ -123,4 +123,3 @@ const ContractChangeInput: React.FC<ContractChangeInputProps> = ({
 };
 
 export default ContractChangeInput;
-```

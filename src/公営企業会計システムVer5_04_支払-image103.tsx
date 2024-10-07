@@ -49,4 +49,3 @@ const CheckboxList: React.FC<CheckboxListProps> = ({
 };
 
 export default CheckboxList;
-```

@@ -91,4 +91,3 @@ const BidResultForm: React.FC<BidResultFormProps> = ({
 };
 
 export default BidResultForm;
-```

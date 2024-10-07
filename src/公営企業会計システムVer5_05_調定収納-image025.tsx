@@ -97,4 +97,3 @@ const SearchSettings: React.FC<SearchSettingsProps> = ({
 };
 
 export default SearchSettings;
-```

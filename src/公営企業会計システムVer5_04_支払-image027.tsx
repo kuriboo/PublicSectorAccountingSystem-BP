@@ -101,4 +101,3 @@ const PaymentDeleteForm: React.FC<PaymentDeleteFormProps> = (props) => {
 };
 
 export default PaymentDeleteForm;
-```

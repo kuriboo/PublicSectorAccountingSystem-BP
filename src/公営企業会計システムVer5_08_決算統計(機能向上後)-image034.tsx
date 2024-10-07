@@ -108,4 +108,3 @@ const FinancialComponent: React.FC<ComponentProps> = ({
 }
 
 export default FinancialComponent;
-```

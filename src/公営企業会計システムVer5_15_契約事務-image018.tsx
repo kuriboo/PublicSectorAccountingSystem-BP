@@ -98,4 +98,3 @@ const SalesItemEditor: React.FC<SalesItemEditorProps> = ({
 };
 
 export default SalesItemEditor;
-```

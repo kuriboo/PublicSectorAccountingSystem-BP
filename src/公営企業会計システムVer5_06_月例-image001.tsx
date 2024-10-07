@@ -24,4 +24,3 @@ const Logo: React.FC<LogoProps> = ({ text = "株式会社ぎょうせい", class
 };
 
 export default Logo;
-```

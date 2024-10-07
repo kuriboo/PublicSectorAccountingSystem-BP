@@ -32,4 +32,3 @@ const TaxForm: React.FC<TaxFormProps> = ({ heading, rows }) => {
 };
 
 export default TaxForm;
-```

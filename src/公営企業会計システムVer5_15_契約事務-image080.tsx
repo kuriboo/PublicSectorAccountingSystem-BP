@@ -71,4 +71,3 @@ const JVComponent: React.FC<JVComponentProps> = ({ data, onCancel }) => {
 };
 
 export default JVComponent;
-```

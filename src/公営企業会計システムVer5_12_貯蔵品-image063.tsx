@@ -64,4 +64,3 @@ const PredictiveTimeline: React.FC<PredictiveTimelineProps> = ({
 };
 
 export default PredictiveTimeline;
-```

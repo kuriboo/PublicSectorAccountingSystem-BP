@@ -81,4 +81,3 @@ const BudgetTable: React.FC<BudgetTableProps> = ({ data, year, fiscalYear, onSea
 };
 
 export default BudgetTable;
-```

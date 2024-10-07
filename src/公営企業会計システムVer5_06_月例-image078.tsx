@@ -62,4 +62,3 @@ const ExampleUsage = () => {
 };
 
 export default ExampleUsage;
-```

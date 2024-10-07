@@ -75,4 +75,3 @@ const ContractInquiry: React.FC<ContractInquiryProps> = ({ yearOptions, typeOpti
 };
 
 export default ContractInquiry;
-```

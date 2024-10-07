@@ -60,4 +60,3 @@ const RecordTable: React.FC<RecordProps> = ({
 };
 
 export default RecordTable;
-```

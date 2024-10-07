@@ -92,4 +92,3 @@ const ReceiptForm: React.FC<Props> = ({ onSubmit, onClear, onExit }) => {
 };
 
 export default ReceiptForm;
-```

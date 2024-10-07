@@ -126,4 +126,3 @@ const CalendarComponent: FC<CalendarComponentProps> = ({
 };
 
 export default CalendarComponent;
-```

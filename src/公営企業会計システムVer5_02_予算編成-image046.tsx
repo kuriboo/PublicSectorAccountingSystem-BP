@@ -86,4 +86,3 @@ const BudgetRegistration: React.FC<BudgetRegistrationProps> = ({
 };
 
 export default BudgetRegistration;
-```

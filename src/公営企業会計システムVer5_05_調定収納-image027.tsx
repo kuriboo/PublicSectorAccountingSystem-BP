@@ -124,4 +124,3 @@ const SearchForm: React.FC<SearchFormProps> = ({
 };
 
 export default SearchForm;
-```

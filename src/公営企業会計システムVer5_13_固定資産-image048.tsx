@@ -76,4 +76,3 @@ const DataInputForm: React.FC<DataInputFormProps> = ({
 };
 
 export default DataInputForm;
-```

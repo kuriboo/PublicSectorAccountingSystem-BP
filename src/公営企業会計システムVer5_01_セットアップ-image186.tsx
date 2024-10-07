@@ -54,4 +54,3 @@ const TaxMaster: React.FC<TaxMasterProps> = ({ title, taxRates, onEdit, onDelete
 };
 
 export default TaxMaster;
-```

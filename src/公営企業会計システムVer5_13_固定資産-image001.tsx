@@ -97,4 +97,3 @@ const AssetRegisterForm: FC<AssetRegisterFormProps> = ({
 );
 
 export default AssetRegisterForm;
-```

@@ -89,4 +89,3 @@ const InspectionsInput: FC<InspectionsInputProps> = ({
 };
 
 export default InspectionsInput;
-```

@@ -111,4 +111,3 @@ const VoucherEntry: React.FC<VoucherEntryProps> = ({
 };
 
 export default VoucherEntry;
-```

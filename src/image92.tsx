@@ -53,4 +53,3 @@ const ContractTasksComponent: React.FC<ContractTasksComponentProps> = ({
 };
 
 export default ContractTasksComponent;
-```

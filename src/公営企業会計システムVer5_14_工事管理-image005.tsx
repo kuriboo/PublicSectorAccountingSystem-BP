@@ -89,4 +89,3 @@ const TaskTypeManager: React.FC<TaskTypeManagerProps> = ({ taskTypes, year, onCo
 };
 
 export default TaskTypeManager;
-```

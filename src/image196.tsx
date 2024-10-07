@@ -95,4 +95,3 @@ const MasterComponent: React.FC<MasterComponentProps> = ({
 };
 
 export default MasterComponent;
-```

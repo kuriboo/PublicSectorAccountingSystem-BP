@@ -52,4 +52,3 @@ const TaxForm: React.FC<TaxFormProps> = ({
 
 // Export component
 export default TaxForm;
-```

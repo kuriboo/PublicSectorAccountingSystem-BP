@@ -80,4 +80,3 @@ const DataTable: React.FC<DataTableProps> = ({ data, onConfirm, onCancel }) => {
 };
 
 export default DataTable;
-```

@@ -23,7 +23,6 @@ const DocumentHeader: React.FC<DocumentHeaderProps> = ({ title, burdenNumber, ye
 };
 
 export default DocumentHeader;
-```
 
 ```tsx
 // 使用例
@@ -41,4 +40,3 @@ const ExampleComponent = () => {
 };
 
 export default ExampleComponent;
-```

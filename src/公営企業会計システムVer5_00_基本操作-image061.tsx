@@ -67,4 +67,3 @@ const Spreadsheet: React.FC<SpreadsheetProps> = ({
 };
 
 export default Spreadsheet;
-```

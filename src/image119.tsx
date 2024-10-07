@@ -87,4 +87,3 @@ const InspectionTable: React.FC<InspectionTableProps> = ({ items, results, onSub
 };
 
 export default InspectionTable;
-```

@@ -130,4 +130,3 @@ const JVRegistration: FC<JVRegistrationProps> = ({
 };
 
 export default JVRegistration;
-```

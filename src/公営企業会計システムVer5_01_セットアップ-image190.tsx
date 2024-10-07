@@ -95,4 +95,3 @@ const PasswordPolicy: React.FC<PasswordPolicyProps> = ({
 };
 
 export default PasswordPolicy;
-```

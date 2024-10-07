@@ -56,4 +56,3 @@ const BudgetSelectionForm: React.FC<BudgetSelectionFormProps> = ({
 };
 
 export default BudgetSelectionForm;
-```

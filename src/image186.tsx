@@ -58,4 +58,3 @@ const LoginMonitor: React.FC<LoginMonitorProps> = ({
 };
 
 export default LoginMonitor;
-```

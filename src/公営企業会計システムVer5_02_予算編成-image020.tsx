@@ -67,4 +67,3 @@ const ConfirmationComponent: React.FC<ConfirmationProps> = ({
 };
 
 export default ConfirmationComponent;
-```

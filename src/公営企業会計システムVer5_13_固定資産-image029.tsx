@@ -94,4 +94,3 @@ const FixedAssetForm: React.FC<FixedAssetFormProps> = ({
 };
 
 export default FixedAssetForm;
-```

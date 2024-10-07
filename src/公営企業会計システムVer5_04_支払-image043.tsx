@@ -117,4 +117,3 @@ const PaymentForm: React.FC<FormProps> = ({
 };
 
 export default PaymentForm;
-```

@@ -53,4 +53,3 @@ const AppGroupCodeComponent: React.FC<AppGroupCodeProps> = ({ startCode, endCode
 };
 
 export default AppGroupCodeComponent;
-```

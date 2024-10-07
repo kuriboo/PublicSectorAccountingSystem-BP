@@ -107,4 +107,3 @@ const RangeInput: React.FC<RangeInputProps> = ({
 };
 
 export default RangeInput;
-```

@@ -79,4 +79,3 @@ const DataCreationComponent: React.FC = () => {
 };
 
 export default DataCreationComponent;
-```

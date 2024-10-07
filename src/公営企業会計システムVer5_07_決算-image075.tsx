@@ -87,4 +87,3 @@ const SpecialIncomeMaster: React.FC<Props> = ({
 };
 
 export default SpecialIncomeMaster;
-```

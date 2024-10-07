@@ -88,4 +88,3 @@ const MasterTitleForm: React.FC<MasterTitleFormProps> = ({ data, onSubmit = () =
 };
 
 export default MasterTitleForm;
-```

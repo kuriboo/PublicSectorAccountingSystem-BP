@@ -51,4 +51,3 @@ const RecordTable: React.FC<TableProps> = ({ records }) => {
 };
 
 export default RecordTable;
-```

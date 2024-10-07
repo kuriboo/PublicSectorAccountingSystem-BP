@@ -107,4 +107,3 @@ const AssetDataInput: React.FC<AssetDataInputProps> = ({
 };
 
 export default AssetDataInput;
-```

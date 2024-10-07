@@ -68,4 +68,3 @@ const BudgetComparison: React.FC<BudgetComparisonProps> = ({
 };
 
 export default BudgetComparison;
-```

@@ -68,4 +68,3 @@ const ProcessingForm: React.FC<ProcessingFormProps> = ({
 };
 
 export default ProcessingForm;
-```

@@ -71,4 +71,3 @@ const CustomTable: React.FC<Props> = ({ data, onConfirm, onCancel }) => {
 };
 
 export default CustomTable;
-```

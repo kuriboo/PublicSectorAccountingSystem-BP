@@ -85,4 +85,3 @@ const ReceptionForm: React.FC<ReceptionFormProps> = ({
 };
 
 export default ReceptionForm;
-```

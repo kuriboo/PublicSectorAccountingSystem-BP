@@ -100,4 +100,3 @@ const BudgetForm: React.FC<BudgetFormProps> = ({
 
 // Export the component as default
 export default BudgetForm;
-```

@@ -89,4 +89,3 @@ const BudgetAllocation: React.FC<BudgetAllocationProps> = ({
 };
 
 export default BudgetAllocation;
-```

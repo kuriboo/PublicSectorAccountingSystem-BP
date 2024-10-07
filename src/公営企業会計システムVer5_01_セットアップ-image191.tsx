@@ -71,4 +71,3 @@ const BudgetSection: React.FC<BudgetSectionProps> = ({
 };
 
 export default BudgetSection;
-```

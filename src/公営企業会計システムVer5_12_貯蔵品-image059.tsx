@@ -80,4 +80,3 @@ const StatementCreation: React.FC<StatementCreationProps> = ({
 };
 
 export default StatementCreation;
-```

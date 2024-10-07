@@ -100,4 +100,3 @@ const DataEntryForm: React.FC<DataEntryFormProps> = ({
 };
 
 export default DataEntryForm;
-```

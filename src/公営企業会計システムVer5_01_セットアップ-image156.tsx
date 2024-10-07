@@ -51,6 +51,5 @@ const DataTable: React.FC<DataTableProps> = ({ data, onEdit, onDelete }) => {
 };
 
 export default DataTable;
-```
 
 ・このコードは確認違いない具体的な動作を保証しますません。適切に実行されるかどうか確認し、必要に応じて修正を加えてください。

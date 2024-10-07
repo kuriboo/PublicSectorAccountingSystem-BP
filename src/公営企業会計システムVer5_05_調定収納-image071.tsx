@@ -53,4 +53,3 @@ const InputForm: React.FC<FormProps> = ({ startDate, endDate, startId, endId, is
 }
 
 export default InputForm;
-```

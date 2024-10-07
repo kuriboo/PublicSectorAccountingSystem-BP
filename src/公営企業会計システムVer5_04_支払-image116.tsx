@@ -56,4 +56,3 @@ const PaymentForm: React.FC<PaymentFormProps> = ({ paymentDetails, onDetailChang
 };
 
 export default PaymentForm;
-```

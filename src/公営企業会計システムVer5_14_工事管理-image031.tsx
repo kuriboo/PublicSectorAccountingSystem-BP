@@ -73,4 +73,3 @@ const ProjectInput: React.FC<ProjectInputProps> = ({
 };
 
 export default ProjectInput;
-```

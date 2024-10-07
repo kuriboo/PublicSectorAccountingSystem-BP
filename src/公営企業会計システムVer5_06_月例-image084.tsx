@@ -122,4 +122,3 @@ const CorrectionInput: React.FC<CorrectionInputProps> = ({
 };
 
 export default CorrectionInput;
-```

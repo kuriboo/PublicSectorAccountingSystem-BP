@@ -83,4 +83,3 @@ const InventoryEntry: React.FC<InventoryEntryProps> = ({
 
 // Export the component for use in other files
 export default InventoryEntry;
-```

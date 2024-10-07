@@ -129,4 +129,3 @@ const IndustryForm: React.FC<FormProps> = ({
 };
 
 export default IndustryForm;
-```

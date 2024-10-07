@@ -104,4 +104,3 @@ const InventoryForm: React.FC<FormProps> = ({
 };
 
 export default InventoryForm;
-```

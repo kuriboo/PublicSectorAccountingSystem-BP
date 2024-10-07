@@ -130,4 +130,3 @@ export const NotificationForm: React.FC<FormProps> = ({
     </div>
   );
 };
-```

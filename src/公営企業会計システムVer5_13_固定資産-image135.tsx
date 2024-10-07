@@ -140,4 +140,3 @@ const AssetCalculationForm: React.FC<AssetCalculationFormProps> = ({
 };
 
 export default AssetCalculationForm;
-```

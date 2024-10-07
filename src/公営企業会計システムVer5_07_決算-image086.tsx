@@ -55,4 +55,3 @@ const CheckboxForm: React.FC<CheckboxFormProps> = ({
 };
 
 export default CheckboxForm;
-```

@@ -77,4 +77,3 @@ const TaxInvoice: React.FC<TaxInvoiceProps> = ({
 };
 
 export default TaxInvoice;
-```

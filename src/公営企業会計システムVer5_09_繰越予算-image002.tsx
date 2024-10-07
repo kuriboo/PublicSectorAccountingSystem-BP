@@ -79,4 +79,3 @@ const BudgetCheckForm: React.FC<BudgetCheckFormProps> = ({
 };
 
 export default BudgetCheckForm;
-```

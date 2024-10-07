@@ -56,4 +56,3 @@ const DataTable: React.FC<DataTableProps> = ({ data, onRowSelect }) => {
 };
 
 export default DataTable;
-```

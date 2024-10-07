@@ -73,4 +73,3 @@ const ConnectionForm: React.FC<ConnectionFormProps> = ({
 };
 
 export default ConnectionForm;
-```

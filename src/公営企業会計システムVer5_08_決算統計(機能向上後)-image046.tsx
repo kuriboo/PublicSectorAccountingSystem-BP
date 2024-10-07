@@ -89,4 +89,3 @@ const ExpenseSummary: FC<ExpenseSummaryProps> = ({
 };
 
 export default ExpenseSummary;
-```

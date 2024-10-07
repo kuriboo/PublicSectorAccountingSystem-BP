@@ -76,4 +76,3 @@ const PaymentSettings: React.FC<PaymentSettingsProps> = ({
 };
 
 export default PaymentSettings;
-```

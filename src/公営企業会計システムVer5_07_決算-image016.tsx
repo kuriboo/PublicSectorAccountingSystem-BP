@@ -94,4 +94,3 @@ const IncomeExpenseDetail: React.FC<IncomeExpenseDetailProps> = ({
 
 export default IncomeExpenseDetail;
 
-```

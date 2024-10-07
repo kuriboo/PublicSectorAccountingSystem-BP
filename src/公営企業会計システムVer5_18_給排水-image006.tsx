@@ -100,4 +100,3 @@ const ConstructionApprovalForm: React.FC<ConstructionApprovalFormProps> = ({
 };
 
 export default ConstructionApprovalForm;
-```

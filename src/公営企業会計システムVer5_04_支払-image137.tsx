@@ -99,4 +99,3 @@ const PaymentSchedule: React.FC<PaymentScheduleProps> = ({ startDate, endDate, p
 };
 
 export default PaymentSchedule;
-```

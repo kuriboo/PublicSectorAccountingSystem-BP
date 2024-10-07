@@ -73,4 +73,3 @@ const PaymentDetail: React.FC<Props> = ({
 };
 
 export default PaymentDetail;
-```

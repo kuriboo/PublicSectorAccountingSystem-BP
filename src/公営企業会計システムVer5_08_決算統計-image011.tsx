@@ -96,4 +96,3 @@ const FiscalForm: React.FC<FormProps> = ({
 };
 
 export default FiscalForm;
-```

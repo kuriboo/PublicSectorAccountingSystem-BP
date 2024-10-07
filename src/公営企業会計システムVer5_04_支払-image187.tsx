@@ -53,4 +53,3 @@ const FinancialTable: React.FC<FinancialTableProps> = ({
 };
 
 export default FinancialTable;
-```

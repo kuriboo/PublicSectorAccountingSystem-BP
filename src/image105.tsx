@@ -70,4 +70,3 @@ const ContractManagementComponent: React.FC<ContractManagementProps> = ({
 };
 
 export default ContractManagementComponent;
-```

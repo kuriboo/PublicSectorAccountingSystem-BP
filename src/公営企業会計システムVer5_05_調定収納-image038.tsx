@@ -48,4 +48,3 @@ const ReportForm: React.FC<Props> = ({
 };
 
 export default ReportForm;
-```

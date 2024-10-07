@@ -61,4 +61,3 @@ const FinancialSource: React.FC<FinancialSourceProps> = ({ sources, onEdit, onDe
 };
 
 export default FinancialSource;
-```

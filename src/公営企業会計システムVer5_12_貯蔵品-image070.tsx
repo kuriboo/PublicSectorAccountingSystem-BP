@@ -126,4 +126,3 @@ export const ShirabeForm: React.FC<ShirabeFormProps> = ({
     </form>
   );
 };
-```

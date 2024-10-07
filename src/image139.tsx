@@ -73,4 +73,3 @@ const AssetSummary: React.FC<AssetSummaryProps> = ({
 };
 
 export default AssetSummary;
-```

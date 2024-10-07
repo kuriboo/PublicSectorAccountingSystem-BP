@@ -123,4 +123,3 @@ const KessanReport: React.FC<KessanReportProps> = ({
 }
 
 export default KessanReport;
-```

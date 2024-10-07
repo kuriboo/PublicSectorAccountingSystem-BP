@@ -70,4 +70,3 @@ const FinancialProcessing: React.FC<Props> = ({
 };
 
 export default FinancialProcessing;
-```

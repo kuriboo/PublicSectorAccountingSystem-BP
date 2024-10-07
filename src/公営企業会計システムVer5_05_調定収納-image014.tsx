@@ -44,4 +44,3 @@ const CollectionEntryForm: React.FC<CollectionEntryFormProps> = ({ fiscalYear, r
 );
 
 export default CollectionEntryForm;
-```

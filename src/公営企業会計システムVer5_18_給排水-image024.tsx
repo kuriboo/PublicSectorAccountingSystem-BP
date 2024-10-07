@@ -71,4 +71,3 @@ const ShopMasterList: React.FC<ShopMasterListProps> = ({
 };
 
 export default ShopMasterList;
-```

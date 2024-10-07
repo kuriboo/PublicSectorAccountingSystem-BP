@@ -88,4 +88,3 @@ export const CalculationForm: React.FC<CalculationFormProps> = ({
     </div>
   );
 };
-```

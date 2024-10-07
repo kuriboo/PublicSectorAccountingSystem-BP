@@ -85,4 +85,3 @@ const ConfirmationForm: React.FC<ConfirmationFormProps> = ({
 };
 
 export default ConfirmationForm;
-```

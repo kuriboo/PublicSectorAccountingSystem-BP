@@ -113,4 +113,3 @@ export const PaymentForm: React.FC<PaymentFormProps> = ({
     </div>
   );
 };
-```

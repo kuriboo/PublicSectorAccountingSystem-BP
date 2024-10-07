@@ -120,4 +120,3 @@ const CustomerForm: React.FC<FormProps> = ({ data, onChange, onSubmit, onClear, 
 };
 
 export default CustomerForm;
-```

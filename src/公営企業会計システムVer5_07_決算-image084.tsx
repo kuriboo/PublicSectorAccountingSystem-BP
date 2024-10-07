@@ -68,4 +68,3 @@ const AccountingPeriodSelector: React.FC<AccountingPeriodSelectorProps> = ({
 };
 
 export default AccountingPeriodSelector;
-```

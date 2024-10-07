@@ -139,4 +139,3 @@ const BankDetailsForm: React.FC<BankDetailsFormProps> = ({
 };
 
 export default BankDetailsForm;
-```

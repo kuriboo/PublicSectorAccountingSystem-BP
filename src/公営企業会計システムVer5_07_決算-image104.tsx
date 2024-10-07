@@ -131,4 +131,3 @@ const AdjustmentForm: React.FC<Props> = ({ initialTaxRate, onSubmit }) => {
 };
 
 export default AdjustmentForm;
-```

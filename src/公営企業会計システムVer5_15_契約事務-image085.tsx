@@ -93,4 +93,3 @@ const UpdateForm: React.FC<UpdateFormProps> = ({
 };
 
 export default UpdateForm;
-```

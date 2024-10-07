@@ -74,4 +74,3 @@ const AccountingSystem: React.FC<AccountingSystemProps> = ({
 };
 
 export default AccountingSystem;
-```

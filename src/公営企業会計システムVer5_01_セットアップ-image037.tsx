@@ -110,4 +110,3 @@ const MasterListForm: React.FC<MasterListFormProps> = ({ fiscalYear, onSubmit })
 };
 
 export default MasterListForm;
-```

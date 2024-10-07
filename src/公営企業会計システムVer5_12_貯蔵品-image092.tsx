@@ -55,4 +55,3 @@ const DataDeletion: React.FC<DataDeletionProps> = ({
 };
 
 export default DataDeletion;
-```

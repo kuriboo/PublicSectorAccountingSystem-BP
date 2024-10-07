@@ -159,4 +159,3 @@ const AssetRegistrationForm: FC<AssetRegistrationFormProps> = ({
 };
 
 export default AssetRegistrationForm;
-```

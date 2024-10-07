@@ -67,4 +67,3 @@ const AccountingForm: React.FC<Props> = ({
 };
 
 export default AccountingForm;
-```

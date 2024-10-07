@@ -85,4 +85,3 @@ const PasswordPolicyForm: React.FC<PasswordPolicyFormProps> = ({
 }
 
 export default PasswordPolicyForm;
-```

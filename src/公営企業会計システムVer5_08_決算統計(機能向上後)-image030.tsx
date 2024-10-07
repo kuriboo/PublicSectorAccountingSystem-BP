@@ -75,4 +75,3 @@ const MasterSettingsComponent: FC<ComponentProps> = ({
 };
 
 export default MasterSettingsComponent;
-```

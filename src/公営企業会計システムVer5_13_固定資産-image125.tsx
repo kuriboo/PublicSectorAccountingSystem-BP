@@ -66,4 +66,3 @@ const AssetInfo: React.FC<AssetInfoProps> = ({
 };
 
 export default AssetInfo;
-```

@@ -95,4 +95,3 @@ const VibrationNumberSearch: React.FC<VibrationNumberSearchProps> = ({
 };
 
 export default VibrationNumberSearch;
-```

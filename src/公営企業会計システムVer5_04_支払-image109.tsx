@@ -101,4 +101,3 @@ const StatementDetail: React.FC<StatementDetailProps> = ({
 };
 
 export default StatementDetail;
-```

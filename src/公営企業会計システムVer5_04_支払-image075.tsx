@@ -60,4 +60,3 @@ const CheckboxForm: React.FC<Props> = ({ options, onChange, onOk, onClear, onCan
 };
 
 export default CheckboxForm;
-```

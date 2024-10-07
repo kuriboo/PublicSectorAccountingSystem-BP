@@ -95,4 +95,3 @@ const IchijiShikinForm: React.FC<IchijiShikinFormProps> = ({ onSubmit, onCancel 
 };
 
 export default IchijiShikinForm;
-```

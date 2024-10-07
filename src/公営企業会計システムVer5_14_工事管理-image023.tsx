@@ -66,4 +66,3 @@ const ConstructionComponent: React.FC<ConstructionComponentProps> = ({ data, onC
 };
 
 export default ConstructionComponent;
-```

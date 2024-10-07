@@ -105,4 +105,3 @@ const DetailedInput: React.FC<DetailedInputProps> = ({
 };
 
 export default DetailedInput;
-```

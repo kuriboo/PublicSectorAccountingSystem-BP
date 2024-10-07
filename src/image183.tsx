@@ -77,4 +77,3 @@ const YearCodeMaster: React.FC<YearCodeMasterProps> = ({ onRegister, onUpdate, o
 };
 
 export default YearCodeMaster;
-```

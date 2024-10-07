@@ -86,4 +86,3 @@ const PrintDialog: React.FC<PrintDialogProps> = ({
 };
 
 export default PrintDialog;
-```

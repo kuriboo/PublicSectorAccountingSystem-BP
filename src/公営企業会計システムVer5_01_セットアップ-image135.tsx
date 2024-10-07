@@ -55,4 +55,3 @@ const Form: FC<FormProps> = ({ onSubmit, onClear, onClose }) => {
 };
 
 export default Form;
-```

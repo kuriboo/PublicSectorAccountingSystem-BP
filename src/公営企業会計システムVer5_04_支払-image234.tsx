@@ -27,4 +27,3 @@ const Card: React.FC<CardProps> = ({ title, description, imageSrc, altText }) =>
 };
 
 export default Card;
-```

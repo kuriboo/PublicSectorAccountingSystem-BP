@@ -52,4 +52,3 @@ const AssetInfo: React.FC<AssetInfoProps> = ({ assetNumber, assetName, details }
 };
 
 export default AssetInfo;
-```

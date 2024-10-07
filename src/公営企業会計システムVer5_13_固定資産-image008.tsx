@@ -49,4 +49,3 @@ const DataTable: React.FC<TableProps> = ({ columns, data, onOk, onCancel }) => (
 );
 
 export default DataTable;
-```

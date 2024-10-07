@@ -78,4 +78,3 @@ const ControlTable: React.FC<ControlTableProps> = ({
 };
 
 export default ControlTable;
-```

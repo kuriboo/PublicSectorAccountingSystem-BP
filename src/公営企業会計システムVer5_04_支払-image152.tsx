@@ -55,4 +55,3 @@ const PaymentSchedule: React.FC<PaymentScheduleProps> = ({
 };
 
 export default PaymentSchedule;
-```

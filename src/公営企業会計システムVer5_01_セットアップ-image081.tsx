@@ -57,4 +57,3 @@ const CashFlowTable: React.FC<CashFlowTableProps> = ({ data, onRegister, onClear
 };
 
 export default CashFlowTable;
-```

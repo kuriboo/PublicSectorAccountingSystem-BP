@@ -57,4 +57,3 @@ const TranslationSettingsForm: React.FC<FormProps> = ({
 };
 
 export default TranslationSettingsForm;
-```

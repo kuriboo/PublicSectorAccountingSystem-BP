@@ -52,4 +52,3 @@ const DocumentSelector: React.FC<DocumentSelectorProps> = ({ options, onChange, 
 };
 
 export default DocumentSelector;
-```

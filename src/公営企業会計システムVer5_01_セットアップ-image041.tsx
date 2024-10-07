@@ -94,4 +94,3 @@ const AccountEntryForm: React.FC<AccountEntryFormProps> = ({
 };
 
 export default AccountEntryForm;
-```

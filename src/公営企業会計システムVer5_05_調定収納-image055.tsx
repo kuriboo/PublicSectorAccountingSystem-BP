@@ -96,4 +96,3 @@ const TransactionInputForm: React.FC<TransactionInputFormProps> = ({
 };
 
 export default TransactionInputForm;
-```

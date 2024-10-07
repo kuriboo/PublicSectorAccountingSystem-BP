@@ -93,4 +93,3 @@ const PartnerMasterList: React.FC<Props> = ({
 };
 
 export default PartnerMasterList;
-```

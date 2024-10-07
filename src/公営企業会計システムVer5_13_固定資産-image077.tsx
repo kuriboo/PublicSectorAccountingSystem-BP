@@ -45,4 +45,3 @@ const FacilityForm: React.FC<FacilityFormProps> = ({ date, onSubmit, onClear, on
 };
 
 export default FacilityForm;
-```

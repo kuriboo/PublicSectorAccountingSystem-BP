@@ -23,4 +23,3 @@ const GyouseiLogo: React.FC<LogoProps> = ({ size = 'medium', altText = 'Company 
 };
 
 export default GyouseiLogo;
-```

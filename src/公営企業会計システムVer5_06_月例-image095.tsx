@@ -58,7 +58,6 @@ const CashFlowAdjustment: React.FC<CashFlowAdjustmentProps> = ({
 };
 
 export default CashFlowAdjustment;
-```
 
 ```tsx
 // Usage example for CashFlowAdjustment component
@@ -80,4 +79,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-```

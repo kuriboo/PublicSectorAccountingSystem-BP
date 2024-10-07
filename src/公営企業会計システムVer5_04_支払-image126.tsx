@@ -78,4 +78,3 @@ const PaymentTable: React.FC<PaymentTableProps> = ({
 };
 
 export default PaymentTable;
-```

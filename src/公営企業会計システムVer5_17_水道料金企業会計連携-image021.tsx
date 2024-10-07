@@ -20,7 +20,6 @@ const MenuButton: React.FC<MenuButtonProps> = ({ label, onClick }) => {
 };
 
 export default MenuButton;
-```
 
 ```tsx
 // components/Menu.tsx
@@ -44,7 +43,6 @@ const Menu: React.FC<MenuProps> = ({ menuItems }) => {
 };
 
 export default Menu;
-```
 
 ```tsx
 // pages/index.tsx
@@ -78,11 +76,9 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-```
 
 ```css
 /* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```

@@ -87,4 +87,3 @@ const BidResultInput: React.FC<BidResultInputProps> = ({
 };
 
 export default BidResultInput;
-```

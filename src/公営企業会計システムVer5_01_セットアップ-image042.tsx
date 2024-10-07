@@ -81,4 +81,3 @@ const AccountManagement: React.FC<AccountManagementProps> = ({
 };
 
 export default AccountManagement;
-```

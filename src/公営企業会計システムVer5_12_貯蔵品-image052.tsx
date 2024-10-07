@@ -77,4 +77,3 @@ export default DataTable;
 // ];
 
 // <DataTable columns={columns} rows={rows} />
-```

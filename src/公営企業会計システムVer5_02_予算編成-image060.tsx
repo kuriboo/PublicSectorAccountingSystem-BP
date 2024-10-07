@@ -106,4 +106,3 @@ const ExecutionForm: React.FC<ExecutionFormProps> = ({
 
 // コンポーネントのエクスポート
 export default ExecutionForm;
-```

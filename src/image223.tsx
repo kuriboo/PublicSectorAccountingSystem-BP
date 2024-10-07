@@ -65,4 +65,3 @@ const BudgetSearch: React.FC<Props> = ({ records, onSearch, onClear, onCancel })
 };
 
 export default BudgetSearch;
-```

@@ -54,4 +54,3 @@ export default CheckBoxList;
 //   ]}
 //   onOptionChange={(index, checked) => console.log(index, checked)}
 // />
-```

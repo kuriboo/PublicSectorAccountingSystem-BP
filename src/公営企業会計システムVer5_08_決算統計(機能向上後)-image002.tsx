@@ -95,4 +95,3 @@ const DataMigrationComponent: React.FC<DataMigrationComponentProps> = ({ year, b
 };
 
 export default DataMigrationComponent;
-```

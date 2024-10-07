@@ -25,4 +25,3 @@ export default Logo;
 
 // Usage example
 // <Logo imageSrc="/path/to/logo.png" altText="Company Logo" companyName="株式会社ぎょうせい" />
-```

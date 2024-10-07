@@ -25,6 +25,5 @@ const Button: React.FC<ButtonProps> = ({ label, onClick, disabled, className }) 
 };
 
 export default Button;
-```
 
 このコンポーネントは、ボタンのラベル、クリック時の動作、無効化状態、および追加のクラス名をプロパティとして受け取ることができます。Tailwind CSSを使用して基本的なスタイリングを行っています。

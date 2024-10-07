@@ -103,4 +103,3 @@ const DocumentComponent: React.FC<DocumentProps> = ({
 };
 
 export default DocumentComponent;
-```

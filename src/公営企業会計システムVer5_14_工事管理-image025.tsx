@@ -69,4 +69,3 @@ const UserAssignmentSelector: React.FC<UserAssignmentSelectorProps> = ({
 };
 
 export default UserAssignmentSelector;
-```

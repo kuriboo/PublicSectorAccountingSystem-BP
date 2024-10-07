@@ -67,4 +67,3 @@ const ReportPeriod: React.FC<ReportPeriodProps> = ({ startDate, endDate, onExpor
 };
 
 export default ReportPeriod;
-```

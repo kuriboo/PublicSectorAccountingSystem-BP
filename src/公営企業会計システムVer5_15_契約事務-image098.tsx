@@ -108,4 +108,3 @@ const MasterComponent: React.FC<MasterComponentProps> = ({ data, onConfirm, onCa
 };
 
 export default MasterComponent;
-```

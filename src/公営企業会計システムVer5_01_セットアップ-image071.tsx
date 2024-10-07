@@ -57,4 +57,3 @@ const BankForm: React.FC<BankFormProps> = ({ data, onEdit, onDelete, onSubmit, o
 };
 
 export default BankForm;
-```

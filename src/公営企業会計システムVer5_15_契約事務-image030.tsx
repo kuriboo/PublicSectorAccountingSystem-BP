@@ -54,4 +54,3 @@ const ManagementSection: React.FC<ManagementSectionProps> = ({
 };
 
 export default ManagementSection;
-```

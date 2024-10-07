@@ -98,4 +98,3 @@ const AssetMovement: React.FC<AssetMovementProps> = ({
 };
 
 export default AssetMovement;
-```

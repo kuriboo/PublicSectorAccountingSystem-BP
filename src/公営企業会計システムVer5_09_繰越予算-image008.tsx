@@ -87,4 +87,3 @@ const RemovalComponent: React.FC<RemovalComponentProps> = ({
 };
 
 export default RemovalComponent;
-```

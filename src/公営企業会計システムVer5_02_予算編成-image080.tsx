@@ -76,4 +76,3 @@ const CalculationForm: React.FC<Props> = ({
 };
 
 export default CalculationForm;
-```

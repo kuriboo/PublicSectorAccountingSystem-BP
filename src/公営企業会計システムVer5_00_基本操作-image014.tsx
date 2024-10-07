@@ -72,4 +72,3 @@ const PasswordChangeForm: React.FC<PasswordChangeFormProps> = ({ onSubmit, onCle
 };
 
 export default PasswordChangeForm;
-```

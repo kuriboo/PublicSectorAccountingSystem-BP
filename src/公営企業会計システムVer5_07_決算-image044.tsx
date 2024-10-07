@@ -69,4 +69,3 @@ const CustomComponent: React.FC<CustomComponentProps> = ({
 };
 
 export default CustomComponent;
-```

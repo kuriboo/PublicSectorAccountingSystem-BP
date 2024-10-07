@@ -24,4 +24,3 @@ const CustomComponent: React.FC<CustomComponentProps> = ({ title, description, i
 };
 
 export default CustomComponent;
-```

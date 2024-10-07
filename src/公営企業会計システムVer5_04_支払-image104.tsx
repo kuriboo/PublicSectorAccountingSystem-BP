@@ -121,4 +121,3 @@ const DecisionComponent: React.FC<DecisionComponentProps> = ({
 };
 
 export default DecisionComponent;
-```

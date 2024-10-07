@@ -119,4 +119,3 @@ const CreateAssetList: React.FC<CreateAssetListProps> = ({
 };
 
 export default CreateAssetList;
-```

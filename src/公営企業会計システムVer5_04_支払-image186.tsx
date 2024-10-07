@@ -66,4 +66,3 @@ const BudgetDataComponent: React.FC<BudgetDataProps> = ({ startDate, endDate, se
 };
 
 export default BudgetDataComponent;
-```

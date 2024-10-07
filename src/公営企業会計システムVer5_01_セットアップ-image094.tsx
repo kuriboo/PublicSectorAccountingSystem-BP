@@ -87,4 +87,3 @@ const ReportForm: React.FC<ReportFormProps> = ({ yearOptions, sectionOptions, on
 };
 
 export default ReportForm;
-```

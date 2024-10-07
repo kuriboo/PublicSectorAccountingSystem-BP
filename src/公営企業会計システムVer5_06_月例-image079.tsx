@@ -75,4 +75,3 @@ const SegmentsTable: React.FC<SegmentsTableProps> = ({
 }
 
 export default SegmentsTable;
-```

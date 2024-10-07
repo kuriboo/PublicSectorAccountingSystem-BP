@@ -116,4 +116,3 @@ const BudgetAutoProcessing: React.FC<BudgetAutoProcessingProps> = ({
 };
 
 export default BudgetAutoProcessing;
-```

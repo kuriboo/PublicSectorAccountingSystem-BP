@@ -112,4 +112,3 @@ const FacilityInfoSettings: React.FC<FacilityInfoSettingsProps> = ({
 };
 
 export default FacilityInfoSettings;
-```

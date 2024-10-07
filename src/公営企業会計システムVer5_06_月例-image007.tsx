@@ -98,4 +98,3 @@ const JournalEntry: React.FC<JournalEntryProps> = ({
 };
 
 export default JournalEntry;
-```

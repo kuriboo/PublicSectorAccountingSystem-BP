@@ -87,4 +87,3 @@ const SelectionComponent: React.FC<SelectionComponentProps> = ({
 };
 
 export default SelectionComponent;
-```

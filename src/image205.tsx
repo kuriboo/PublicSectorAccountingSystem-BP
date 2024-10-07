@@ -83,4 +83,3 @@ const DocumentDetail: React.FC<DocumentDetailProps> = ({
 };
 
 export default DocumentDetail;
-```

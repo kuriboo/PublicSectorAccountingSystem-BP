@@ -92,4 +92,3 @@ const StorageForm: React.FC<StorageFormProps> = ({
 };
 
 export default StorageForm;
-```

@@ -55,7 +55,6 @@ const ProgressManagementInput: React.FC<ProgressManagementInputProps> = ({
 };
 
 export default ProgressManagementInput;
-```
 
 ```tsx
 // pages/index.tsx
@@ -82,4 +81,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-```

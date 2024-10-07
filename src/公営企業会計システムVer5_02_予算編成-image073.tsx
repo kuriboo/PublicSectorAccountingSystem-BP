@@ -89,4 +89,3 @@ const IncomeSetting: React.FC<IncomeSettingProps> = ({
 };
 
 export default IncomeSetting;
-```

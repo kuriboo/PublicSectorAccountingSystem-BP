@@ -73,7 +73,6 @@ const TitleMasterList: React.FC<TitleMasterListProps> = ({
 };
 
 export default TitleMasterList;
-```
 
 ```tsx
 // pages/index.tsx
@@ -109,4 +108,3 @@ const Home = () => {
 };
 
 export default Home;
-```

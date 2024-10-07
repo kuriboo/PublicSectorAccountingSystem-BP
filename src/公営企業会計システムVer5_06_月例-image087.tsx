@@ -91,4 +91,3 @@ const AggregateForm: React.FC<AggregateFormProps> = ({
 };
 
 export default AggregateForm;
-```

@@ -63,4 +63,3 @@ const BudgetSheet: React.FC<BudgetSheetProps> = ({
 };
 
 export default BudgetSheet;
-```

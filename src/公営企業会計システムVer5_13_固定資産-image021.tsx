@@ -54,4 +54,3 @@ const LandAssetForm: React.FC<LandAssetFormProps> = ({ onSubmit, onClear, onCanc
 };
 
 export default LandAssetForm;
-```

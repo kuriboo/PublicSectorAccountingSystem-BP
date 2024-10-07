@@ -24,4 +24,3 @@ const Card: React.FC<CardProps> = ({ title, content, imageUrl, onClick }) => {
 };
 
 export default Card;
-```

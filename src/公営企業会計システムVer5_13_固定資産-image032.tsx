@@ -64,4 +64,3 @@ const LandTable: React.FC<LandTableProps> = ({ landData, onEdit, onDelete }) => 
 };
 
 export default LandTable;
-```

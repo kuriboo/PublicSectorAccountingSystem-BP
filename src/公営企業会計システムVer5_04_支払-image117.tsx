@@ -58,4 +58,3 @@ const PaymentComponent: React.FC<PaymentProps> = ({
 };
 
 export default PaymentComponent;
-```

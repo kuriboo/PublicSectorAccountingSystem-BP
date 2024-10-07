@@ -43,4 +43,3 @@ const ShippingComponent: React.FC<ShippingComponentProps> = ({
 };
 
 export default ShippingComponent;
-```

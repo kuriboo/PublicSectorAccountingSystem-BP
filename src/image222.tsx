@@ -101,4 +101,3 @@ const PrintModal: React.FC<PrintModalProps> = ({
 };
 
 export default PrintModal;
-```

@@ -57,4 +57,3 @@ const HistoryForm: React.FC<HistoryFormProps> = ({ title = "履歴管理", onSub
 };
 
 export default HistoryForm;
-```

@@ -93,4 +93,3 @@ const KeiyakuDetail: React.FC<KeiyakuDetailProps> = ({
 };
 
 export default KeiyakuDetail;
-```

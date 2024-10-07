@@ -120,4 +120,3 @@ const InvoiceForm: React.FC<FormProps> = ({
 };
 
 export default InvoiceForm;
-```

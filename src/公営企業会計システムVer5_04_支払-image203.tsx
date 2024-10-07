@@ -99,4 +99,3 @@ const DetailComponent: React.FC<DetailComponentProps> = ({
 };
 
 export default DetailComponent;
-```

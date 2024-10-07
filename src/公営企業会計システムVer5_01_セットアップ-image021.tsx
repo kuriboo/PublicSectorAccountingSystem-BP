@@ -210,4 +210,3 @@ const FinancialForm: React.FC<FormProps> = ({
 };
 
 export default FinancialForm;
-```

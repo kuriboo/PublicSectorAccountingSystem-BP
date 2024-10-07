@@ -119,4 +119,3 @@ const SearchCriteria: React.FC<SearchCriteriaProps> = ({
 };
 
 export default SearchCriteria;
-```

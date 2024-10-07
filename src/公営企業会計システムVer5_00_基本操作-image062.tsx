@@ -45,4 +45,3 @@ const FileDialog: React.FC<FileDialogProps> = ({
 };
 
 export default FileDialog;
-```

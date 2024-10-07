@@ -33,4 +33,3 @@ export default Logo;
 
 // 使用例:
 // <Logo imageUrl="/path/to/logo.png" altText="会社ロゴ" width={150} height={50} />
-```

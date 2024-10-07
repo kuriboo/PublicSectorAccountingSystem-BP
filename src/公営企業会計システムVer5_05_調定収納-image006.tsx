@@ -85,4 +85,3 @@ const CollectPaymentForm: React.FC<FormProps> = ({ onSubmit, onClear, onExit }) 
 };
 
 export default CollectPaymentForm;
-```

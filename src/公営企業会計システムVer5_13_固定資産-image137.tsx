@@ -61,4 +61,3 @@ const MasterForm: React.FC<MasterFormProps> = ({
 );
 
 export default MasterForm;
-```

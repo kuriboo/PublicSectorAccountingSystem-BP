@@ -60,4 +60,3 @@ const PrintForm: React.FC<FormProps> = ({
 };
 
 export default PrintForm;
-```

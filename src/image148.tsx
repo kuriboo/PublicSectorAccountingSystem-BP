@@ -99,4 +99,3 @@ const DurabilitySearch: React.FC<DurabilitySearchProps> = ({
 };
 
 export default DurabilitySearch;
-```

@@ -76,4 +76,3 @@ const AssetMovementInput: React.FC<AssetMovementInputProps> = ({
 };
 
 export default AssetMovementInput;
-```

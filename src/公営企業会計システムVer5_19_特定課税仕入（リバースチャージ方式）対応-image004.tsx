@@ -60,4 +60,3 @@ const EntryTable: React.FC<EntryTableProps> = ({ entries }) => {
 };
 
 export default EntryTable;
-```

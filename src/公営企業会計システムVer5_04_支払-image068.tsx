@@ -87,4 +87,3 @@ const ExpenseForm: React.FC<ExpenseFormProps> = ({
 };
 
 export default ExpenseForm;
-```

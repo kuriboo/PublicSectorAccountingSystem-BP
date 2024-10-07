@@ -49,4 +49,3 @@ const RegistrationForm: React.FC<Props> = ({ className, onConfirm, onSearch, onC
 };
 
 export default RegistrationForm;
-```

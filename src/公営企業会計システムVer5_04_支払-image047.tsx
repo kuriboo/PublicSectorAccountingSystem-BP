@@ -74,4 +74,3 @@ const DateChangeForm: React.FC<DateChangeFormProps> = ({
 };
 
 export default DateChangeForm;
-```

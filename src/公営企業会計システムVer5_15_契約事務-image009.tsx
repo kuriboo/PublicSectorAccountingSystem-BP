@@ -112,4 +112,3 @@ const AutoProcessing: React.FC<AutoProcessingProps> = ({
 };
 
 export default AutoProcessing;
-```

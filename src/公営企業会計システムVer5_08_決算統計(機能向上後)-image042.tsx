@@ -99,4 +99,3 @@ const TransferCodeSearch: React.FC<TransferCodeSearchProps> = ({
 };
 
 export default TransferCodeSearch;
-```

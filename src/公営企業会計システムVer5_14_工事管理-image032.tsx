@@ -55,4 +55,3 @@ const CompletionCheck: FC<CompletionCheckProps> = ({
 };
 
 export default CompletionCheck;
-```

@@ -55,4 +55,3 @@ const ToolDownloadPage: React.FC = () => {
 };
 
 export default ToolDownloadPage;
-```

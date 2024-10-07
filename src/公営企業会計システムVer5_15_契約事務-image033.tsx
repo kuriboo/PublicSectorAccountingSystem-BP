@@ -53,4 +53,3 @@ const CompanyInfoTable: React.FC<CompanyInfoProps> = ({ receptionNumber, caseNam
 };
 
 export default CompanyInfoTable;
-```

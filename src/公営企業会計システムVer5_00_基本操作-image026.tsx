@@ -41,7 +41,6 @@ const ExpandableList: React.FC<ExpandableListProps> = ({ title, items }) => {
 };
 
 export default ExpandableList;
-```
 
 ```tsx
 // pages/index.tsx
@@ -87,4 +86,3 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-```

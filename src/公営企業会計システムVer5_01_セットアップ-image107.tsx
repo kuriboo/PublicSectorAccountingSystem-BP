@@ -74,4 +74,3 @@ const DocumentMasterList: React.FC<DocumentMasterListProps> = ({
 
 // Export the component
 export default DocumentMasterList;
-```

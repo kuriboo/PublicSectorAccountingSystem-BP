@@ -43,4 +43,3 @@ const sampleData: Array<Array<string | number>> = [
 /*
 <SpreadsheetTable data={sampleData} className="my-4" />
 */
-```

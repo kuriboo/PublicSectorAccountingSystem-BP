@@ -88,4 +88,3 @@ const AccountingEntryForm: FC<Props> = ({
 };
 
 export default AccountingEntryForm;
-```

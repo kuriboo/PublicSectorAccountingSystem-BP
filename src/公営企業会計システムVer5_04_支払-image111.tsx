@@ -25,4 +25,3 @@ const Alert: React.FC<AlertProps> = ({ title, message, buttonText, onButtonClick
 }
 
 export default Alert;
-```

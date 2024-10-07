@@ -98,4 +98,3 @@ const AssetSourceSettings: React.FC<AssetSourceSettingsProps> = ({
 };
 
 export default AssetSourceSettings;
-```

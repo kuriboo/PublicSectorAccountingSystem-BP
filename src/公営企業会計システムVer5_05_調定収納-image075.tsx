@@ -77,4 +77,3 @@ const Report: FC<ReportProps> = ({
 };
 
 export default Report;
-```

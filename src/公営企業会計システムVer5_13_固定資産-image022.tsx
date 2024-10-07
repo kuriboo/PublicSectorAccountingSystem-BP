@@ -216,4 +216,3 @@ const AssetForm: React.FC<AssetFormProps> = ({ onSubmit }) => {
 };
 
 export default AssetForm;
-```

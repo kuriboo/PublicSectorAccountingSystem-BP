@@ -58,4 +58,3 @@ const YearSelector: React.FC<YearSelectorProps> = ({ year, onChange, onOk, onCan
 };
 
 export default YearSelector;
-```

@@ -134,4 +134,3 @@ const ExtractionForm: React.FC<Props> = ({ yearOptions, categoryOptions, items, 
 };
 
 export default ExtractionForm;
-```

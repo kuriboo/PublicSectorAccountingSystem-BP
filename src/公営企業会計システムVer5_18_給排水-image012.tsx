@@ -209,4 +209,3 @@ const SearchForm: React.FC<SearchFormProps> = ({ onSubmit }) => {
 }
 
 export default SearchForm;
-```

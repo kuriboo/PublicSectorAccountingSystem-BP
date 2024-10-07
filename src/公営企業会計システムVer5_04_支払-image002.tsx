@@ -108,4 +108,3 @@ const BudgetInputForm: React.FC<Props> = ({
 };
 
 export default BudgetInputForm;
-```

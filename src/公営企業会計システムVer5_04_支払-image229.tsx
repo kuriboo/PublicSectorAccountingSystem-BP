@@ -66,4 +66,3 @@ const PaymentCodeForm: React.FC<PaymentCodeFormProps> = ({
 };
 
 export default PaymentCodeForm;
-```

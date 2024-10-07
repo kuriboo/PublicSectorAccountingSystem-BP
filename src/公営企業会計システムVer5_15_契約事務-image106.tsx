@@ -24,7 +24,6 @@ const Logo: React.FC<LogoProps> = ({ text = 'ぎょうせい', textColor = 'blac
 };
 
 export default Logo;
-```
 
 ```tsx
 // Usage Example in a Next.js page
@@ -42,4 +41,3 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-```

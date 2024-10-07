@@ -123,4 +123,3 @@ const ChangeInputForm: React.FC<ChangeInputFormProps> = ({
 };
 
 export default ChangeInputForm;
-```

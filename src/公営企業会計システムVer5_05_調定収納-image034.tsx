@@ -69,4 +69,3 @@ const AccountingEntry: React.FC<AccountingEntryProps> = ({ title, date, descript
 };
 
 export default AccountingEntry;
-```

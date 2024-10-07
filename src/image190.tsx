@@ -69,4 +69,3 @@ const AccessLogViewer: FC<Props> = ({ title, entries, onSearch, onExportCSV }) =
 };
 
 export default AccessLogViewer;
-```

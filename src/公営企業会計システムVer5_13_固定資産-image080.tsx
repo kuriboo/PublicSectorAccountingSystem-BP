@@ -161,4 +161,3 @@ const AssetManagementForm: React.FC<Props> = ({
 };
 
 export default AssetManagementForm;
-```

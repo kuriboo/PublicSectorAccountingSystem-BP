@@ -125,4 +125,3 @@ const SegmentReport: React.FC<SegmentReportProps> = ({
 };
 
 export default SegmentReport;
-```

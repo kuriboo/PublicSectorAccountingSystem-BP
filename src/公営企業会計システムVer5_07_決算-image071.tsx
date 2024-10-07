@@ -89,4 +89,3 @@ export const AccountingForm: React.FC<FormProps> = ({
     </div>
   );
 };
-```

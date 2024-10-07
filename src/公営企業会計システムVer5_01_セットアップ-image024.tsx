@@ -99,4 +99,3 @@ const RecordForm: FC<FormProps> = ({
 };
 
 export default RecordForm;
-```

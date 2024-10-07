@@ -46,7 +46,6 @@ const ExcelTable: React.FC<ExcelTableProps> = ({ data, className }) => {
 };
 
 export default ExcelTable;
-```
 
 ```tsx
 // Example usage of the ExcelTable component
@@ -69,4 +68,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-```

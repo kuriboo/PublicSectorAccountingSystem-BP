@@ -85,4 +85,3 @@ export const BudgetInput: React.FC<BudgetInputProps> = ({ fiscalYear, plannedYea
 };
 
 export default BudgetInput;
-```

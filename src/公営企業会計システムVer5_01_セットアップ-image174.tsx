@@ -61,4 +61,3 @@ const AppForm: React.FC<AppFormProps> = ({ startCode, endCode, onSubmit, onClear
 };
 
 export default AppForm;
-```

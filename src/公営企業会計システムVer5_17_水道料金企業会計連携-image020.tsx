@@ -86,4 +86,3 @@ const Dashboard: React.FC<DashboardProps> = ({ onMenuItemClick }) => {
 };
 
 export default Dashboard;
-```

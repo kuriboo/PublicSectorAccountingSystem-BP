@@ -43,4 +43,3 @@ const BudgetDataComponent: React.FC<BudgetDataComponentProps> = ({
 };
 
 export default BudgetDataComponent;
-```

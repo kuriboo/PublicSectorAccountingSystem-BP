@@ -105,4 +105,3 @@ const EmployeeTable: React.FC<EmployeeTableProps> = ({
 };
 
 export default EmployeeTable;
-```

@@ -129,4 +129,3 @@ const ClassMasterComponent: React.FC<MasterProps> = ({
 };
 
 export default ClassMasterComponent;
-```

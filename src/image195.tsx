@@ -70,4 +70,3 @@ const ManagementTable: React.FC<ManagementTableProps> = ({ title, options, onSub
 };
 
 export default ManagementTable;
-```

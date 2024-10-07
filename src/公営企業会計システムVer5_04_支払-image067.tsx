@@ -85,4 +85,3 @@ const AccountComponent: React.FC<Props> = ({
 };
 
 export default AccountComponent;
-```

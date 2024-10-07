@@ -47,7 +47,6 @@ const SearchForm: React.FC<SearchFormProps> = ({
 };
 
 export default SearchForm;
-```
 
 ```tsx
 import React from 'react';
@@ -94,4 +93,3 @@ const DataTable: React.FC<DataTableProps> = ({ data }) => {
 };
 
 export default DataTable;
-```

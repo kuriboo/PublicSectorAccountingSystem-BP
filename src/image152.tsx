@@ -36,4 +36,3 @@ export default Logo;
   className="custom-class" 
 />
 */
-```

@@ -209,4 +209,3 @@ const BusinessRegistration: React.FC<BusinessRegistrationProps> = ({
 };
 
 export default BusinessRegistration;
-```

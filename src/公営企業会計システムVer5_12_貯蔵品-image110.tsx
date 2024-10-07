@@ -60,4 +60,3 @@ const ProductSearch: React.FC<Props> = ({ data, onSearch, onClear, onCancel }) =
 };
 
 export default ProductSearch;
-```

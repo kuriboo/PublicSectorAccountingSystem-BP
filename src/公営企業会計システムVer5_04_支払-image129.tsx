@@ -73,4 +73,3 @@ const PaymentEntry: React.FC<PaymentEntryProps> = ({
 };
 
 export default PaymentEntry;
-```

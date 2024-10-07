@@ -59,4 +59,3 @@ const DepartmentAssignment: React.FC<DepartmentAssignmentProps> = ({
 };
 
 export default DepartmentAssignment;
-```

@@ -88,4 +88,3 @@ const DecisionList: React.FC<DecisionListProps> = ({
 };
 
 export default DecisionList;
-```

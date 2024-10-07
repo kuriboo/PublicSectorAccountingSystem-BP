@@ -82,4 +82,3 @@ const DataMigrationForm: React.FC<FormProps> = ({ year, businessCode, businessNa
 };
 
 export default DataMigrationForm;
-```

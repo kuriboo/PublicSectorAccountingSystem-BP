@@ -66,4 +66,3 @@ const MasterListForm: React.FC<MasterListFormProps> = ({
 };
 
 export default MasterListForm;
-```

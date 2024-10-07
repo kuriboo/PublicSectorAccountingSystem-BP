@@ -53,4 +53,3 @@ const PermissionComponent: React.FC<PermissionComponentProps> = ({
 };
 
 export default PermissionComponent;
-```

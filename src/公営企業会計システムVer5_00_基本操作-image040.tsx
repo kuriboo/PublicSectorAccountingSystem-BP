@@ -53,4 +53,3 @@ export default DataTable;
 // ];
 
 // <DataTable data={data} />;
-```

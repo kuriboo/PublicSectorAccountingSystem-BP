@@ -89,4 +89,3 @@ const AccountingForm: React.FC<AccountingFormProps> = ({
 };
 
 export default AccountingForm;
-```

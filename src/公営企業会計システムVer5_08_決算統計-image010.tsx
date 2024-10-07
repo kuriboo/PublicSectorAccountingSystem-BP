@@ -128,4 +128,3 @@ const FinancialForm: React.FC<FormProps> = ({ onSubmit, onClear }) => {
 };
 
 export default FinancialForm;
-```

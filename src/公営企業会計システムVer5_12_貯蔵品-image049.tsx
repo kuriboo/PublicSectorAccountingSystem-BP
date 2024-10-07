@@ -78,4 +78,3 @@ const StorageReport: React.FC<Props> = ({ storageNumber, startDate, endDate, dat
 };
 
 export default StorageReport;
-```

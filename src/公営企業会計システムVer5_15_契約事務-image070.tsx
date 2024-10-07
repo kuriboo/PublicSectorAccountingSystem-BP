@@ -97,4 +97,3 @@ const NextYearMasterCreation: React.FC<NextYearMasterCreationProps> = ({
 };
 
 export default NextYearMasterCreation;
-```

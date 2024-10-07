@@ -76,4 +76,3 @@ const ReportInput: React.FC<ReportInputProps> = ({
 };
 
 export default ReportInput;
-```

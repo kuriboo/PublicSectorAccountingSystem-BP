@@ -61,4 +61,3 @@ const AccountingSystemHeader: React.FC<Props> = ({
 };
 
 export default AccountingSystemHeader;
-```

@@ -103,4 +103,3 @@ const CalculationForm: React.FC<CalculationFormProps> = ({
 };
 
 export default CalculationForm;
-```

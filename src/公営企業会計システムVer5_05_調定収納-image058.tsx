@@ -93,4 +93,3 @@ const DateRangeComponent: React.FC<DateRangeComponentProps> = ({
 };
 
 export default DateRangeComponent;
-```

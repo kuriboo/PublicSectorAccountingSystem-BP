@@ -92,4 +92,3 @@ const InformationForm: React.FC<FormProps> = ({ years, onSubmit }) => {
 };
 
 export default InformationForm;
-```

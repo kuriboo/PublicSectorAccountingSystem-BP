@@ -36,7 +36,6 @@ const Button: React.FC<ButtonProps> = ({ text, onClick, disabled = false }) => {
 }
 
 export default Button;
-```
 
 ```tsx
 // ExampleUsage.tsx
@@ -59,4 +58,3 @@ const ExampleUsage = () => {
 }
 
 export default ExampleUsage;
-```

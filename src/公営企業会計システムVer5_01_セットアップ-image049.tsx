@@ -83,4 +83,3 @@ const FiscalComponent: React.FC<FiscalComponentProps> = ({
 };
 
 export default FiscalComponent;
-```

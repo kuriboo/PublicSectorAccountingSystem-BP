@@ -88,4 +88,3 @@ const BusinessAssessment: React.FC<BusinessAssessmentProps> = ({
 };
 
 export default BusinessAssessment;
-```

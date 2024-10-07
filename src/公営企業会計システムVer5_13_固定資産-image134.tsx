@@ -66,4 +66,3 @@ const AssetMaster: React.FC<AssetMasterProps> = ({ items, onSelect }) => {
 };
 
 export default AssetMaster;
-```

@@ -66,4 +66,3 @@ const GroupManager: React.FC<GroupManagerProps> = ({
 };
 
 export default GroupManager;
-```

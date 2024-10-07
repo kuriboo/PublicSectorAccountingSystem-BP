@@ -70,4 +70,3 @@ const AccountSearch: React.FC<AccountSearchProps> = ({
 };
 
 export default AccountSearch;
-```

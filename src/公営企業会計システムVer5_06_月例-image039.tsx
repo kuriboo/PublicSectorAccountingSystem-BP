@@ -168,4 +168,3 @@ const AccountForm: FC<FormProps> = ({
 };
 
 export default AccountForm;
-```

@@ -29,4 +29,3 @@ const Alert: React.FC<AlertProps> = ({ message, onConfirm, title = 'Alert' }) =>
 };
 
 export default Alert;
-```

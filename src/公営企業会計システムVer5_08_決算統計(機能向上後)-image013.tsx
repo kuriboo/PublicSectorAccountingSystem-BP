@@ -27,7 +27,6 @@ const LogoComponent: React.FC<LogoComponentProps> = ({
 };
 
 export default LogoComponent;
-```
 
 ```tsx
 // 使用例: SomePage.tsx
@@ -47,4 +46,3 @@ const SomePage: React.FC = () => {
 };
 
 export default SomePage;
-```

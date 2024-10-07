@@ -64,4 +64,3 @@ const DataRangeComponent: React.FC<DataRangeComponentProps> = ({
 };
 
 export default DataRangeComponent;
-```

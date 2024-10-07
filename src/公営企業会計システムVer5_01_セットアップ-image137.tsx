@@ -88,4 +88,3 @@ const FinancialGroupMaster: React.FC<FinancialGroupProps> = ({
 };
 
 export default FinancialGroupMaster;
-```

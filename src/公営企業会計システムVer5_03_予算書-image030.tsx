@@ -95,4 +95,3 @@ const DescriptionForm: React.FC<DescriptionFormProps> = ({
 };
 
 export default DescriptionForm;
-```

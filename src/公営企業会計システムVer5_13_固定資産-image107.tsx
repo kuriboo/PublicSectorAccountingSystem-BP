@@ -91,4 +91,3 @@ const CustomContentMaster: React.FC<CustomContentMasterProps> = ({
 };
 
 export default CustomContentMaster;
-```

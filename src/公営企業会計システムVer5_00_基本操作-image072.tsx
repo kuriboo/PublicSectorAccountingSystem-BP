@@ -36,7 +36,6 @@ const Menu: React.FC<MenuProps> = ({ title, buttons }) => {
 };
 
 export default Menu;
-```
 
 ```tsx
 // pages/index.tsx
@@ -60,4 +59,3 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-```

@@ -110,4 +110,3 @@ const BudgetExecutionStatus: React.FC<BudgetExecutionStatusProps> = ({
 };
 
 export default BudgetExecutionStatus;
-```

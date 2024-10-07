@@ -42,4 +42,3 @@ const EditForm: React.FC<EditFormProps> = ({ subjectLabel, initialCode, onOk, on
 };
 
 export default EditForm;
-```

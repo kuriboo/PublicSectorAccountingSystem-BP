@@ -58,4 +58,3 @@ const Dialog: React.FC<DialogProps> = ({ options, onCheckboxChange, onOk, onClea
 };
 
 export default Dialog;
-```

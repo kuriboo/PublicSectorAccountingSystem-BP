@@ -63,4 +63,3 @@ const LedgerComponent: React.FC<LedgerComponentProps> = ({ entries }) => {
 };
 
 export default LedgerComponent;
-```

@@ -63,4 +63,3 @@ const ContractTable: React.FC<ContractTableProps> = ({ title, caseNumber, data, 
 };
 
 export default ContractTable;
-```

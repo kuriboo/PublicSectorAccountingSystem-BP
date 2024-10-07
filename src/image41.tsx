@@ -108,4 +108,3 @@ const InvoiceComponent: React.FC<InvoiceProps> = ({
 };
 
 export default InvoiceComponent;
-```

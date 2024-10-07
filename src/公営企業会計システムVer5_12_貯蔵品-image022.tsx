@@ -112,4 +112,3 @@ const ItemDetails: React.FC<ItemDetailsProps> = ({
 };
 
 export default ItemDetails;
-```

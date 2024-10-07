@@ -56,4 +56,3 @@ const BudgetStatus: React.FC<BudgetStatusProps> = ({ year, currentStatus, budget
 };
 
 export default BudgetStatus;
-```

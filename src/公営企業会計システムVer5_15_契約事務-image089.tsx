@@ -90,4 +90,3 @@ const MainComponent: React.FC = () => {
 };
 
 export default MainComponent;
-```

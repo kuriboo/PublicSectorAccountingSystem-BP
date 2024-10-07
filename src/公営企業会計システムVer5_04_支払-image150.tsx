@@ -71,4 +71,3 @@ const PaymentFilter: React.FC<PaymentFilterProps> = ({
 };
 
 export default PaymentFilter;
-```

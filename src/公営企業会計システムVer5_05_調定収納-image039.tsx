@@ -48,4 +48,3 @@ const UnpaidList: React.FC<UnpaidListProps> = ({ onSubmit, onClear, onExit }) =>
 };
 
 export default UnpaidList;
-```

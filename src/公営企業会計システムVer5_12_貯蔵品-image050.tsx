@@ -96,4 +96,3 @@ const StorageStatus: React.FC<StorageStatusProps> = ({
 };
 
 export default StorageStatus;
-```

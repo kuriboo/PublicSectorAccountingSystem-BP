@@ -66,4 +66,3 @@ const InvoiceSearch: React.FC<InvoiceSearchProps> = ({ onSearch, onClear, onShow
 };
 
 export default InvoiceSearch;
-```

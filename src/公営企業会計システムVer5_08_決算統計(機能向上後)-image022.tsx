@@ -60,4 +60,3 @@ const AnalysisComponent: React.FC<AnalysisComponentProps> = ({ year, onSubmit, o
 };
 
 export default AnalysisComponent;
-```

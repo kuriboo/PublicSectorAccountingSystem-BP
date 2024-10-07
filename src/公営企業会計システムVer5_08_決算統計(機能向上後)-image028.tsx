@@ -89,4 +89,3 @@ const FinancialProcessingComponent: React.FC<Props> = ({
 };
 
 export default FinancialProcessingComponent;
-```

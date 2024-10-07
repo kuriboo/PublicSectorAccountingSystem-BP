@@ -67,4 +67,3 @@ const ProjectCodeInput: React.FC<Props> = ({ onSubmit, onClear, onExit }) => {
 };
 
 export default ProjectCodeInput;
-```

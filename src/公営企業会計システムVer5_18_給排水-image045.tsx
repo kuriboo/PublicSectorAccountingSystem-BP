@@ -96,4 +96,3 @@ const OfficeSelection: React.FC<Props> = ({
 };
 
 export default OfficeSelection;
-```

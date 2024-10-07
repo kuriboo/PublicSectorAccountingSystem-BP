@@ -88,4 +88,3 @@ const TransferForm: React.FC<TransferFormProps> = ({
 };
 
 export default TransferForm;
-```

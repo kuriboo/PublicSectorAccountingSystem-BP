@@ -61,4 +61,3 @@ const SearchComponent: React.FC<SearchComponentProps> = ({ data, onSearch }) => 
 };
 
 export default SearchComponent;
-```

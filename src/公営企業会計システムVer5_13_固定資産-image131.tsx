@@ -148,4 +148,3 @@ function getFieldLabel(field: string): string {
 }
 
 export default AssetForm;
-```

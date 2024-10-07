@@ -100,4 +100,3 @@ const DetailForm: React.FC<DetailFormProps> = ({
 };
 
 export default DetailForm;
-```

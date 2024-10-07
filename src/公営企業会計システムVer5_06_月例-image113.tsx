@@ -93,4 +93,3 @@ const ReportComponent: React.FC<ReportComponentProps> = ({
 };
 
 export default ReportComponent;
-```

@@ -120,4 +120,3 @@ const CategorySearch: React.FC<Props> = ({
 };
 
 export default CategorySearch;
-```

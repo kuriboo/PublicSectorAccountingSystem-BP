@@ -132,4 +132,3 @@ const PermissionForm: React.FC<Props> = ({
 };
 
 export default PermissionForm;
-```

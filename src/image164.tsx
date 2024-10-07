@@ -61,4 +61,3 @@ const BankBranch: React.FC<BankBranchProps> = ({ name, onConfirm, onCancel }) =>
 };
 
 export default BankBranch;
-```

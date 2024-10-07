@@ -82,4 +82,3 @@ const Dashboard: React.FC<DashboardProps> = ({ sidebarItems, workflowSteps, onSi
 );
 
 export default Dashboard;
-```

@@ -92,4 +92,3 @@ const ItemList: FC<ItemListProps> = ({ items, onDisplay }) => {
 };
 
 export default ItemList;
-```

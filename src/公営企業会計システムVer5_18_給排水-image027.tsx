@@ -81,4 +81,3 @@ const ActionBar: React.FC<ActionBarProps> = ({ onEdit, onDelete, selectedOption,
 };
 
 export default ActionBar;
-```

@@ -82,4 +82,3 @@ const PrintReportForm: React.FC<PrintReportFormProps> = ({
 };
 
 export default PrintReportForm;
-```

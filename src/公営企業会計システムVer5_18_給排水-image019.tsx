@@ -60,4 +60,3 @@ const EmployeeTable: React.FC<EmployeeTableProps> = ({ employees, onEdit, onDele
 };
 
 export default EmployeeTable;
-```

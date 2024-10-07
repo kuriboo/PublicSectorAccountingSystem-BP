@@ -101,4 +101,3 @@ export default Dialog;
     onCancel={() => console.log('Cancel clicked')}
   />
 */
-```

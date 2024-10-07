@@ -63,4 +63,3 @@ const DepartmentComponent: React.FC<DepartmentProps> = ({
 };
 
 export default DepartmentComponent;
-```

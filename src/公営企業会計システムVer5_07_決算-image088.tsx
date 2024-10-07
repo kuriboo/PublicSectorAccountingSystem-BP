@@ -82,4 +82,3 @@ const ReportForm: FC<ReportFormProps> = ({ initialYear = 29, blocks, onSubmit })
 };
 
 export default ReportForm;
-```

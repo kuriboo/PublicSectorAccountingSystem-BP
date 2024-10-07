@@ -52,4 +52,3 @@ const TableComponent: React.FC<Props> = ({ rows, onOk, onClear, onCancel }) => {
 }
 
 export default TableComponent;
-```

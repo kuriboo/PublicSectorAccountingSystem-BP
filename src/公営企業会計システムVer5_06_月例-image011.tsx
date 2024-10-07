@@ -99,4 +99,3 @@ const VoucherComponent: React.FC<VoucherProps> = ({
 };
 
 export default VoucherComponent;
-```

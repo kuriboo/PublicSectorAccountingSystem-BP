@@ -96,4 +96,3 @@ const TaxAdjustmentForm: React.FC<TaxAdjustmentFormProps> = ({
 };
 
 export default TaxAdjustmentForm;
-```

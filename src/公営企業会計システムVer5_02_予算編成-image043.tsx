@@ -67,4 +67,3 @@ const Btn: React.FC<{ label: string }> = ({ label }) => (
 
 // このコンポーネントを他の場所で利用するためにエクスポート
 export default BudgetRegistration;
-```

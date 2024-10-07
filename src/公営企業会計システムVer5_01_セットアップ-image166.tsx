@@ -40,4 +40,3 @@ const MessageBox: React.FC<MessageBoxProps> = ({ title, message, onOk, onCancel 
 };
 
 export default MessageBox;
-```

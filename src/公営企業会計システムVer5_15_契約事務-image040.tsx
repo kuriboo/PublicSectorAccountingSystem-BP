@@ -127,4 +127,3 @@ const CustomComponent: React.FC<ComponentProps> = ({
 };
 
 export default CustomComponent;
-```

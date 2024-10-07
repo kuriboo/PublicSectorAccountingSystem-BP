@@ -111,4 +111,3 @@ const InspectionForm: FC<InspectionFormProps> = ({
 };
 
 export default InspectionForm;
-```

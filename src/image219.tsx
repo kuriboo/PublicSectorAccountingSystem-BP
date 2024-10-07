@@ -90,4 +90,3 @@ const ExpenditureHistory: React.FC<ExpenditureHistoryProps> = ({
 };
 
 export default ExpenditureHistory;
-```

@@ -49,7 +49,6 @@ const BudgetComponent: React.FC<BudgetComponentProps> = ({
 };
 
 export default BudgetComponent;
-```
 
 ```tsx
 // Example usage in a Next.js page
@@ -71,7 +70,6 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-```
 
 ```css
 /* tailwind.config.js */
@@ -85,4 +83,3 @@ module.exports = {
   },
   plugins: [],
 };
-```

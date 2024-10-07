@@ -96,4 +96,3 @@ const BudgetManagement: React.FC<BudgetManagementProps> = ({
 };
 
 export default BudgetManagement;
-```

@@ -102,4 +102,3 @@ const EngineeringDetail: React.FC<EngineeringDetailProps> = ({
 };
 
 export default EngineeringDetail;
-```

@@ -45,4 +45,3 @@ const BudgetTable: React.FC<Props> = ({ data, className }) => {
 };
 
 export default BudgetTable;
-```

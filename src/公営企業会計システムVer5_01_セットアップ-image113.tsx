@@ -80,4 +80,3 @@ const CopyForm: React.FC<CopyFormProps> = ({
 };
 
 export default CopyForm;
-```

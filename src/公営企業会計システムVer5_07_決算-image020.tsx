@@ -85,4 +85,3 @@ const ProfitLossStatement: React.FC<Props> = ({
 };
 
 export default ProfitLossStatement;
-```

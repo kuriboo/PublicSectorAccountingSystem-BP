@@ -60,4 +60,3 @@ const PaymentRegistrationForm: React.FC<PaymentRegistrationFormProps> = ({
 };
 
 export default PaymentRegistrationForm;
-```

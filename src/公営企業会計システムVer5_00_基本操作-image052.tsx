@@ -42,4 +42,3 @@ const CsvTable: React.FC<{ data: CsvDataProps[] }> = ({ data }) => {
 };
 
 export default CsvTable;
-```

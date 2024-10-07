@@ -57,4 +57,3 @@ const EmployeeSettings: React.FC<EmployeeSettingsProps> = ({
 };
 
 export default EmployeeSettings;
-```

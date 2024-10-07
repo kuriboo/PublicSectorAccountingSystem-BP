@@ -73,4 +73,3 @@ const SummaryInput: React.FC<SummaryInputProps> = ({
 };
 
 export default SummaryInput;
-```

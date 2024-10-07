@@ -122,4 +122,3 @@ const PropertyRegistrationForm: React.FC<PropertyRegistrationFormProps> = ({
 };
 
 export default PropertyRegistrationForm;
-```

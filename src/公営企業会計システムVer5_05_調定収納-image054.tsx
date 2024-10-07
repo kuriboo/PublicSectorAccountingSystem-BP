@@ -79,4 +79,3 @@ const LedgerForm: FC<LedgerFormProps> = ({ date, description, amount, tax, entri
 };
 
 export default LedgerForm;
-```

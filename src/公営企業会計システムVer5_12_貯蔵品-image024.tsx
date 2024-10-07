@@ -139,4 +139,3 @@ const ProductInfo: React.FC<ProductInfoProps> = ({
 };
 
 export default ProductInfo;
-```
